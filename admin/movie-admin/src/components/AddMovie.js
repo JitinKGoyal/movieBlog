@@ -6,34 +6,39 @@ import { baseUrl } from '../config';
 function AddMovie() {
 
     const [formData, setFormData] = useState({})
-    const [errors, setErrors] = useState([])
+    const [error, setError] = useState(false)
+
     const editorRef = useRef(null);
 
     const navigate = useNavigate()
 
     const log = async (e) => {
         e.preventDefault()
-        // if (editorRef.current) {
-        //     console.log(editorRef.current.getContent());
-        // }
+        let resData = {};
 
-        formData.description = editorRef.current.getContent()
 
-        const response = await fetch(`${baseUrl}/movie`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(formData)
-        })
-        const data = await response.json()
+        console.log(formData)
 
-        if (data._id) {
-            navigate("/movies")
-            // document.getElementById("login-btn").click()
+        if (formData.title && formData.director && formData.imdb && formData.tommato && formData.releaseDate && formData.runningTime && formData.genre && formData.cinema && formData.category && editorRef.current.getContent()) {
+
+            resData.title = formData.title
+            resData.detail = formData;
+            resData.description = editorRef.current.getContent()
+
+            const response = await fetch(`${baseUrl}/movie`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(resData)
+            })
+            const data = await response.json()
+
+            if (data._id) {
+                navigate("/movies")
+            }
         } else {
-            setErrors(data.errors)
-            console.log(data.errors)
+            setError(true)
         }
 
     };
@@ -42,12 +47,11 @@ function AddMovie() {
         setFormData({ ...formData, [e.target.name]: e.target.value })
     }
 
-
-
     return (
         <>
             <div className='container'>
                 <h2>Add a new movie</h2>
+                {error && <div className='alert alert-danger text-danger' id='err'>Please fill all the fields</div>}
                 <form className='w-100'>
                     <div className='row'>
 
@@ -83,6 +87,23 @@ function AddMovie() {
                             <label for="genre">Genre</label>
                             <input type="text" class="form-control" id="genre" placeholder="Genre" name='genre' onChange={onChangeHandle} />
                         </div>
+                        <div class="form-group col-md-4">
+                            <label for="cinema">Cinema</label>
+                            <select className='form-control' name="cinema" id="cinema" onChange={onChangeHandle}>
+                                <option value=""  >--Select cinema--</option>
+                                <option value="hollywood">Hollywood</option>
+                                <option value="bollywood">Bollywood</option>
+                                <option value="southIndian">South indian</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="category">category</label>
+                            <select className='form-control' name="category" id="category" onChange={onChangeHandle}>
+                                <option value=""  >--Select category--</option>
+                                <option value="movie">Movie</option>
+                                <option value="webSeries">Web series</option>
+                            </select>
+                        </div>
                     </div>
 
 
@@ -107,14 +128,16 @@ function AddMovie() {
 
                     <button type="submit" onClick={log} class="btn btn-primary">Add Movie</button>
                 </form>
-
-                <ol className='mt-4'> 
+                {/* 
+                <ol className='mt-4'>
 
                     {errors.map(({ msg }) => (
                         <li className='text-danger'>{msg}</li>
                     ))}
 
-                </ol>
+                </ol> */}
+
+
             </div>
         </>
     )

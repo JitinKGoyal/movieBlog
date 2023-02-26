@@ -30,24 +30,24 @@ function MovieCard(e) {
                                 <li className='col-md-6 mb-0'>
                                     <div className='d-flex align-items-center'>
                                         <img src="assets/img/imdb.png" height="40" alt="imdb" />
-                                        <p className='ml-2 mb-0 h6'>{e.imdb}/10</p>
+                                        <p className='ml-2 mb-0 h6'>{e.detail.imdb}/10</p>
                                     </div>
                                 </li>
                                 <li className='col-md-6'>
                                     <div className='d-flex align-items-center'>
                                         <img src="assets/img/tommato.png" height="20" alt="imdb" />
-                                        <p className='ml-2 mb-0 h6'>{e.tommato}/10</p>
+                                        <p className='ml-2 mb-0 h6'>{e.detail.tommato}/10</p>
                                     </div>
                                 </li>
                             </div>
                             <li className='mt-3'>
-                                <p className='h6'> <b> Running time: </b> {e.runningTime}</p>
+                                <p className='h6'> <b> Running time: </b> {e.detail.runningTime}</p>
                             </li>
                             <li>
-                                <p className='h6'> <b> Genre: </b> {e.genre}</p>
+                                <p className='h6'> <b> Genre: </b> {e.detail.genre}</p>
                             </li>
                             <li>
-                                <p className='h6'> <b> Release date: </b> {e?.releaseDate}</p>
+                                <p className='h6'> <b> Release date: </b> {e.detail.releaseDate}</p>
                             </li>
 
                         </ul>

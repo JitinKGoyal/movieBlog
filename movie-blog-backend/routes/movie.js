@@ -7,17 +7,11 @@ const User = require('../models/user');
 const postNotesValidations = [
     body('title', 'movie must have a title').isLength({ min: 1 }),
     body('description', 'movie must have a description').isLength({ min: 1 }),
-    body('imdb', 'movie must have imdb rating').isNumeric(),
-    body('tommato', 'movie must have tommato rating').isNumeric(),
-    body('runningTime', 'movie must have runningTime').isLength({ min: 1 }),
-    body('genre', 'movie must have genre').isLength({ min: 1 }),
-    body('director', 'movie must have director').isLength({ min: 1 }),
-    body('releaseDate', 'movie must have Release Date').isLength({ min: 1 }),
+    body('detail', 'movie must have detail field as object').isObject()
 ]
 
 const deleteNotesValidations = [
     body('id', 'movie can not be deleted without id').isLength({ min: 1 }),
-  
 ]
 
 const putNotesValidations = [
@@ -40,25 +34,14 @@ router.post('/', postNotesValidations, async (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
-    const movie = await Movie.findOne({ email: req.body.title }); // 2sec
+    const movie = await Movie.findOne({ title: req.body.title }); // 2sec
 
     if (movie) {
-        return res.status(400).json({ errors: [{ msg: "user already exists" }] });
+        return res.status(400).json({ errors: [{ msg: "movie already exists" }] });
     }
 
-    const { title, description, tag, imdb, tommato, runningTime, genre, director, releaseDate } = req.body
-
-    Movie.create({
-        title,
-        description,
-        tag,
-        imdb,
-        tommato,
-        runningTime,
-        genre,
-        director,
-        releaseDate
-    }).then(note => res.json(note));
+    Movie.create(req.body)
+        .then(note => res.json(note));
 
 })
 

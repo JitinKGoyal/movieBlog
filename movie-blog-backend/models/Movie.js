@@ -10,33 +10,9 @@ const MovieSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    imdb: {
-        type: Number,
+    detail: {
+        type: Object,
         required: true
-    },
-    tommato: {
-        type: Number,
-        required: true
-    },
-    runningTime: {
-        type: String,
-        required: true
-    },
-    genre: {
-        type: String,
-        required: true
-    },
-    director: {
-        type: String,
-        required: true
-    },
-    releaseDate: {
-        type: String,
-        required: true
-    },
-    tag: {
-        type: String,
-        default: "General"
     },
     date: {
         type: Date,
