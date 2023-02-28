@@ -55,12 +55,12 @@ router.get('/', async (req, res) => {
     }
 
     // const user = await User.findById(req.params.userId);
-
     // if (!user) return res.status(404).json({ error: "user does not exist" });
 
-    const notes = await Movie.find();
+    const movies = await Movie.find();
 
-    res.json(notes);
+    console.log("ggggg:::::::::",movies)
+    res.json(movies);
 
 })
 

@@ -2806,3 +2806,19 @@ ul {
 .segoe_font {
   font-family: 'Nunito', sans-serif;
 }
+
+
+.mv_details ul {
+  list-style: initial !important;
+  padding-left: 50px;
+  margin: 20px 0;
+}
+
+.mv_details{
+  color: rgb(180, 180, 180);
+}
+
+.mv_details * {
+  font-family: 'Nunito', sans-serif !important;
+  
+}

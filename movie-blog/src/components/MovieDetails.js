@@ -69,7 +69,7 @@ function MovieDetails() {
                     </div>
                 </div>
 
-                <div className="container mt-5 p-5 rounded" style={{ background: "#08121d" }}>
+                <div className="container mt-5 p-5 rounded mv_details" style={{ background: "#08121d" }}>
                     <div className="row">
                         <div className='col-sm-12'>
                             <div className='part-text'>

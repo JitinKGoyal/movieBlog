@@ -20,7 +20,7 @@ function Movies() {
         {
             field: 'title',
             headerName: 'Title',
-            // width: "100px"
+            width: "200"
         },
         {
             field: 'description',
