@@ -31,8 +31,9 @@ function Movies() {
             headerName: 'Imdb',
             type: 'number',
             renderCell: (row) => {
+                console.log(row)
                 return <>
-                    <span>{row.row.detail.imdb}</span>
+                    <span>{JSON.parse(row.row.detail).imdb}</span>
                 </>
             }
         },
@@ -42,7 +43,7 @@ function Movies() {
             type: 'number',
             renderCell: (row) => {
                 return <>
-                    <span>{row.row.detail.tommato}</span>
+                    <span>{JSON.parse(row.row.detail).tommato}</span>
                 </>
             }
         },
@@ -52,7 +53,7 @@ function Movies() {
             width: "150",
             renderCell: (row) => {
                 return <>
-                    <span>{row.row.detail.runningTime}</span>
+                    <span>{JSON.parse(row.row.detail).runningTime}</span>
                 </>
             }
         },
@@ -61,7 +62,7 @@ function Movies() {
             headerName: 'Genre',
             renderCell: (row) => {
                 return <>
-                    <span>{row.row.detail.genre}</span>
+                    <span>{JSON.parse(row.row.detail).genre}</span>
                 </>
             }
         },
@@ -70,7 +71,7 @@ function Movies() {
             headerName: 'Tag',
             renderCell: (row) => {
                 return <>
-                    <span>{row.row.detail?.tag}</span>
+                    <span>{JSON.parse(row.row.detail)?.tag}</span>
                 </>
             }
         },
@@ -83,7 +84,7 @@ function Movies() {
             field: 'Action',
             renderCell: (row) => {
                 return <>
-                    <button className='border-0 bg-white mx-1' onClick={() => deleteMovie(row.row._id)}><DeleteForever htmlColor='#e20e0e' /> </button>
+                    <button className='border-0 bg-white mx-1' onClick={() => deleteMovie(row.row.id)}><DeleteForever htmlColor='#e20e0e' /> </button>
                     <button className='border-0 bg-white mx-1' onClick={() => editMovie(row.row)}><Edit htmlColor='#0097e3' /> </button>
                 </>
             }
@@ -161,7 +162,7 @@ function Movies() {
 
             <div style={{ height: 600 }}>
                 <DataGrid
-                    getRowId={(movies) => movies._id}
+                    getRowId={(movies) => movies.id}
                     rows={movies}
                     columns={columns}
                     pageSize={9}

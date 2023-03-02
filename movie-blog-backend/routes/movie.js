@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { body, validationResult } = require('express-validator');
+const con = require('../db');
 const Movie = require('../models/Movie');
 const User = require('../models/user');
 
@@ -34,17 +35,41 @@ router.post('/', postNotesValidations, async (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
-    const movie = await Movie.findOne({ title: req.body.title }); // 2sec
+    let query = `select * from movie where title='${req.body.title}'`
 
-    if (movie) {
-        return res.status(400).json({ errors: [{ msg: "movie already exists" }] });
-    }
+    con.query(query, (err, movie) => {
+        if (err) {
+            console.log(err);
+        }
 
-    Movie.create(req.body)
-        .then(note => res.json(note));
+        if (movie.length != 0) {
+            res.status(400).json({ errors: [{ msg: "movie arlready exists" }] })
+        } else {
+            let { title, detail, description, date } = req.body
+
+            movieInput = {
+                title,
+                detail: JSON.stringify(detail),
+                description: description,
+                date
+            }
+
+            query = `INSERT INTO movie SET ?`
+
+            con.query(query, movieInput, (err, result) => {
+                if (err) {
+                    console.log(err)
+                }
+                else {
+                    res.json(result)
+                }
+            });
+
+        }
+
+    });
 
 })
-
 
 // API to get all notes of a user
 router.get('/', async (req, res) => {
@@ -54,14 +79,15 @@ router.get('/', async (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
-    // const user = await User.findById(req.params.userId);
-    // if (!user) return res.status(404).json({ error: "user does not exist" });
+    let query = `select * from movie`
 
-    const movies = await Movie.find();
-
-    console.log("ggggg:::::::::",movies)
-    res.json(movies);
-
+    con.query(query, (err, movies) => {
+        if (err) {
+            console.log(err);
+        } else {
+            res.json(movies)
+        }
+    });
 })
 
 
@@ -94,16 +120,39 @@ router.delete('/', deleteNotesValidations, (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
-    Movie.findById(req.body.id, async (err, note) => {
+    // Movie.findById(req.body.id, async (err, note) => {
 
+    //     if (err) {
+    //         return res.status(404).json({ error: "note does not exists" });
+    //     }
+
+    //     note = await Movie.findByIdAndDelete(req.body.id);
+
+    //     res.json(note);
+    // });
+
+    let query = `select * from movie where id=${req.body.id}`
+
+    con.query(query, (err, movie) => {
         if (err) {
-            return res.status(404).json({ error: "note does not exists" });
+            console.log(err);
         }
 
-        note = await Movie.findByIdAndDelete(req.body.id);
+        if (movie.length != 0) {
 
-        res.json(note);
+            query = `DELETE FROM movie WHERE id=?`
+
+            con.query(query, req.body.id);
+
+            res.json("Deleted successfully")
+        } else {
+            res.status(400).json({ errors: [{ msg: "movie does not exists" }] })
+
+        }
+
     });
+
+
 
 })
 

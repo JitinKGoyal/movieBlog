@@ -1,10 +1,12 @@
 // api endpoint 
 const express = require('express')
-const connectMongo = require('./db')
 const cors = require('cors')
+const con = require('./db')
 
+// con.query("select * from movie where title='title'", (err, result) => {
 
-connectMongo();
+//     console.log(result);
+// })
 
 const app = express()
 const port = 3004
