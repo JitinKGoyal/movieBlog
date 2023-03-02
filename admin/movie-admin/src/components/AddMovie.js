@@ -32,9 +32,10 @@ function AddMovie() {
                 },
                 body: JSON.stringify(resData)
             })
-            const data = await response.json()
+            // const data = await response.json()
 
-            if (data._id) {
+         
+            if (response.status == 200) {
                 navigate("/movies")
             }
         } else {

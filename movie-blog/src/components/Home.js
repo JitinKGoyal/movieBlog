@@ -31,7 +31,7 @@ function Home() {
     const handleFilter = () => {
 
         let arr = allMovies.filter(e => {
-            return e.detail.category == category && e.detail.cinema == cinema
+            return JSON.parse(e.detail).category == category && JSON.parse(e.detail).cinema == cinema
         })
         setMovies(arr);
 

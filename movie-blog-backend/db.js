@@ -1,14 +1,16 @@
-const mongoose = require('mongoose');
+const mysql = require('mysql')
 
-const dbURI = "mongodb://localhost:27017/movie-blog";
-// const dbURI = "mongodb+srv://jkgoyal85:cavJguFbvRukGHPN@cluster0.wsoevhm.mongodb.net/movieBlog?retryWrites=true&w=majority";
+// mysql Connection
+var con = mysql.createConnection({ 
+    host: "localhost",
+    user: "root", 
+    database:"movie-blog"
+});
 
-const connectMongo = () => {
-    mongoose.connect(dbURI, () => {
-        console.log("connection is establised");
-    });
-}
+con.connect(function (err) {
+    if (err) throw err;
+    console.log("Connected to mysql!");
+});
 
-// non-blocking I/O model
 
-module.exports = connectMongo;
+module.exports = con
