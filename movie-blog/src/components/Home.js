@@ -63,7 +63,8 @@ function Home() {
                         <div className="col-xl-6 col-lg-6">
                             <div className="banner-content">
                                 <h1>Dgocky</h1>
-                                <h4>DJ Party & Night Club</h4>
+                                {/* <h4>DJ Party & Night Club</h4> */}
+                                <h4>Read About Your Favorites</h4>
                             </div>
                         </div>
                     </div>
@@ -227,7 +228,7 @@ function Home() {
 
 
             {/* <!-- about begin --> */}
-            <div className="about">
+            {/* <div className="about">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12">
@@ -252,11 +253,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- about end --> */}
 
             {/* <!-- event schedule begin --> */}
-            <div className="event-schedule">
+            {/* <div className="event-schedule">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -271,11 +272,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- event schedule end --> */}
 
             {/* <!-- gallery begin --> */}
-            <div className="gallery">
+            {/* <div className="gallery">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -317,11 +318,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- gallery end --> */}
 
             {/* <!-- team dj begin --> */}
-            <div className="team-dj">
+            {/* <div className="team-dj">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -367,11 +368,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- team dj end --> */}
 
             {/* <!-- about venu begin --> */}
-            <div className="about-venu">
+            {/* <div className="about-venu">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 d-xl-block d-lg-block d-md-none">
@@ -395,11 +396,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- about venu end --> */}
 
             {/* <!-- ticket price begin --> */}
-            <div className="ticket-price">
+            {/* <div className="ticket-price">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -486,11 +487,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- ticket price end --> */}
 
             {/* <!-- blog begin --> */}
-            <div className="blog">
+            {/* <div className="blog">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -583,11 +584,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- blog end --> */}
 
             {/* <!-- testimonial begin --> */}
-            <div className="testimonial">
+            {/* <div className="testimonial">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -661,11 +662,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- testimonial end --> */}
 
             {/* <!-- faq begin --> */}
-            <div className="faq">
+            {/* <div className="faq">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -791,11 +792,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- faq end --> */}
 
             {/* <!-- subscribe newsletter begin --> */}
-            <div className="subscribe-newsletter">
+            {/* <div className="subscribe-newsletter">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-10 col-lg-10">
@@ -815,11 +816,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- subscribe newsletter end --> */}
 
             {/* <!-- contact begin --> */}
-            <div className="contact">
+            {/* <div className="contact">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-10 col-lg-10">
@@ -858,7 +859,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- contact end --> */}
 
 

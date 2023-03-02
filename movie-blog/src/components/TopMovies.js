@@ -1,7 +1,46 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import { Link } from 'react-router-dom'
+import { baseUrl } from '../config';
+import MovieCard from './MovieCard';
+import FilterResults from 'react-filter-search';
+// function TopMovies() {
+    function TopMovies() {
 
-function TopDj() {
+        const [allMovies, setAllMovies] = useState([])
+        const [movies, setMovies] = useState([])
+        const [value, setValue] = useState("")
+        const [cinema, setCinema] = useState("hollywood")
+        const [category, setCategory] = useState("movie")
+    
+        const getMovies = () => {
+            fetch(`${baseUrl}/movie`)
+                .then(res => res.json())
+                .then(data => setAllMovies(data))
+        }
+    
+        const handleFilterChange = event => {
+            const { value } = event.target;
+            setValue(value)
+        };
+    
+        useEffect(() => {
+            getMovies()
+        }, [])
+    
+        const handleFilter = () => {
+    
+            let arr = allMovies.filter(e => {
+                return e.detail.category == category && e.detail.cinema == cinema
+            })
+            setMovies(arr);
+    
+        }
+    
+        useEffect(() => {
+            handleFilter()
+        }, [allMovies, cinema, category])
+    
+    
     return (
         <>
             {/* <!-- breadcrump begin --> */}
@@ -12,25 +51,112 @@ function TopDj() {
                             <div className="breadcrump-content">
                                 <Link to='/'><span className="page-name">Home </span></Link>
                                 <span className="icon"><i className="fas fa-chevron-right"></i></span>
-                                <span className="page-name">Top DJ</span>
+                                <span className="page-name">Top Movies</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             {/* <!-- breadcrump end --> */}
+                        {/* <!-- movie card begin --> */}
+                        <div className="ticket-price">
+                <div className="container" >
+                    <div className="row justify-content-center">
+                        <div className="col-xl-8 col-lg-8">
+                            <div className="section-title text-center mb-0">
+                                <h2> Top Movies</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="filter_input d-flex justify-content-end">
 
+                        {/* <input type="search" value={value} className="p-2 h5" onChange={handleFilterChange} /> */}
+
+                        <div class="container ">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="card p-2">
+                                        {/* <h3 class="heading text-center m-0 text-white">Hi! Find out your movies here?</h3> */}
+                                        <div class="d-flex justify-content-center px-5">
+                                            <div class="search shadow">
+                                                <input type="text" class="search-input" placeholder="Search..." name="" value={value} onChange={handleFilterChange} />
+                                                <a class="search-icon">
+                                                    <i class="fa fa-search"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div className='d-flex justify-content-between align-items-center'>
+
+                        <div className="event-schedule py-3">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <a className="nav-link py-2 px-4 active " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                                            aria-controls="v-pills-home" aria-selected="true" onClick={() => setCategory("movie")}>Movie</a>
+                                        <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                                            aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCategory("webSeries")}>Web-series</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="event-schedule py-3">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <a className="nav-link py-2 px-4 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                                            aria-controls="v-pills-home" aria-selected="true" onClick={() => setCinema("hollywood")}>Hollywood</a>
+                                        <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                                            aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCinema("bollywood")}>Bollywood</a>
+                                        <a className="nav-link py-2 px-4" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                                            aria-controls="v-pills-messages" aria-selected="false" onClick={() => setCinema("southIndian")}>South</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+
+                        <FilterResults
+                            value={value}
+                            data={movies}
+                            renderResults={results => (
+                                <>
+                                    {results.length != 0 ? results.map(e => (
+                                        <MovieCard {...e} />
+                                    )) : <div className='h1 p-5'>0 result found with <span className='text-white'> {value} </span></div>}
+                                </>
+                            )}
+                        />
+
+                        {/* {movies.map((e) => (
+                            <MovieCard {...e} />
+                        ))} */}
+
+                    </div>
+                </div>
+            </div>
+            {/* <!-- movie card end --> */}
             {/* <!-- team dj begin --> */}
-            <div className="team-dj top-dj-page">
+            {/* <div className="team-dj top-dj-page">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
                             <div className="add-space section-title text-center">
-                                <h2>Top DJs</h2>
+                                <h2>Top Movies</h2>
                             </div>
                         </div>
-                    </div>
-                    <div className="row">
+                    </div> */}
+                    {/* <div className="row">
                         <div className="col-xl-4 col-lg-4 col-sm-6">
                             <div className="single-dj">
                                 <div className="part-img">
@@ -103,13 +229,13 @@ function TopDj() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </div> */}
+                {/* </div>
+            </div> */}
             {/* <!-- team dj end --> */}
 
             {/* <!-- testimonial begin --> */}
-            <div className="testimonial">
+            {/* <div className="testimonial">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -183,11 +309,11 @@ function TopDj() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- testimonial end --> */}
 
             {/* <!-- about begin --> */}
-            <div className="about">
+            {/* <div className="about">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12">
@@ -212,10 +338,10 @@ function TopDj() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- about end --> */}
         </>
     )
 }
 
-export default TopDj
+export default TopMovies

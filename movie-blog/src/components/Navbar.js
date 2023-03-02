@@ -31,24 +31,24 @@ function Navbar() {
                                             <li className="nav-item">
                                                 <Link className="nav-link active" to="/about">About <span className="sr-only">(current)</span></Link>
                                             </li>
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/events">Event</Link>
-                                            </li>
+                                            </li> */}
                                             <li className="nav-item">
                                                 <Link className="nav-link" to="/gallery">Gallery</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="/top-dj">Top DJ</Link>
+                                                <Link className="nav-link" to="/top-movies">Top Movies</Link>
                                             </li>
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/schedule">Schedule</Link>
-                                            </li>
+                                            </li> */}
                                             <li className="nav-item">
                                                 <Link className="nav-link" to="/blog">Blog</Link>
                                             </li>
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/faq">Faq</Link>
-                                            </li>
+                                            </li> */}
                                             <li className="nav-item">
                                                 <Link className="nav-link" to="/contact">Contact</Link>
                                             </li>

@@ -262,7 +262,7 @@ function About() {
             {/* <!-- faq end --> */}
 
             {/* <!-- subscribe newsletter begin --> */}
-            <div className="subscribe-newsletter about-page">
+            {/* <div className="subscribe-newsletter about-page">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-10 col-lg-10">
@@ -282,7 +282,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- subscribe newsletter end --> */}
 
 

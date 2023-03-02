@@ -50,7 +50,7 @@ function Events() {
             {/* <!-- single event end --> */}
 
             {/* <!-- ticket price begin --> */}
-            <div className="ticket-price">
+            {/* <div className="ticket-price">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -157,11 +157,11 @@ function Events() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- ticket price end --> */}
 
             {/* <!-- testimonial begin --> */}
-            <div className="testimonial event-page">
+            {/* <div className="testimonial event-page">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -235,7 +235,7 @@ function Events() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- testimonial end --> */}
         </>
     )

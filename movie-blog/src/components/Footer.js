@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -17,28 +18,28 @@ function Footer() {
                                 <nav className="navbar navbar-expand-lg">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <a className="nav-link" href="index-2.html">About <span className="sr-only">(current)</span></a>
+                                            <Link className="nav-link" to="/about">About <span className="sr-only">(current)</span></Link>
+                                        </li>
+                                        {/* <li className="nav-item">
+                                            <Link className="nav-link" to="/events">Event</Link>
+                                        </li> */}
+                                        <li className="nav-item">
+                                            <Link className="nav-link" to="/gallery">Gallery</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="event.html">Event</a>
+                                            <Link className="nav-link" to="/top-movies">Top Movies</Link>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="gallery.html">Gallery</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="top-dj.html">Top DJ</a>
-                                        </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a className="nav-link" href="schedule.html">Schedule</a>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item">
-                                            <a className="nav-link" href="blog.html">Blog</a>
+                                            <Link className="nav-link" to="/blog">Blog</Link>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <a className="nav-link" href="faq.html">Faq</a>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item">
-                                            <a className="nav-link" href="contact.html">Contact</a>
+                                            <Link className="nav-link" to="/contact">Contact</Link>
                                         </li>
                                     </ul>
                                 </nav>
