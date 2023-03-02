@@ -37,23 +37,23 @@ function MovieDetails() {
                                     <li>
                                         <div className='d-flex align-items-center'>
                                             <img src="assets/img/imdb.png" height="50" alt="imdb" />
-                                            <p className='ml-2 mb-0 h5'>{movie.detail.imdb}/10</p>
+                                            <p className='ml-2 mb-0 h5'>{JSON.parse(movie.detail).imdb}/10</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className='d-flex align-items-center'>
                                             <img src="assets/img/tommato.png" height="30" alt="imdb" />
-                                            <p className='ml-2 mb-0 h5'>{movie.detail.tommato}/10</p>
+                                            <p className='ml-2 mb-0 h5'>{JSON.parse(movie.detail).tommato}/10</p>
                                         </div>
                                     </li>
                                     <li className='mt-3'>
-                                        <p className='h6 mb-0'> <b> Running time: </b> {movie.detail.runningTime}</p>
+                                        <p className='h6 mb-0'> <b> Running time: </b> {JSON.parse(movie.detail).runningTime}</p>
                                     </li>
                                     <li>
-                                        <p className='h6 mb-0 text-capitalize'> <b> Genre: </b> {movie.detail.genre}</p>
+                                        <p className='h6 mb-0 text-capitalize'> <b> Genre: </b> {JSON.parse(movie.detail).genre}</p>
                                     </li>
                                     <li>
-                                        <p className='h6'> <b> Release date: </b> {movie.detail.releaseDate} <span className='text-secondary'> (yyyy-MM-dd) </span></p>
+                                        <p className='h6'> <b> Release date: </b> {JSON.parse(movie.detail).releaseDate} <span className='text-secondary'> (yyyy-MM-dd) </span></p>
                                     </li>
                                     {/* <li>
                                                 <p className='h6'> <b> data: </b> { <div dangerouslySetInnerHTML={{ __html: description }}></div>}</p>
@@ -62,7 +62,7 @@ function MovieDetails() {
                                 </ul>
                                 <div className="meta-info mt-4">
                                     <span className="eventor-name">Director</span>
-                                    <span className="location text-capitalize">{movie.detail.director}</span>
+                                    <span className="location text-capitalize">{JSON.parse(movie.detail).director}</span>
                                 </div>
                             </div>
                         </div>
