@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 // import Events from './components/Events';
 import Gallery from './components/Gallery';
-import TopMovies from './components/TopMovies';
+// import TopMovies from './components/TopMovies';
 // import Schedule from './components/Schedule';
 import Blog from './components/Blog';
 // import Faq from './components/Faq';
@@ -23,7 +23,7 @@ function App() {
         <Route path='/about' element={<About />} />
         {/* <Route path='/events' element={<Events />} /> */}
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/top-Movies' element={<TopMovies />} />
+        {/* <Route path='/top-Movies' element={<TopMovies />} /> */}
         {/* <Route path='/schedule' element={<Schedule />} /> */}
         <Route path='/blog' element={<Blog />} />
         {/* <Route path='/faq' element={<Faq />} /> */}
