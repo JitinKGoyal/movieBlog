@@ -37,9 +37,9 @@ function Navbar() {
                                             <li className="nav-item">
                                                 <Link className="nav-link" to="/gallery">Gallery</Link>
                                             </li>
-                                            {/* <li className="nav-item">
+                                            <li className="nav-item">
                                                 <Link className="nav-link" to="/top-movies">Top Movies</Link>
-                                            </li> */}
+                                            </li>
                                             {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/schedule">Schedule</Link>
                                             </li> */}

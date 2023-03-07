@@ -16,7 +16,10 @@ function Home() {
     const getMovies = () => {
         fetch(`${baseUrl}/movie`)
             .then(res => res.json())
-            .then(data => setAllMovies(data))
+            .then(data => {
+                console.log(data)
+                setAllMovies(data)
+            })
     }
 
     const handleFilterChange = event => {
@@ -26,6 +29,8 @@ function Home() {
 
     useEffect(() => {
         getMovies()
+
+        document.title = "Dgoncky.com - 4k Dual Audio Movies, Ultra HD movies, 1080p Movies, 2160 Movies, 2160p Movies, 1080p 60FPS Movies, 4k HEVC Movies, 1080p 10Bit Movies, 1080p x265 Hevc, 4k Bluray Movies, WeB-DL Series, WeB-DL Movies, High Quality Audio Movies"
     }, [])
 
     const handleFilter = () => {

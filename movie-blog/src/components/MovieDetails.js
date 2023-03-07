@@ -1,8 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 
 function MovieDetails() {
+    const [image, setImage] = useState()
     const movie = JSON?.parse(sessionStorage?.getItem("selectedMovie"));
+
+    useEffect(() => {
+        setImage(decodeBinaryImage(movie.image.data))
+
+        // Create a new meta element
+        var meta = document.createElement('meta');
+
+        // Set the attributes of the meta element
+        meta.setAttribute('name', movie.title);
+        meta.setAttribute('content', movie.title);
+        meta.setAttribute('og:description', movie.title);
+        meta.setAttribute('og:type', movie.title);
+
+        // Get the head element of the document
+        var head = document.getElementsByTagName('head')[0];
+
+        // Add the meta element to the head
+        head.appendChild(meta);
+        document.title = movie.title
+
+    }, [])
+
     return (
         <>
             {/* <!-- breadcrump begin --> */}
@@ -27,10 +51,10 @@ function MovieDetails() {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6">
                             <div className="part-img">
-                                <img src="assets/img/single-event.jpg" alt="" />
+                                <img src={image} alt={movie.title} />
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block align-items-center">
+                        <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block">
                             <div className="part-text">
                                 <h3 className='text-capitalize mb-3'>{movie.title}</h3>
                                 <ul className='segoe_font'>

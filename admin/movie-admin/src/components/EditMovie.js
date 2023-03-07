@@ -59,37 +59,37 @@ function EditMovie() {
                 <form className='w-100'>
                     <div className='row'>
 
-                        <div class="form-group col-md-4">
-                            <label for="title">Title</label>
-                            <input type="text" class="form-control" id="title" placeholder="title" name='title' value={formData.title} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="title">Title</label>
+                            <input type="text" className="form-control" id="title" placeholder="title" name='title' value={formData.title} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="tag">Tag</label>
-                            <input type="text" class="form-control" id="tag" placeholder="tag" name='tag' value={formData.tag} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="tag">Tag</label>
+                            <input type="text" className="form-control" id="tag" placeholder="tag" name='tag' value={formData.tag} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="director">Director</label>
-                            <input type="text" class="form-control" id="director" placeholder="director" name='director' value={formData.director} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="director">Director</label>
+                            <input type="text" className="form-control" id="director" placeholder="director" name='director' value={formData.director} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="imdb">Imdb</label>
-                            <input type="text" class="form-control" id="imdb" placeholder="imdb" name='imdb' value={formData.imdb} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="imdb">Imdb</label>
+                            <input type="text" className="form-control" id="imdb" placeholder="imdb" name='imdb' value={formData.imdb} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="tommato">Tommato</label>
-                            <input type="text" class="form-control" id="tommato" placeholder="tommato" name='tommato' value={formData.tommato} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="tommato">Tommato</label>
+                            <input type="text" className="form-control" id="tommato" placeholder="tommato" name='tommato' value={formData.tommato} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="releaseDate">Release date</label>
-                            <input type="date" class="form-control" id="releaseDate" placeholder="releaseDate" name='releaseDate' value={formData.releaseDate} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="releaseDate">Release date</label>
+                            <input type="date" className="form-control" id="releaseDate" placeholder="releaseDate" name='releaseDate' value={formData.releaseDate} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="runningTime">RunningTime</label>
-                            <input type="text" class="form-control" id="runningTime" placeholder="runningTime" name='runningTime' value={formData.runningTime} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="runningTime">RunningTime</label>
+                            <input type="text" className="form-control" id="runningTime" placeholder="runningTime" name='runningTime' value={formData.runningTime} onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="genre">Genre</label>
-                            <input type="text" class="form-control" id="genre" placeholder="genre" name='genre' value={formData.genre} onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="genre">Genre</label>
+                            <input type="text" className="form-control" id="genre" placeholder="genre" name='genre' value={formData.genre} onChange={onChangeHandle} />
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@ function EditMovie() {
                             content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
                         }}
                     />
-                    <button type="submit" onClick={log} class="btn btn-primary">Update movie</button>
+                    <button type="submit" onClick={log} className="btn btn-primary">Update movie</button>
                 </form>
                 
                 <ol className='mt-4'>

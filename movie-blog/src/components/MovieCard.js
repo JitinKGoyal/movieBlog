@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 
 function MovieCard(e) {
+
+    const [image, setImage] = useState()
 
     const navigate = useNavigate();
 
@@ -10,12 +13,21 @@ function MovieCard(e) {
         navigate("/movie-detail");
     }
 
+
+
+    useEffect(() => {
+        if (e.image) {
+           setImage(decodeBinaryImage(e.image.data))
+        }
+    }, [])
+
+
     return (
         <>
             <div className="col-xl-4 col-lg-4 col-sm-6 p-2" key={e._id}>
                 <div className="single-ticket-price pt-3 pr-3 pl-3 ">
 
-                    <img src="assets/img/blog-1.jpg" alt="" className='rounded' />
+                    <img src={image} alt="" className='rounded' />
 
                     <div className="part-feature">
                         <div className='d-flex align-items-center'>

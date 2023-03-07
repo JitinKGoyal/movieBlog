@@ -31,7 +31,6 @@ function Movies() {
             headerName: 'Imdb',
             type: 'number',
             renderCell: (row) => {
-                console.log(row)
                 return <>
                     <span>{JSON.parse(row.row.detail).imdb}</span>
                 </>

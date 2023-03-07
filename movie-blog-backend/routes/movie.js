@@ -45,9 +45,10 @@ router.post('/', postNotesValidations, async (req, res) => {
         if (movie.length != 0) {
             res.status(400).json({ errors: [{ msg: "movie arlready exists" }] })
         } else {
-            let { title, detail, description, date } = req.body
+            let {image, title, detail, description, date } = req.body
 
             movieInput = {
+                image,
                 title,
                 detail: JSON.stringify(detail),
                 description: description,
@@ -64,10 +65,10 @@ router.post('/', postNotesValidations, async (req, res) => {
                     res.json(result)
                 }
             });
-
         }
 
     });
+    
 
 })
 

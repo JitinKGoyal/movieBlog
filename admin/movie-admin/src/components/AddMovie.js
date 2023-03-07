@@ -6,6 +6,8 @@ import { baseUrl } from '../config';
 function AddMovie() {
 
     const [formData, setFormData] = useState({})
+    const [inputImage, setInputImage] = useState()
+    const [imageLoader, setImageLoader] = useState(false)
     const [error, setError] = useState(false)
 
     const editorRef = useRef(null);
@@ -16,14 +18,14 @@ function AddMovie() {
         e.preventDefault()
         let resData = {};
 
+        if (formData.title && formData.director && formData.imdb && formData.tommato && formData.releaseDate && formData.runningTime && formData.genre && formData.cinema && formData.category && editorRef.current.getContent() && inputImage && !imageLoader) {
 
-        console.log(formData)
-
-        if (formData.title && formData.director && formData.imdb && formData.tommato && formData.releaseDate && formData.runningTime && formData.genre && formData.cinema && formData.category && editorRef.current.getContent()) {
-
+            resData.image = inputImage
             resData.title = formData.title
             resData.detail = formData;
             resData.description = editorRef.current.getContent()
+
+            console.log(resData);
 
             const response = await fetch(`${baseUrl}/movie`, {
                 method: "POST",
@@ -32,9 +34,9 @@ function AddMovie() {
                 },
                 body: JSON.stringify(resData)
             })
-            // const data = await response.json()
+            const data = await response.json()
 
-         
+
             if (response.status == 200) {
                 navigate("/movies")
             }
@@ -48,6 +50,18 @@ function AddMovie() {
         setFormData({ ...formData, [e.target.name]: e.target.value })
     }
 
+    const handleInputImage = (e) => {
+        setImageLoader(true)
+        const reader = new FileReader();
+        reader.readAsDataURL(e.target.files[0]);
+
+        reader.onload = () => {
+            const binaryString = reader.result;
+            setInputImage(binaryString)
+            setImageLoader(false);
+        };
+    }
+
     return (
         <>
             <div className='container'>
@@ -56,40 +70,45 @@ function AddMovie() {
                 <form className='w-100'>
                     <div className='row'>
 
-                        <div class="form-group col-md-4">
-                            <label for="title">Title</label>
-                            <input type="text" class="form-control" id="title" placeholder="Title" name='title' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <div htmlFor="inputImage" style={{display:"flex", alignItems:"center"}}>Image { imageLoader && <span className='text-success imageLoader ml-3'></span>}</div> 
+                            <input type="file" className="mt-2" id="inputImage" placeholder="inputImage" name='inputImage' onChange={handleInputImage} />
+                            <div className='text-info mt-2' style={{fontSize:"12px"}}>Image should be less then 1MB</div>
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="tag">Tag</label>
-                            <input type="text" class="form-control" id="tag" placeholder="Tag" name='tag' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="title">Title</label>
+                            <input type="text" className="form-control" id="title" placeholder="Title" name='title' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="director">Director</label>
-                            <input type="text" class="form-control" id="director" placeholder="Director" name='director' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="tag">Tag</label>
+                            <input type="text" className="form-control" id="tag" placeholder="Tag" name='tag' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="imdb">Imdb</label>
-                            <input type="number" class="form-control" id="imdb" placeholder="Imdb" name='imdb' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="director">Director</label>
+                            <input type="text" className="form-control" id="director" placeholder="Director" name='director' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="tommato">Tommato</label>
-                            <input type="number" class="form-control" id="tommato" placeholder="Tommato" name='tommato' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="imdb">Imdb</label>
+                            <input type="number" className="form-control" id="imdb" placeholder="Imdb" name='imdb' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="releaseDate">Release date</label>
-                            <input type="date" class="form-control" id="releaseDate" placeholder="Release date" name='releaseDate' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="tommato">Tommato</label>
+                            <input type="number" className="form-control" id="tommato" placeholder="Tommato" name='tommato' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="runningTime">RunningTime</label>
-                            <input type="text" class="form-control" id="runningTime" placeholder="Running time" name='runningTime' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="releaseDate">Release date</label>
+                            <input type="date" className="form-control" id="releaseDate" placeholder="Release date" name='releaseDate' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="genre">Genre</label>
-                            <input type="text" class="form-control" id="genre" placeholder="Genre" name='genre' onChange={onChangeHandle} />
+                        <div className="form-group col-md-4">
+                            <label htmlFor="runningTime">RunningTime</label>
+                            <input type="text" className="form-control" id="runningTime" placeholder="Running time" name='runningTime' onChange={onChangeHandle} />
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="cinema">Cinema</label>
+                        <div className="form-group col-md-4">
+                            <label htmlFor="genre">Genre</label>
+                            <input type="text" className="form-control" id="genre" placeholder="Genre" name='genre' onChange={onChangeHandle} />
+                        </div>
+                        <div className="form-group col-md-4">
+                            <label htmlFor="cinema">Cinema</label>
                             <select className='form-control' name="cinema" id="cinema" onChange={onChangeHandle}>
                                 <option value=""  >--Select cinema--</option>
                                 <option value="hollywood">Hollywood</option>
@@ -97,8 +116,8 @@ function AddMovie() {
                                 <option value="southIndian">South indian</option>
                             </select>
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="category">category</label>
+                        <div className="form-group col-md-4">
+                            <label htmlFor="category">category</label>
                             <select className='form-control' name="category" id="category" onChange={onChangeHandle}>
                                 <option value=""  >--Select category--</option>
                                 <option value="movie">Movie</option>
@@ -127,7 +146,7 @@ function AddMovie() {
                         }}
                     />
 
-                    <button type="submit" onClick={log} class="btn btn-primary">Add Movie</button>
+                    <button type="submit" onClick={log} className="btn btn-primary">Add Movie</button>
                 </form>
                 {/* 
                 <ol className='mt-4'>

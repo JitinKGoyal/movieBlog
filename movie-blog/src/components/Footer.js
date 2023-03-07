@@ -26,9 +26,9 @@ function Footer() {
                                         <li className="nav-item">
                                             <Link className="nav-link" to="/gallery">Gallery</Link>
                                         </li>
-                                        {/* <li className="nav-item">
+                                        <li className="nav-item">
                                             <Link className="nav-link" to="/top-movies">Top Movies</Link>
-                                        </li> */}
+                                        </li>
                                         {/* <li className="nav-item">
                                             <a className="nav-link" href="schedule.html">Schedule</a>
                                         </li> */}
