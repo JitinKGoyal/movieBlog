@@ -10,7 +10,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-xl-5 col-lg-4 d-xl-flex d-lg-flex align-items-center">
                             <div className="logo">
-                                <a href="index-2.html"><img src="assets/img/logo.png" alt="" /></a>
+                                <Link to="/"><img src="assets/img/logo.png" alt="" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-8">

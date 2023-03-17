@@ -20,15 +20,10 @@ const putNotesValidations = [
     body('id', 'movie can not be updated without id').exists(),
     body('title', 'movie must have a title').isLength({ min: 1 }),
     body('description', 'movie must have a description').isLength({ min: 1 }),
-    body('imdb', 'movie must have imdb rating').isNumeric(),
-    body('tommato', 'movie must have tommato rating').isNumeric(),
-    body('runningTime', 'movie must have runningTime').isLength({ min: 1 }),
-    body('genre', 'movie must have genre').isLength({ min: 1 }),
-    body('director', 'movie must have director').isLength({ min: 1 }),
-    body('releaseDate', 'movie must have Release Date').isLength({ min: 1 }),
+    body('detail', 'movie must have detail field as object').isObject()
 ]
 
-// Endpoint to post a note.
+// Endpoint to post a movie.
 router.post('/', postNotesValidations, async (req, res) => {
 
     const errors = validationResult(req);
@@ -62,7 +57,7 @@ router.post('/', postNotesValidations, async (req, res) => {
                     console.log("error in adding movie: ", err)
                 }
                 else {
-                    
+
                     let imageInput = {
                         id: result.insertId,
                         image
@@ -78,6 +73,67 @@ router.post('/', postNotesValidations, async (req, res) => {
                     });
 
                     // res.json(result)
+                }
+            });
+
+            // For add image
+
+        }
+    });
+})
+
+// Endpoint to post a movie.
+router.put('/', postNotesValidations, async (req, res) => {
+
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.array() });
+    }
+
+    let query = `select * from movie where id=${req.body.id}`
+
+    con.query(query, (err, movie) => {
+        if (err) {
+            console.log(err);
+        }
+
+        if (movie.length == 0) {
+            res.status(400).json({ errors: [{ msg: "movie does not exists" }] })
+        } else {
+            let { image, title, detail, description } = req.body
+
+            movieInput = {
+                title,
+                detail: JSON.stringify(detail),
+                description: description,
+            }
+
+            query = `UPDATE movie SET ? WHERE id=${req.body.id}`
+
+            con.query(query, movieInput, (err, result) => {
+                if (err) {
+                    console.log("error in updating movie: ", err)
+                }
+                else {
+                    if (image) {
+
+                        let imageInput = {
+                            id: req.body.id,
+                            image
+                        }
+
+                        query = `UPDATE movieimage SET ? WHERE id=${req.body.id}`
+                        con.query(query, imageInput, (err, result) => {
+                            if (err) {
+                                console.log("error in updating image: ", err)
+                            } else {
+                                res.json(result)
+                            }
+                        });
+                    } else {
+                        res.json(result)
+                    }
+
                 }
             });
 
@@ -121,25 +177,25 @@ router.get('/image/:id', async (req, res) => {
 })
 
 // API to get all notes of a user
-router.put('/', putNotesValidations, async (req, res) => {
+// router.put('/', putNotesValidations, async (req, res) => {
 
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-    }
+//     const errors = validationResult(req);
+//     if (!errors.isEmpty()) {
+//         return res.status(400).json({ errors: errors.array() });
+//     }
 
-    Movie.findById(req.body.id, async (err, movie) => {
-        if (err) {
-            return res.status(404).json({ error: "movie does not exist" });
-        }
+//     Movie.findById(req.body.id, async (err, movie) => {
+//         if (err) {
+//             return res.status(404).json({ error: "movie does not exist" });
+//         }
 
-        movie = await Movie.findByIdAndUpdate(req.body.id, { $set: req.body }, { new: true });
+//         movie = await Movie.findByIdAndUpdate(req.body.id, { $set: req.body }, { new: true });
 
-        res.json(movie);
+//         res.json(movie);
 
-    });
+//     });
 
-})
+// })
 
 // API to delete a note
 router.delete('/', deleteNotesValidations, (req, res) => {

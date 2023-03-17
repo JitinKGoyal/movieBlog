@@ -140,11 +140,8 @@ function Movies() {
                 for (let i = 0; i < data.length; i++) {
                     data[i]["serial"] = i + 1
                 }
-
                 console.log(data)
-
                 setMovies(data)
-
             })
     }
 

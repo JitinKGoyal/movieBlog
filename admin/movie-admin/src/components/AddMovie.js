@@ -13,9 +13,7 @@ function AddMovie() {
     const [typeErr, setTypeErr] = useState(false)
     const [generalErr, setGeneralErr] = useState("")
 
-
     const editorRef = useRef(null);
-
     const navigate = useNavigate()
 
     const log = async (e) => {
@@ -29,8 +27,6 @@ function AddMovie() {
             resData.detail = formData;
             resData.description = editorRef.current.getContent()
 
-            console.log(resData);
-
             const response = await fetch(`${baseUrl}/movie`, {
                 method: "POST",
                 headers: {
@@ -39,7 +35,6 @@ function AddMovie() {
                 body: JSON.stringify(resData)
             })
             const data = await response.json()
-            console.log(data)
 
             if (response.status == 200) {
                 setGeneralErr("")
