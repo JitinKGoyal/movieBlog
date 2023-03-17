@@ -1,14 +1,27 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { baseUrl } from '../config';
 import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 
 function MovieDetails() {
     const [image, setImage] = useState()
+    const [imageLoader, setImageLoader] = useState(true)
+
     const movie = JSON?.parse(sessionStorage?.getItem("selectedMovie"));
 
-    useEffect(() => {
-        setImage(decodeBinaryImage(movie.image.data))
+    const getImage = () => {
+        fetch(`${baseUrl}/movie/image/${movie.id}`)
+            .then(res => res.json())
+            .then(data => {
+                if (data[0].image.data) {
+                    setImage(decodeBinaryImage(data[0]?.image?.data))
+                    setImageLoader(false)
+                }
+            })
+    }
 
+    useEffect(() => {
+        getImage()
         // Create a new meta element
         var meta = document.createElement('meta');
 
@@ -50,8 +63,8 @@ function MovieDetails() {
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-lg-6">
-                            <div className="part-img">
-                                <img src={image} alt={movie.title} />
+                            <div className="part-img movie_detail_img">
+                                {!imageLoader ? <img src={image} alt={movie.title} className='rounded' /> : "loading..."}
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block">

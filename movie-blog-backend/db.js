@@ -3,11 +3,9 @@ const mysql = require('mysql')
 // mysql Connection
 var con = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    database: "movie-blog",
-    connectTimeout: 60000, // 60 seconds
-    acquireTimeout: 60000, // 60 seconds
-    timeout: 60000 // 60 seconds
+    user: "u613853800_movie",
+    database: "u613853800_movie",
+    password: "mZ~UkfRw0"
 });
 
 con.connect(function (err) {

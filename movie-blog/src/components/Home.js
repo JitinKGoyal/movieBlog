@@ -3,15 +3,27 @@ import { Link, useNavigate } from 'react-router-dom'
 import { baseUrl } from '../config';
 import MovieCard from './MovieCard';
 import FilterResults from 'react-filter-search';
+import Masonry from 'react-masonry-css';
 
 
 function Home() {
 
     const [allMovies, setAllMovies] = useState([])
     const [movies, setMovies] = useState([])
+    const [finalMovie, setFinalMovie] = useState([])
     const [value, setValue] = useState("")
     const [cinema, setCinema] = useState("hollywood")
     const [category, setCategory] = useState("movie")
+    const [preSearchValue, setPreSearchValue] = useState("")
+
+    const breakPointObj = {
+        default: 4,
+        3000: 4,
+        2000: 4,
+        1200: 3,
+        1000: 2,
+        500: 1
+    }
 
     const getMovies = () => {
         fetch(`${baseUrl}/movie`)
@@ -27,9 +39,12 @@ function Home() {
         setValue(value)
     };
 
+    const executeFilter = () => {
+
+    }
+
     useEffect(() => {
         getMovies()
-
         document.title = "Dgoncky.com - 4k Dual Audio Movies, Ultra HD movies, 1080p Movies, 2160 Movies, 2160p Movies, 1080p 60FPS Movies, 4k HEVC Movies, 1080p 10Bit Movies, 1080p x265 Hevc, 4k Bluray Movies, WeB-DL Series, WeB-DL Movies, High Quality Audio Movies"
     }, [])
 
@@ -38,8 +53,13 @@ function Home() {
         let arr = allMovies.filter(e => {
             return JSON.parse(e.detail).category == category && JSON.parse(e.detail).cinema == cinema
         })
-        setMovies(arr);
 
+        setMovies(arr)
+        // let searched = arr.filter(e =>{
+        //     return JSON.stringify(e).includes(value)
+        // })
+
+        // setMovies(searched);
     }
 
     useEffect(() => {
@@ -62,18 +82,18 @@ function Home() {
 
 
             {/* <!-- banner begin --> */}
-            <div className="banner">
+            {/* <div className="banner">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-xl-6 col-lg-6">
                             <div className="banner-content">
                                 <h1>Dgocky</h1>
-                                {/* <h4>DJ Party & Night Club</h4> */}
+                                <h4>DJ Party & Night Club</h4>
                                 <h4>Read About Your Favorites</h4>
                             </div>
                         </div>
                     </div>
-                    {/* <div className="row">
+                    <div className="row">
                         <div className="col-xl-12 col-lg-12">
                             <div className="banner-bottom">
                                 <div className="row">
@@ -102,13 +122,13 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- banner end --> */}
 
             {/* <!-- countdown begin --> */}
-            <div className="countdown">
+            {/* <div className="countdown">
                 <div className="container">
                     <div className="row justify-content-xl-center justify-content-lg-center justify-content-center">
                         <div className="col-xl-6 col-lg-6 col-lg-8 d-xl-flex d-lg-block align-items-center">
@@ -122,7 +142,7 @@ function Home() {
                                     <div className="single-count w-100">
                                         <span className="title">-Titanic, 1997</span>
                                     </div>
-                                    {/* <div className="single-count">
+                                    <div className="single-count">
                                         <span className="hour"></span><span className="title">hours</span>
                                     </div>
                                     <div className="single-count">
@@ -130,13 +150,13 @@ function Home() {
                                     </div>
                                     <div className="single-count">
                                         <span className="second"></span><span className="title">second</span>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- countdown end --> */}
 
 
@@ -144,13 +164,13 @@ function Home() {
             {/* <!-- movie card begin --> */}
             <div className="ticket-price">
                 <div className="container" >
-                    <div className="row justify-content-center">
+                    {/* <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
                             <div className="section-title text-center mb-0">
                                 <h2>Movies</h2>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="filter_input d-flex justify-content-end">
 
                         {/* <input type="search" value={value} className="p-2 h5" onChange={handleFilterChange} /> */}
@@ -159,16 +179,17 @@ function Home() {
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-12">
                                     <div class="card p-2">
-                                        {/* <h3 class="heading text-center m-0 text-white">Hi! Find out your movies here?</h3> */}
-                                        <div class="d-flex justify-content-center px-5">
-                                            <div class="search shadow">
-                                                <input type="text" class="search-input" placeholder="Search..." name="" value={value} onChange={handleFilterChange} />
-                                                <a class="search-icon">
-                                                    <i class="fa fa-search"></i>
-                                                </a>
+                                        <label htmlFor="movie_search">
+                                            {/* <h3 class="heading text-center m-0 text-white">Hi! Find out your movies here?</h3> */}
+                                            <div class="d-flex justify-content-center px-5">
+                                                <div class="search shadow">
+                                                    <input type="text" id='movie_search' class="search-input" placeholder="Search..." value={value} onChange={handleFilterChange} />
+                                                    <a class="search-icon" style={{ cursor: "pointer" }} onClick={executeFilter}>
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </div>
                                             </div>
-                                        </div>
-
+                                        </label>
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +206,6 @@ function Home() {
                                             aria-controls="v-pills-home" aria-selected="true" onClick={() => setCategory("movie")}>Movie</a>
                                         <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
                                             aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCategory("webSeries")}>Web-series</a>
-
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +220,6 @@ function Home() {
                                             aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCinema("bollywood")}>Bollywood</a>
                                         <a className="nav-link py-2 px-4" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
                                             aria-controls="v-pills-messages" aria-selected="false" onClick={() => setCinema("southIndian")}>South</a>
-
                                     </div>
                                 </div>
                             </div>
@@ -208,23 +227,19 @@ function Home() {
                     </div>
 
                     <div className="row">
-
                         <FilterResults
                             value={value}
                             data={movies}
                             renderResults={results => (
                                 <>
-                                    {results.length != 0 ? results.map(e => (
-                                        <MovieCard {...e} />
-                                    )) : <div className='h1 p-5'>0 result found with <span className='text-white'> {value} </span></div>}
+                                    {results.length != 0 ? <Masonry className='d-flex w-100' breakpointCols={breakPointObj}>
+                                        {results.map(e => (
+                                            <MovieCard key={e.id} {...e} />
+                                        ))}
+                                    </Masonry> : <div className='h1 p-5' style={{marginBottom:"70vh"}}> no results found with <span className='text-white'> {value} </span></div>}
                                 </>
                             )}
                         />
-
-                        {/* {movies.map((e) => (
-                            <MovieCard {...e} />
-                        ))} */}
-
                     </div>
                 </div>
             </div>

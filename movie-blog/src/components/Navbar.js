@@ -1,7 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function Navbar() {
+
+    const location = useLocation()
+
     return (
         <>
             {/* <!-- header begin --> */}
@@ -29,28 +32,28 @@ function Navbar() {
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul className="navbar-nav mr-auto">
                                             <li className="nav-item">
-                                                <Link className="nav-link active" to="/about">About <span className="sr-only">(current)</span></Link>
+                                                <Link className={`nav-link ${location.pathname === "/about" && "active"}`} to="/about">About <span className="sr-only">(current)</span></Link>
                                             </li>
                                             {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/events">Event</Link>
                                             </li> */}
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/gallery">Gallery</Link>
                                             </li>
                                             <li className="nav-item">
                                                 <Link className="nav-link" to="/top-movies">Top Movies</Link>
-                                            </li>
+                                            </li> */}
                                             {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/schedule">Schedule</Link>
                                             </li> */}
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="/blog">Blog</Link>
+                                                <Link className={`nav-link ${location.pathname === "/quote" && "active"}`} to="/quote">Quote</Link>
                                             </li>
                                             {/* <li className="nav-item">
                                                 <Link className="nav-link" to="/faq">Faq</Link>
                                             </li> */}
                                             <li className="nav-item">
-                                                <Link className="nav-link" to="/contact">Contact</Link>
+                                                <Link className={`nav-link ${location.pathname === "/contact" && "active"}`} to="/contact">Contact</Link>
                                             </li>
                                         </ul>
                                     </div>

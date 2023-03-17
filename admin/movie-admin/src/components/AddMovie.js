@@ -9,6 +9,10 @@ function AddMovie() {
     const [inputImage, setInputImage] = useState()
     const [imageLoader, setImageLoader] = useState(false)
     const [error, setError] = useState(false)
+    const [sizeErr, setSizeErr] = useState(false)
+    const [typeErr, setTypeErr] = useState(false)
+    const [generalErr, setGeneralErr] = useState("")
+
 
     const editorRef = useRef(null);
 
@@ -18,7 +22,7 @@ function AddMovie() {
         e.preventDefault()
         let resData = {};
 
-        if (formData.title && formData.director && formData.imdb && formData.tommato && formData.releaseDate && formData.runningTime && formData.genre && formData.cinema && formData.category && editorRef.current.getContent() && inputImage && !imageLoader) {
+        if (!sizeErr && formData.title && formData.director && formData.imdb && formData.tommato && formData.releaseDate && formData.runningTime && formData.genre && formData.cinema && formData.category && editorRef.current.getContent() && inputImage && !imageLoader) {
 
             resData.image = inputImage
             resData.title = formData.title
@@ -35,10 +39,14 @@ function AddMovie() {
                 body: JSON.stringify(resData)
             })
             const data = await response.json()
-
+            console.log(data)
 
             if (response.status == 200) {
+                setGeneralErr("")
                 navigate("/movies")
+            }else{
+                setGeneralErr(data?.errors[0]?.msg)
+                setError(false)
             }
         } else {
             setError(true)
@@ -51,15 +59,25 @@ function AddMovie() {
     }
 
     const handleInputImage = (e) => {
-        setImageLoader(true)
-        const reader = new FileReader();
-        reader.readAsDataURL(e.target.files[0]);
 
-        reader.onload = () => {
-            const binaryString = reader.result;
-            setInputImage(binaryString)
-            setImageLoader(false);
-        };
+        if (!(e.target.files[0].type).includes("image")) {
+            setTypeErr(true)
+        } else {
+            setTypeErr(false)
+            if (e.target.files[0].size >= 1000000) {
+                setSizeErr(true)
+            } else {
+                setSizeErr(false)
+                setImageLoader(true)
+                const reader = new FileReader();
+                reader.readAsDataURL(e.target.files[0]);
+                reader.onload = () => {
+                    const binaryString = reader.result;
+                    setInputImage(binaryString)
+                    setImageLoader(false);
+                };
+            }
+        }
     }
 
     return (
@@ -67,13 +85,18 @@ function AddMovie() {
             <div className='container'>
                 <h2>Add a new movie</h2>
                 {error && <div className='alert alert-danger text-danger' id='err'>Please fill all the fields</div>}
+                {generalErr != "" && <div className='alert alert-danger text-danger' id='err'>{generalErr}</div>}
+                
                 <form className='w-100'>
                     <div className='row'>
 
                         <div className="form-group col-md-4">
-                            <div htmlFor="inputImage" style={{display:"flex", alignItems:"center"}}>Image { imageLoader && <span className='text-success imageLoader ml-3'></span>}</div> 
+                            <div htmlFor="inputImage" style={{ display: "flex", alignItems: "center" }}>Image {imageLoader && <span className='text-success imageLoader ml-3'></span>}</div>
                             <input type="file" className="mt-2" id="inputImage" placeholder="inputImage" name='inputImage' onChange={handleInputImage} />
-                            <div className='text-info mt-2' style={{fontSize:"12px"}}>Image should be less then 1MB</div>
+                            {typeErr && <div className='text-danger mt-2' style={{ fontSize: "12px" }}>Warning: File should be an image</div>}
+                            {sizeErr && <div className='text-danger mt-2' style={{ fontSize: "12px" }}>Warning: Image is greater then 1MB</div>}
+                            {!sizeErr && <div className='text-info mt-2' style={{ fontSize: "12px" }}>Info: Image should be less then 1MB</div>}
+
                         </div>
                         <div className="form-group col-md-4">
                             <label htmlFor="title">Title</label>

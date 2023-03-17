@@ -1,4 +1,3 @@
-const { request } = require('express');
 const express = require('express');
 const router = express.Router();
 const { body, validationResult } = require('express-validator');
@@ -28,6 +27,7 @@ const putNotesValidations = [
     body('releaseDate', 'movie must have Release Date').isLength({ min: 1 }),
 ]
 
+
 // Endpoint to post a note.
 router.post('/', postNotesValidations, async (req, res) => {
 
@@ -40,52 +40,33 @@ router.post('/', postNotesValidations, async (req, res) => {
 
     con.query(query, (err, movie) => {
         if (err) {
-            console.log(err);
+            console.log(err)
         }
 
         if (movie.length != 0) {
             res.status(400).json({ errors: [{ msg: "movie arlready exists" }] })
         } else {
-            let { image, title, detail, description, date } = req.body
+            let { id, image } = req.body
 
             movieInput = {
-                title,
-                detail: JSON.stringify(detail),
-                description: description,
-                date
+                id,
+                image
             }
 
             query = `INSERT INTO movie SET ?`
 
             con.query(query, movieInput, (err, result) => {
                 if (err) {
-                    console.log("error in adding movie: ", err)
+                    console.log(err)
                 }
                 else {
-                    
-                    let imageInput = {
-                        id: result.insertId,
-                        image
-                    }
-
-                    query = `INSERT INTO movieimage SET ?`
-                    con.query(query, imageInput, (err, result) => {
-                        if (err) {
-                            console.log("error in adding image: ", err)
-                        } else {
-                            res.json(result)
-                        }
-                    });
-
-                    // res.json(result)
+                    res.json(result)
                 }
             });
-
-            // For add image
-
         }
     });
 })
+
 
 // API to get all notes of a user
 router.get('/', async (req, res) => {
@@ -106,19 +87,6 @@ router.get('/', async (req, res) => {
     });
 })
 
-// API to get all notes of a user
-router.get('/image/:id', async (req, res) => {
-
-    let query = `select * from movieimage where id= ${req.params.id}`
-
-    con.query(query, (err, image) => {
-        if (err) {
-            console.log(err);
-        } else {
-            res.json(image)
-        }
-    });
-})
 
 // API to get all notes of a user
 router.put('/', putNotesValidations, async (req, res) => {
@@ -134,12 +102,10 @@ router.put('/', putNotesValidations, async (req, res) => {
         }
 
         movie = await Movie.findByIdAndUpdate(req.body.id, { $set: req.body }, { new: true });
-
         res.json(movie);
-
     });
-
 })
+
 
 // API to delete a note
 router.delete('/', deleteNotesValidations, (req, res) => {
@@ -166,23 +132,16 @@ router.delete('/', deleteNotesValidations, (req, res) => {
         if (err) {
             console.log(err);
         }
-
         if (movie.length != 0) {
 
             query = `DELETE FROM movie WHERE id=?`
-
             con.query(query, req.body.id);
-
             res.json("Deleted successfully")
+
         } else {
             res.status(400).json({ errors: [{ msg: "movie does not exists" }] })
-
         }
-
     });
-
-
-
 })
 
 

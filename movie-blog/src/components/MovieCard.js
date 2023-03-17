@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { baseUrl } from '../config';
 import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 
 function MovieCard(e) {
 
     const [image, setImage] = useState()
+    const [imageLoader, setImageLoader] = useState(true)
 
     const navigate = useNavigate();
 
@@ -13,21 +15,29 @@ function MovieCard(e) {
         navigate("/movie-detail");
     }
 
+    const getImage = () => {
 
+        fetch(`${baseUrl}/movie/image/${e.id}`)
+            .then(res => res.json())
+            .then(data => {
+                if (data[0].image.data) {
+                    setImage(decodeBinaryImage(data[0]?.image?.data))
+                    setImageLoader(false)
+                }
+            })
+    }
 
     useEffect(() => {
-        if (e.image) {
-           setImage(decodeBinaryImage(e.image.data))
-        }
+        getImage();
     }, [])
 
 
     return (
         <>
-            <div className="col-xl-4 col-lg-4 col-sm-6 p-2" key={e._id}>
+            <div className='my-3 mx-2'>
                 <div className="single-ticket-price pt-3 pr-3 pl-3 ">
 
-                    <img src={image} alt="" className='rounded' />
+                    {!imageLoader ? <img src={image} alt="" className='rounded' /> : "loading..."}
 
                     <div className="part-feature">
                         <div className='d-flex align-items-center'>

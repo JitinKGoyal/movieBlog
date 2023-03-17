@@ -8,10 +8,11 @@ import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import TopMovies from './components/TopMovies';
 // import Schedule from './components/Schedule';
-import Blog from './components/Blog';
+import Blog from './components/Quote';
 // import Faq from './components/Faq';
 import Contact from './components/Contact';
 import MovieDetails from './components/MovieDetails';
+import Quote from './components/Quote';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/top-Movies' element={<TopMovies />} />
         {/* <Route path='/schedule' element={<Schedule />} /> */}
-        <Route path='/blog' element={<Blog />} />
+        <Route path='/quote' element={<Quote />} />
         {/* <Route path='/faq' element={<Faq />} /> */}
         <Route path='/contact' element={<Contact />} />
         <Route path='/movie-detail' element={<MovieDetails />} />

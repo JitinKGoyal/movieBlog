@@ -1502,7 +1502,6 @@ ul {
   border-radius: 5px;
   overflow: hidden;
   z-index: 2;
-  margin-bottom: 30px;
 }
 
 .ticket-price .single-ticket-price:hover:after {
@@ -2762,7 +2761,7 @@ ul {
 }
 
 .single-event .part-img img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .single-event .part-text h3 {
@@ -2814,11 +2813,18 @@ ul {
   margin: 20px 0;
 }
 
-.mv_details{
+.mv_details {
   color: rgb(180, 180, 180);
 }
 
 .mv_details * {
   font-family: 'Nunito', sans-serif !important;
-  
+
+}
+
+.movie_detail_img img {
+  max-height: 500px;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
 }
