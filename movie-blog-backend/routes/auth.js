@@ -7,38 +7,16 @@ const bcrypt = require('bcrypt');
 const signUpValidations = [
     body('name', "Name must be minimum of 2 chars").isLength({ min: 2 }),
     body('email', "Enter a valid email").isEmail(),
-    body('password', "Paswword must be minimum of 5 chars").isLength({ min: 5 })]
+    body('password', "Paswword must be minimum of 5 chars").isLength({ min: 5 })
+]
 
 const loginValidations = [
     body('email', "Enter a valid email").isEmail(),
-    body('password', "Enter a password").isLength({ min: 1 })]
+    body('password', "Enter a password").isLength({ min: 1 })
+]
 
 // For Sign Up
-router.post('/signup', signUpValidations, async (req, res) => {
-
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-    }
-
-    const user = await User.findOne({ email: req.body.email }); // 2sec
-
-    if (user) {
-        return res.status(400).json({ errors: [{ msg: "user already exists" }] });
-    }
-
-    const salt = bcrypt.genSaltSync(10);
-    const securedPass = bcrypt.hashSync(req.body.password, salt);
-
-    User.create({
-        name: req.body.name,
-        email: req.body.email,
-        password: securedPass,
-    }).then(user => res.json(user));
-
-    // const user = User(req.body);
-    // user.save();
-});
+router.post('/signup', signUpValidations,);
 
 
 // For login

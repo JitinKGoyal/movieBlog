@@ -76,7 +76,7 @@ function MovieCard(e) {
 
                     </div>
                     <div className="part-button">
-                        <a to="/movie-detail" onClick={() => findOutMore(e)}>Find out more</a>
+                        <a href="/movie-detail" onClick={() => findOutMore(e)}>Find out more</a>
                     </div>
                 </div>
             </div>

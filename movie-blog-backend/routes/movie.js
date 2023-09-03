@@ -5,6 +5,7 @@ const { body, validationResult } = require('express-validator');
 const con = require('../db');
 const Movie = require('../models/Movie');
 const User = require('../models/user');
+const { addBulkController } = require('../controllers/movieController');
 
 const postNotesValidations = [
     body('title', 'movie must have a title').isLength({ min: 1 }),
@@ -22,6 +23,8 @@ const putNotesValidations = [
     body('description', 'movie must have a description').isLength({ min: 1 }),
     body('detail', 'movie must have detail field as object').isObject()
 ]
+
+router.post('/addBulk', addBulkController)
 
 // Endpoint to post a movie.
 router.post('/', postNotesValidations, async (req, res) => {
@@ -138,7 +141,6 @@ router.put('/', postNotesValidations, async (req, res) => {
             });
 
             // For add image
-
         }
     });
 })

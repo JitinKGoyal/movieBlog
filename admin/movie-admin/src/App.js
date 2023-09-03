@@ -19,14 +19,14 @@ function App() {
         <main className='px-4 w-100 overflow-auto' style={{ height: "100vh" }}>
 
           <Routes>
-            <Route path='/addMovie' element={<AddMovie/>}/>
-            <Route path='/movies' element={<Movies/>}/>
-            <Route path='/editMovie' element={<EditMovie/>}/>
+            <Route path='/addMovie' element={<AddMovie />} />
+            <Route path='/movies' element={<Movies />} />
+            <Route path='/editMovie' element={<EditMovie />} />
           </Routes>
-          
+
         </main>
 
-      
+
       </div>
 
     </>

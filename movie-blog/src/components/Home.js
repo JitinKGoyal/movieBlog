@@ -66,8 +66,6 @@ function Home() {
         handleFilter()
     }, [allMovies, cinema, category])
 
-
-
     return (
         <>
             {/* <!-- preloader begin --> */}
@@ -236,7 +234,7 @@ function Home() {
                                         {results.map(e => (
                                             <MovieCard key={e.id} {...e} />
                                         ))}
-                                    </Masonry> : <div className='h1 p-5' style={{marginBottom:"70vh"}}> no results found with <span className='text-white'> {value} </span></div>}
+                                    </Masonry> : <div className='h1 p-5' style={{ marginBottom: "70vh" }}> no results found with <span className='text-white'> {value} </span></div>}
                                 </>
                             )}
                         />
