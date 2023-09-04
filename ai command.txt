@@ -36,4 +36,16 @@ give me fully detailed array of json about movies and webseries with following p
 34. imdbRating
 35. rottenTomatoRating
 
-and give atleast 10 movie.
+for following movies  
+    "Game of Thrones",
+    "Breaking Bad",
+    "Stranger Things",
+    "The Crown",
+    "Black Mirror",
+    "The Mandalorian",
+    "Friends",
+    "The Witcher",
+    "Chernobyl",
+    "The Office (U.S.)",
+    "The Handmaid's Tale",
+    "Westworld",

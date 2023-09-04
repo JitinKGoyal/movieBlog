@@ -46,7 +46,6 @@ const addBulkController = async (req, res) => {
                                     reject(err);
                                 }
                                 else {
-                                    console.log(movie)
                                     response.successfullyAdded.titles.push(movie.title || movie.Title);
                                     response.successfullyAdded.number++;
                                     resolve()
@@ -59,9 +58,7 @@ const addBulkController = async (req, res) => {
             })
 
             await Promise.all(promises)
-
             return res.status(201).json(response);
-
         } else {
             return res.status(400).json({ errors: [{ msg: 'payload must be an array' }] });
         }
@@ -71,12 +68,6 @@ const addBulkController = async (req, res) => {
         res.status(500).send({ errors: [{ msg: error.message }] })
     }
 
-}
-
-function handleAddMovieAsync(movie) {
-    return new Promise((resolve, reject) => {
-
-    })
 }
 
 module.exports = { addBulkController }

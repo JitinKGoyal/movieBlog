@@ -145,23 +145,56 @@ router.put('/', postNotesValidations, async (req, res) => {
     });
 })
 
-// API to get all notes of a user
+// API to get all movies of a user
 router.get('/', async (req, res) => {
 
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-    }
+    try {
 
-    let query = `select * from movie`
-
-    con.query(query, (err, movies) => {
-        if (err) {
-            console.log(err);
-        } else {
-            res.json(movies)
+        const errors = validationResult(req);
+        if (!errors.isEmpty()) {
+            return res.status(400).json({ errors: errors.array() });
         }
-    });
+
+        let query = `select * from movie`
+
+        con.query(query, (err, movies) => {
+            if (err) {
+                console.log(err);
+                res.status(400).send({ errors: [{ msg: err.message }] })
+            } else {
+                res.json(movies)
+            }
+        });
+    } catch (error) {
+        res.status(500).send({ errors: [{ msg: error.message }] })
+
+    }
+})
+
+// API to get movies by pagination
+router.get('/pagination/:offset/:limit', async (req, res) => {
+
+    try {
+
+        const errors = validationResult(req);
+        if (!errors.isEmpty()) {
+            return res.status(400).json({ errors: errors.array() });
+        }
+
+        let query = `select * from movie LIMIT ${req.params.offset}, ${req.params.limit}`
+
+        con.query(query, (err, movies) => {
+            if (err) {
+                console.log(err);
+                res.status(400).send({ errors: [{ msg: err.message }] })
+            } else {
+                res.json(movies)
+            }
+        });
+    } catch (error) {
+        res.status(500).send({ errors: [{ msg: error.message }] })
+
+    }
 })
 
 // API to get all notes of a user

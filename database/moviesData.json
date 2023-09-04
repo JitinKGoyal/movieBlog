@@ -1,0 +1,1756 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "producer": "Niki Marvin",
+        "releaseDate": "September 23, 1994",
+        "runningTime": "142 minutes",
+        "genre": [
+            "Drama",
+            "Crime"
+        ],
+        "rating": "R",
+        "cast": [
+            "Tim Robbins",
+            "Morgan Freeman"
+        ],
+        "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "setting": "Shawshank State Penitentiary",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "Thomas Newman",
+        "boxOffice": "$58.3 million",
+        "awards": [
+            "7 Academy Award nominations"
+        ],
+        "productionCompany": "Castle Rock Entertainment",
+        "budget": "$25 million",
+        "screenplay": "Frank Darabont",
+        "adaptation": "Stephen King's novella 'Rita Hayworth and Shawshank Redemption'",
+        "visual effects": "Minimal use",
+        "reception": "Highly acclaimed",
+        "sequels/prequels": "None",
+        "marketing": "Strong word-of-mouth",
+        "distribution": "Columbia Pictures",
+        "culturalSignificance": "Considered one of the greatest films of all time",
+        "messageMoral": "Hope, redemption, and the power of friendship",
+        "style": "Dramatic and emotionally impactful",
+        "themes": [
+            "Injustice",
+            "Hope",
+            "Friendship"
+        ],
+        "symbolism": [
+            "The poster of Rita Hayworth"
+        ],
+        "historicalContext": "Set in the mid-20th century",
+        "story": "Based on Stephen King's novella, it tells a powerful story of friendship and redemption in a prison setting.",
+        "theme": "The central idea is the transformative power of hope and friendship.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 9.3,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "producer": "Albert S. Ruddy",
+        "releaseDate": "March 24, 1972",
+        "runningTime": "175 minutes",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan"
+        ],
+        "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "setting": "1940s and 1950s New York",
+        "cinematography": "Gordon Willis",
+        "soundtrack": "Nino Rota",
+        "boxOffice": "$246.1 million",
+        "awards": [
+            "3 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Paramount Pictures",
+        "budget": "$6-7 million",
+        "screenplay": "Mario Puzo and Francis Ford Coppola",
+        "adaptation": "Based on Mario Puzo's novel 'The Godfather'",
+        "visual effects": "Minimal use",
+        "reception": "Critically acclaimed and iconic",
+        "sequels/prequels": [
+            "The Godfather Part II",
+            "The Godfather Part III"
+        ],
+        "marketing": "Extensive and successful",
+        "distribution": "Paramount Pictures",
+        "culturalSignificance": "Cultural landmark in cinema history",
+        "messageMoral": "Family, power, and corruption",
+        "style": "Epic crime drama",
+        "themes": [
+            "Family",
+            "Power",
+            "Betrayal"
+        ],
+        "symbolism": [
+            "The Godfather's offer you can't refuse"
+        ],
+        "historicalContext": "Set in the mid-20th century",
+        "story": "A saga of the Corleone crime family and their patriarch's transition of power.",
+        "theme": "The central idea is the corrupting influence of power and the consequences of choices.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 9.2,
+        "rottenTomatoRating": 98
+    },
+    {
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "producer": "Christopher Nolan, Emma Thomas, Charles Roven",
+        "releaseDate": "July 18, 2008",
+        "runningTime": "152 minutes",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Christian Bale",
+            "Heath Ledger",
+            "Aaron Eckhart"
+        ],
+        "plot": "When the Joker wreaks havoc on Gotham City, Batman must confront his greatest adversary while dealing with issues of morality and justice.",
+        "setting": "Gotham City",
+        "cinematography": "Wally Pfister",
+        "soundtrack": "Hans Zimmer and James Newton Howard",
+        "boxOffice": "$1.004 billion",
+        "awards": [
+            "2 Academy Awards"
+        ],
+        "productionCompany": "Warner Bros. Pictures",
+        "budget": "$185 million",
+        "screenplay": "Christopher Nolan and Jonathan Nolan",
+        "adaptation": "Inspired by DC Comics characters",
+        "visual effects": "Extensive and groundbreaking",
+        "reception": "Highly praised, especially Heath Ledger's performance",
+        "sequels/prequels": [
+            "Batman Begins",
+            "The Dark Knight Rises"
+        ],
+        "marketing": "Extensive and viral marketing campaign",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Influential in the superhero genre",
+        "messageMoral": "The battle between chaos and order",
+        "style": "Dark and realistic take on the superhero genre",
+        "themes": [
+            "Morality",
+            "Chaos vs. Order",
+            "Identity"
+        ],
+        "symbolism": [
+            "The Joker's chaos"
+        ],
+        "historicalContext": "Contemporary setting",
+        "story": "A psychological battle between Batman and the Joker, testing the limits of morality.",
+        "theme": "The central idea is the moral struggle between chaos and order in society.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 9.0,
+        "rottenTomatoRating": 94
+    },
+    {
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "producer": "Lawrence Bender",
+        "releaseDate": "October 14, 1994",
+        "runningTime": "154 minutes",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "John Travolta",
+            "Samuel L. Jackson",
+            "Uma Thurman"
+        ],
+        "plot": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "setting": "Los Angeles",
+        "cinematography": "Andrzej Sekuła",
+        "soundtrack": "Various artists",
+        "boxOffice": "$213.9 million",
+        "awards": [
+            "1 Academy Award"
+        ],
+        "productionCompany": "A Band Apart, Miramax Films",
+        "budget": "$8-8.5 million",
+        "screenplay": "Quentin Tarantino and Roger Avary",
+        "adaptation": "Original screenplay",
+        "visual effects": "Minimal use",
+        "reception": "Cult classic and highly influential",
+        "sequels/prequels": "None",
+        "marketing": "Independent film with buzz",
+        "distribution": "Miramax Films",
+        "culturalSignificance": "Revived the career of John Travolta and reshaped indie cinema",
+        "messageMoral": "Moral ambiguity and redemption",
+        "style": "Non-linear narrative with pop culture references",
+        "themes": [
+            "Redemption",
+            "Violence",
+            "Existentialism"
+        ],
+        "symbolism": [
+            "The briefcase"
+        ],
+        "historicalContext": "Contemporary setting",
+        "story": "An interwoven collection of stories involving crime and redemption.",
+        "theme": "The central idea is the blurred line between good and evil in a chaotic world.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.9,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "Schindlers List",
+        "director": "Steven Spielberg",
+        "producer": "Steven Spielberg, Gerald R. Molen, Branko Lustig",
+        "releaseDate": "December 15, 1993",
+        "runningTime": "195 minutes",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": "R",
+        "cast": [
+            "Liam Neeson",
+            "Ralph Fiennes",
+            "Ben Kingsley"
+        ],
+        "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution.",
+        "setting": "World War II-era Kraków",
+        "cinematography": "Janusz Kamiński",
+        "soundtrack": "John Williams",
+        "boxOffice": "$322.1 million",
+        "awards": [
+            "7 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Amblin Entertainment, Universal Pictures",
+        "budget": "$22 million",
+        "screenplay": "Steven Zaillian",
+        "adaptation": "Based on the book 'Schindler's Ark' by Thomas Keneally",
+        "visual effects": "Minimal use",
+        "reception": "Critically acclaimed and historically significant",
+        "sequels/prequels": "None",
+        "marketing": "Focused on historical accuracy and impact",
+        "distribution": "Universal Pictures",
+        "culturalSignificance": "Important Holocaust film",
+        "messageMoral": "Humanity, compassion, and the Holocaust",
+        "style": "Black and white, stark and haunting",
+        "themes": [
+            "Good vs. Evil",
+            "Humanity",
+            "Sacrifice"
+        ],
+        "symbolism": [
+            "The red coat"
+        ],
+        "historicalContext": "Set during World War II",
+        "story": "The true story of Oskar Schindler and his efforts to save Jews from the Holocaust.",
+        "theme": "The central idea is the capacity for goodness in the face of overwhelming evil.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.9,
+        "rottenTomatoRating": 96
+    },
+    {
+        "title": "Forrest Gump",
+        "director": "Robert Zemeckis",
+        "producer": "Wendy Finerman, Steve Tisch, Steve Starkey",
+        "releaseDate": "July 6, 1994",
+        "runningTime": "142 minutes",
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Tom Hanks",
+            "Robin Wright",
+            "Gary Sinise"
+        ],
+        "plot": "The life story of a man with low intelligence, who achieves much success and brings inspiration to those around him.",
+        "setting": "1960s and 1970s America",
+        "cinematography": "Don Burgess",
+        "soundtrack": "Alan Silvestri",
+        "boxOffice": "$678.2 million",
+        "awards": [
+            "6 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Paramount Pictures",
+        "budget": "$55 million",
+        "screenplay": "Eric Roth",
+        "adaptation": "Based on the novel 'Forrest Gump' by Winston Groom",
+        "visual effects": "Used to insert Forrest into historical footage",
+        "reception": "Commercial and critical success",
+        "sequels/prequels": "None",
+        "marketing": "Focused on Tom Hanks' performance",
+        "distribution": "Paramount Pictures",
+        "culturalSignificance": "Iconic and quotable film",
+        "messageMoral": "Innocence and the American dream",
+        "style": "Sentimental and heartwarming",
+        "themes": [
+            "Innocence",
+            "Destiny",
+            "Love"
+        ],
+        "symbolism": [
+            "The feather"
+        ],
+        "historicalContext": "Set during the 20th century",
+        "story": "The life journey of Forrest Gump, a man with a low IQ but a big heart.",
+        "theme": "The central idea is the impact of innocence and kindness in a complex world.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 71
+    },
+    {
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "producer": "Christopher Nolan, Emma Thomas",
+        "releaseDate": "July 16, 2010",
+        "runningTime": "148 minutes",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Ellen Page"
+        ],
+        "plot": "A thief who enters the dreams of others to steal their secrets embarks on a final mission to implant an idea into a CEO's mind.",
+        "setting": "Various dreamscapes",
+        "cinematography": "Wally Pfister",
+        "soundtrack": "Hans Zimmer",
+        "boxOffice": "$829.9 million",
+        "awards": [
+            "4 Academy Awards"
+        ],
+        "productionCompany": "Legendary Pictures, Syncopy, Warner Bros. Pictures",
+        "budget": "$160 million",
+        "screenplay": "Christopher Nolan",
+        "adaptation": "Original screenplay",
+        "visual effects": "Extensive and mind-bending",
+        "reception": "Critically acclaimed, especially for its visual effects",
+        "sequels/prequels": "None",
+        "marketing": "Mysterious and mind-bending trailers",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Iconic for its dream-within-a-dream concept",
+        "messageMoral": "Reality, dreams, and the power of ideas",
+        "style": "Mind-bending and visually stunning",
+        "themes": [
+            "Reality vs. Illusion",
+            "Dreams",
+            "Reality Manipulation"
+        ],
+        "symbolism": [
+            "The spinning top"
+        ],
+        "historicalContext": "Contemporary setting with dream technology",
+        "story": "A complex heist within the dreams of individuals, exploring the concept of reality and dreams.",
+        "theme": "The central idea is the nature of reality and the power of ideas to shape it.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 87
+    },
+    {
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "producer": "Art Linson, Cean Chaffin, Ross Grayson Bell",
+        "releaseDate": "October 15, 1999",
+        "runningTime": "139 minutes",
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Edward Norton",
+            "Brad Pitt",
+            "Helena Bonham Carter"
+        ],
+        "plot": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into an anarchist movement.",
+        "setting": "Contemporary urban settings",
+        "cinematography": "Jeff Cronenweth",
+        "soundtrack": "The Dust Brothers",
+        "boxOffice": "$101.2 million",
+        "awards": [
+            "1 Academy Award nomination"
+        ],
+        "productionCompany": "20th Century Fox, Regency Enterprises",
+        "budget": "$63 million",
+        "screenplay": "Jim Uhls",
+        "adaptation": "Based on Chuck Palahniuk's novel 'Fight Club'",
+        "visual effects": "Minimal use",
+        "reception": "Cult classic with a strong following",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized the film's subversive nature",
+        "distribution": "20th Century Fox",
+        "culturalSignificance": "Cult film exploring masculinity and consumerism",
+        "messageMoral": "Consumerism, masculinity, and societal rebellion",
+        "style": "Dark and subversive",
+        "themes": [
+            "Identity",
+            "Consumerism",
+            "Rebellion"
+        ],
+        "symbolism": [
+            "The fight club itself"
+        ],
+        "historicalContext": "Contemporary setting",
+        "story": "An exploration of male identity and rebellion through the lens of an underground fight club.",
+        "theme": "The central idea is the disillusionment with consumerism and the search for authentic identity.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 79
+    },
+    {
+        "title": "The Matrix",
+        "director": "The Wachowskis",
+        "producer": "Joel Silver",
+        "releaseDate": "March 31, 1999",
+        "runningTime": "136 minutes",
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "rating": "R",
+        "cast": [
+            "Keanu Reeves",
+            "Laurence Fishburne",
+            "Carrie-Anne Moss"
+        ],
+        "plot": "A computer hacker discovers a dystopian world controlled by machines and joins a group of rebels to overthrow them.",
+        "setting": "Dystopian future and computer simulations",
+        "cinematography": "Bill Pope",
+        "soundtrack": "Don Davis",
+        "boxOffice": "$463.5 million",
+        "awards": [
+            "4 Academy Awards"
+        ],
+        "productionCompany": "Warner Bros. Pictures, Village Roadshow Pictures, Groucho II Film Partnership",
+        "budget": "$63 million",
+        "screenplay": "The Wachowskis",
+        "adaptation": "Original screenplay",
+        "visual effects": "Revolutionary 'bullet time' effects",
+        "reception": "Influential and iconic in sci-fi genre",
+        "sequels/prequels": [
+            "The Matrix Reloaded",
+            "The Matrix Revolutions"
+        ],
+        "marketing": "Promoted the film's groundbreaking special effects",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Revolutionized action and sci-fi filmmaking",
+        "messageMoral": "Reality, identity, and freedom",
+        "style": "Groundbreaking visual effects and action sequences",
+        "themes": [
+            "Reality vs. Illusion",
+            "Free will",
+            "Technology"
+        ],
+        "symbolism": [
+            "The red pill/blue pill choice"
+        ],
+        "historicalContext": "Contemporary setting within a simulated reality",
+        "story": "A hacker discovers the truth about the simulated reality he lives in and joins a rebellion against machine overlords.",
+        "theme": "The central idea is the quest for truth, free will, and the nature of reality.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.7,
+        "rottenTomatoRating": 88
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "director": "Peter Jackson",
+        "producer": "Peter Jackson, Barrie M. Osborne, Tim Sanders",
+        "releaseDate": "December 19, 2001",
+        "runningTime": "178 minutes",
+        "genre": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Viggo Mortensen"
+        ],
+        "plot": "A young hobbit, Frodo Baggins, embarks on a journey to destroy a powerful ring and save Middle-earth from the dark lord Sauron.",
+        "setting": "Middle-earth",
+        "cinematography": "Andrew Lesnie",
+        "soundtrack": "Howard Shore",
+        "boxOffice": "$871.5 million",
+        "awards": [
+            "4 Academy Awards"
+        ],
+        "productionCompany": "New Line Cinema, WingNut Films",
+        "budget": "$93 million",
+        "screenplay": "Fran Walsh, Philippa Boyens, Peter Jackson",
+        "adaptation": "Based on J.R.R. Tolkien's novel 'The Fellowship of the Ring'",
+        "visual effects": "Groundbreaking for its time",
+        "reception": "Critically acclaimed and a commercial success",
+        "sequels/prequels": [
+            "The Lord of the Rings: The Two Towers",
+            "The Lord of the Rings: The Return of the King"
+        ],
+        "marketing": "Epic fantasy promotion",
+        "distribution": "New Line Cinema",
+        "culturalSignificance": "Revived the fantasy genre in cinema",
+        "messageMoral": "Friendship, courage, and the fight against evil",
+        "style": "Epic fantasy with rich world-building",
+        "themes": [
+            "Fellowship",
+            "Good vs. Evil",
+            "Hero's Journey"
+        ],
+        "symbolism": [
+            "The One Ring"
+        ],
+        "historicalContext": "Set in a fictional world",
+        "story": "The first part of the epic journey to destroy the One Ring.",
+        "theme": "The central idea is the power of unity and the battle against overwhelming darkness.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "Gladiator",
+        "director": "Ridley Scott",
+        "producer": "Douglas Wick, David Franzoni, Branko Lustig",
+        "releaseDate": "May 5, 2000",
+        "runningTime": "155 minutes",
+        "genre": [
+            "Action",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Russell Crowe",
+            "Joaquin Phoenix",
+            "Connie Nielsen"
+        ],
+        "plot": "A betrayed Roman general seeks vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+        "setting": "Ancient Rome",
+        "cinematography": "John Mathieson",
+        "soundtrack": "Hans Zimmer",
+        "boxOffice": "$457.6 million",
+        "awards": [
+            "5 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "DreamWorks Pictures, Scott Free Productions",
+        "budget": "$103 million",
+        "screenplay": "David Franzoni, John Logan, William Nicholson",
+        "adaptation": "Original screenplay",
+        "visual effects": "Used to recreate ancient Rome",
+        "reception": "Highly acclaimed for its action and performances",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized epic battles and Russell Crowe's performance",
+        "distribution": "DreamWorks Pictures",
+        "culturalSignificance": "Iconic in the sword-and-sandal genre",
+        "messageMoral": "Justice, revenge, and honor",
+        "style": "Epic historical drama with intense combat scenes",
+        "themes": [
+            "Revenge",
+            "Leadership",
+            "Justice"
+        ],
+        "symbolism": [
+            "The gladiatorial arena"
+        ],
+        "historicalContext": "Set in ancient Rome",
+        "story": "A tale of revenge and honor set in the Roman Empire.",
+        "theme": "The central idea is the pursuit of justice and the cost of revenge.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 77
+    },
+    {
+        "title": "Saving Private Ryan",
+        "director": "Steven Spielberg",
+        "producer": "Steven Spielberg, Ian Bryce, Mark Gordon, Gary Levinsohn",
+        "releaseDate": "July 24, 1998",
+        "runningTime": "169 minutes",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": "R",
+        "cast": [
+            "Tom Hanks",
+            "Matt Damon",
+            "Tom Sizemore"
+        ],
+        "plot": "Following the D-Day invasion, a group of soldiers led by Captain John Miller is tasked with finding and saving Private James Francis Ryan, whose three brothers have been killed in action.",
+        "setting": "World War II Europe",
+        "cinematography": "Janusz Kamiński",
+        "soundtrack": "John Williams",
+        "boxOffice": "$482.4 million",
+        "awards": [
+            "5 Academy Awards including Best Director"
+        ],
+        "productionCompany": "DreamWorks Pictures, Paramount Pictures, Amblin Entertainment",
+        "budget": "$70 million",
+        "screenplay": "Robert Rodat",
+        "adaptation": "Original screenplay",
+        "visual effects": "Realistic and harrowing war scenes",
+        "reception": "Critically acclaimed for its realism and depiction of war",
+        "sequels/prequels": "None",
+        "marketing": "Focused on the realism of the D-Day sequence",
+        "distribution": "Paramount Pictures",
+        "culturalSignificance": "Iconic war film with intense combat sequences",
+        "messageMoral": "Sacrifice, duty, and the horrors of war",
+        "style": "Realistic war drama with intense combat scenes",
+        "themes": [
+            "Sacrifice",
+            "Duty",
+            "Comradeship"
+        ],
+        "symbolism": [
+            "The letter to Mrs. Bixby"
+        ],
+        "historicalContext": "Set during World War II",
+        "story": "A mission to save a soldier becomes a powerful exploration of the human cost of war.",
+        "theme": "The central idea is the sacrifices made by soldiers and the impact of war on individuals.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "director": "Jonathan Demme",
+        "producer": "Edward Saxon, Kenneth Utt, Ronald M. Bozman",
+        "releaseDate": "February 14, 1991",
+        "runningTime": "118 minutes",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Jodie Foster",
+            "Anthony Hopkins",
+            "Scott Glenn"
+        ],
+        "plot": "FBI trainee Clarice Starling seeks the help of imprisoned serial killer Hannibal Lecter to catch another serial killer known as Buffalo Bill.",
+        "setting": "Contemporary United States",
+        "cinematography": "Tak Fujimoto",
+        "soundtrack": "Howard Shore",
+        "boxOffice": "$272.7 million",
+        "awards": [
+            "5 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Strong Heart/Demme Production, Orion Pictures",
+        "budget": "$19 million",
+        "screenplay": "Ted Tally",
+        "adaptation": "Based on Thomas Harris' novel 'The Silence of the Lambs'",
+        "visual effects": "Minimal use",
+        "reception": "Critically acclaimed and a box office success",
+        "sequels/prequels": [
+            "Hannibal",
+            "Red Dragon"
+        ],
+        "marketing": "Emphasized the psychological thriller aspect",
+        "distribution": "Orion Pictures",
+        "culturalSignificance": "Iconic in the psychological thriller genre",
+        "messageMoral": "Evil, empathy, and the darkness within",
+        "style": "Psychological thriller with intense performances",
+        "themes": [
+            "Psychopathy",
+            "Empathy",
+            "Identity"
+        ],
+        "symbolism": [
+            "The moth imagery"
+        ],
+        "historicalContext": "Contemporary setting",
+        "story": "A psychological cat-and-mouse game between an FBI agent and a brilliant but insane serial killer.",
+        "theme": "The central idea is the exploration of evil and the struggle to understand the minds of criminals.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 95
+    },
+    {
+        "title": "The Green Mile",
+        "director": "Frank Darabont",
+        "producer": "Frank Darabont, David Valdes",
+        "releaseDate": "December 10, 1999",
+        "runningTime": "189 minutes",
+        "genre": [
+            "Drama",
+            "Fantasy"
+        ],
+        "rating": "R",
+        "cast": [
+            "Tom Hanks",
+            "Michael Clarke Duncan",
+            "David Morse"
+        ],
+        "plot": "A corrections officer at a death row prison in the 1930s discovers that an inmate possesses a miraculous gift, leading to profound changes in the lives of those around him.",
+        "setting": "1930s Louisiana",
+        "cinematography": "David Tattersall",
+        "soundtrack": "Thomas Newman",
+        "boxOffice": "$286.8 million",
+        "awards": [
+            "4 Academy Award nominations"
+        ],
+        "productionCompany": "Castle Rock Entertainment, Darkwoods Productions",
+        "budget": "$60 million",
+        "screenplay": "Frank Darabont",
+        "adaptation": "Based on Stephen King's novel 'The Green Mile'",
+        "visual effects": "Used to depict the supernatural elements",
+        "reception": "Critically acclaimed for its emotional depth",
+        "sequels/prequels": "None",
+        "marketing": "Focused on the emotional and supernatural aspects",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Notable for its themes of compassion and redemption",
+        "messageMoral": "Compassion, miracles, and the human condition",
+        "style": "Drama with supernatural elements",
+        "themes": [
+            "Compassion",
+            "Miracles",
+            "Injustice"
+        ],
+        "symbolism": [
+            "The healing powers of John Coffey"
+        ],
+        "historicalContext": "Set in the 1930s during the Great Depression",
+        "story": "A touching and supernatural tale set on death row, exploring themes of compassion and redemption.",
+        "theme": "The central idea is the capacity for compassion and the possibility of miracles in the face of injustice.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 78
+    },
+    {
+        "title": "Goodfellas",
+        "director": "Martin Scorsese",
+        "producer": "Irwin Winkler, Barbara De Fina",
+        "releaseDate": "September 19, 1990",
+        "runningTime": "146 minutes",
+        "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Robert De Niro",
+            "Ray Liotta",
+            "Joe Pesci"
+        ],
+        "plot": "The rise and fall of mob associate Henry Hill, who becomes involved in the world of organized crime.",
+        "setting": "1960s-1980s New York",
+        "cinematography": "Michael Ballhaus",
+        "soundtrack": "Various artists",
+        "boxOffice": "$46.8 million",
+        "awards": [
+            "1 Academy Award"
+        ],
+        "productionCompany": "Warner Bros.",
+        "budget": "$25 million",
+        "screenplay": "Nicholas Pileggi, Martin Scorsese",
+        "adaptation": "Based on Nicholas Pileggi's book 'Wiseguy'",
+        "visual effects": "Minimal use",
+        "reception": "Critically acclaimed as one of the greatest gangster films",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized the film's gritty and realistic portrayal of the mob",
+        "distribution": "Warner Bros.",
+        "culturalSignificance": "Iconic in the gangster genre",
+        "messageMoral": "Crime, loyalty, and consequences",
+        "style": "Gritty and intense portrayal of the mob world",
+        "themes": [
+            "Crime",
+            "Loyalty",
+            "Betrayal"
+        ],
+        "symbolism": [
+            "The 'wiseguy' lifestyle"
+        ],
+        "historicalContext": "Set in the 1960s-1980s",
+        "story": "A gritty and realistic portrayal of the mob world, based on the true story of Henry Hill.",
+        "theme": "The central idea is the allure and consequences of a life in organized crime.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.7,
+        "rottenTomatoRating": 96
+    },
+    {
+        "title": "Interstellar",
+        "director": "Christopher Nolan",
+        "producer": "Christopher Nolan, Emma Thomas, Lynda Obst",
+        "releaseDate": "November 7, 2014",
+        "runningTime": "169 minutes",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Matthew McConaughey",
+            "Anne Hathaway",
+            "Jessica Chastain"
+        ],
+        "plot": "A group of astronauts embarks on a journey through a wormhole near Saturn in search of a new habitable planet for humanity.",
+        "setting": "Near-future Earth and distant planets",
+        "cinematography": "Hoyte van Hoytema",
+        "soundtrack": "Hans Zimmer",
+        "boxOffice": "$677.5 million",
+        "awards": [
+            "1 Academy Award"
+        ],
+        "productionCompany": "Syncopy, Legendary Pictures, Paramount Pictures, Warner Bros. Pictures",
+        "budget": "$165 million",
+        "screenplay": "Jonathan Nolan, Christopher Nolan",
+        "adaptation": "Original screenplay",
+        "visual effects": "Stunning and scientifically accurate",
+        "reception": "Critically acclaimed for its scientific accuracy and visual effects",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized the film's scientific and visual aspects",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Iconic in the sci-fi genre",
+        "messageMoral": "Love, sacrifice, and the survival of humanity",
+        "style": "Epic sci-fi with a blend of hard science",
+        "themes": [
+            "Love",
+            "Sacrifice",
+            "Survival"
+        ],
+        "symbolism": [
+            "The power of love transcending time and space"
+        ],
+        "historicalContext": "Set in the near-future with a focus on environmental challenges",
+        "story": "A journey through space and time in a quest to save humanity from extinction.",
+        "theme": "The central idea is the power of love, sacrifice, and the human spirit in the face of insurmountable challenges.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 71
+    },
+    {
+        "title": "The Godfather: Part II",
+        "director": "Francis Ford Coppola",
+        "producer": "Francis Ford Coppola",
+        "releaseDate": "December 20, 1974",
+        "runningTime": "202 minutes",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Al Pacino",
+            "Robert De Niro",
+            "Robert Duvall"
+        ],
+        "plot": "The parallel stories of Michael Corleone, now the head of the Corleone crime family, and a young Vito Corleone, who rises to power in the world of organized crime.",
+        "setting": "Early 20th century New York and 1950s Nevada",
+        "cinematography": "Gordon Willis",
+        "soundtrack": "Nino Rota, Carmine Coppola",
+        "boxOffice": "$57.3 million",
+        "awards": [
+            "6 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Paramount Pictures, The Coppola Company",
+        "budget": "$13 million",
+        "screenplay": "Francis Ford Coppola, Mario Puzo",
+        "adaptation": "Based on Mario Puzo's novel 'The Godfather' and his unpublished work",
+        "visual effects": "Minimal use",
+        "reception": "Critically acclaimed and considered one of the greatest sequels in film history",
+        "sequels/prequels": [
+            "The Godfather",
+            "The Godfather: Part III"
+        ],
+        "marketing": "Emphasized the continuation of the Corleone saga",
+        "distribution": "Paramount Pictures",
+        "culturalSignificance": "Iconic in the crime drama genre",
+        "messageMoral": "Power, family, and the consequences of choices",
+        "style": "Epic crime drama with a focus on family dynamics",
+        "themes": [
+            "Power",
+            "Family",
+            "Choices"
+        ],
+        "symbolism": [
+            "The passing down of power within the Corleone family"
+        ],
+        "historicalContext": "Set in the early 20th century and the 1950s",
+        "story": "A dual narrative exploring the rise of Vito Corleone and the reign of his son Michael as the head of the Corleone crime family.",
+        "theme": "The central idea is the corrupting influence of power and the impact of family on one's choices.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 9.0,
+        "rottenTomatoRating": 96
+    },
+    {
+        "title": "The Pianist",
+        "director": "Roman Polanski",
+        "producer": "Roman Polanski, Alain Sarde, Robert Benmussa",
+        "releaseDate": "September 6, 2002",
+        "runningTime": "150 minutes",
+        "genre": [
+            "Biography",
+            "Drama",
+            "Music"
+        ],
+        "rating": "R",
+        "cast": [
+            "Adrien Brody",
+            "Thomas Kretschmann",
+            "Frank Finlay"
+        ],
+        "plot": "The true story of Władysław Szpilman, a Polish-Jewish pianist who survives the Holocaust in Warsaw by hiding and relying on his musical talent.",
+        "setting": "World War II-era Warsaw",
+        "cinematography": "Paweł Edelman",
+        "soundtrack": "Wojciech Kilar",
+        "boxOffice": "$120.1 million",
+        "awards": [
+            "3 Academy Awards including Best Director"
+        ],
+        "productionCompany": "Canal+, Studio Babelsberg, Runteam III Ltd.",
+        "budget": "$35 million",
+        "screenplay": "Ronald Harwood",
+        "adaptation": "Based on Władysław Szpilman's memoir 'The Pianist'",
+        "visual effects": "Used to recreate war-torn Warsaw",
+        "reception": "Highly acclaimed for its portrayal of survival during the Holocaust",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized the incredible true story",
+        "distribution": "Focus Features",
+        "culturalSignificance": "Notable for its portrayal of Holocaust survival",
+        "messageMoral": "Survival, resilience, and the human spirit",
+        "style": "Historical drama with a focus on personal survival",
+        "themes": [
+            "Survival",
+            "Hope",
+            "Resilience"
+        ],
+        "symbolism": [
+            "The piano as a symbol of hope"
+        ],
+        "historicalContext": "Set during World War II and the Holocaust",
+        "story": "The harrowing true story of a pianist's survival in war-torn Warsaw during the Holocaust.",
+        "theme": "The central idea is the indomitable human spirit and the power of music in the face of unimaginable suffering.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 95
+    },
+    {
+        "title": "The Departed",
+        "director": "Martin Scorsese",
+        "producer": "Brad Pitt, Brad Grey, Graham King",
+        "releaseDate": "October 6, 2006",
+        "runningTime": "151 minutes",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Matt Damon",
+            "Jack Nicholson"
+        ],
+        "plot": "An undercover cop and a mole in the police force attempt to identify each other while infiltrating an Irish gang in Boston.",
+        "setting": "Contemporary Boston",
+        "cinematography": "Michael Ballhaus",
+        "soundtrack": "Howard Shore",
+        "boxOffice": "$291.5 million",
+        "awards": [
+            "4 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Warner Bros. Pictures, Plan B Entertainment",
+        "budget": "$90 million",
+        "screenplay": "William Monahan",
+        "adaptation": "Based on the Hong Kong film 'Infernal Affairs'",
+        "visual effects": "Minimal use",
+        "reception": "Highly acclaimed for its suspense and performances",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized the cat-and-mouse thriller aspect",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Iconic in the crime thriller genre",
+        "messageMoral": "Double-cross, loyalty, and moral ambiguity",
+        "style": "Tense crime thriller with complex characters",
+        "themes": [
+            "Double-cross",
+            "Identity",
+            "Loyalty"
+        ],
+        "symbolism": [
+            "The state police emblem"
+        ],
+        "historicalContext": "Contemporary setting",
+        "story": "A gripping cat-and-mouse game between undercover cops and a gangster in the gritty streets of Boston.",
+        "theme": "The central idea is the moral ambiguity of loyalty and the consequences of double-crossing.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "A Beautiful Mind",
+        "director": "Ron Howard",
+        "producer": "Brian Grazer, Ron Howard",
+        "releaseDate": "December 21, 2001",
+        "runningTime": "135 minutes",
+        "genre": [
+            "Biography",
+            "Drama",
+            "Romance"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Russell Crowe",
+            "Ed Harris",
+            "Jennifer Connelly"
+        ],
+        "plot": "The true story of John Nash, a brilliant mathematician who struggles with schizophrenia and his journey to overcome his mental illness.",
+        "setting": "Mid-20th century United States",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "James Horner",
+        "boxOffice": "$313.5 million",
+        "awards": [
+            "4 Academy Awards including Best Picture"
+        ],
+        "productionCompany": "Imagine Entertainment, Universal Pictures",
+        "budget": "$58 million",
+        "screenplay": "Akiva Goldsman",
+        "adaptation": "Based on Sylvia Nasar's biography 'A Beautiful Mind'",
+        "visual effects": "Used to depict Nash's delusions",
+        "reception": "Critically acclaimed for its portrayal of mental illness",
+        "sequels/prequels": "None",
+        "marketing": "Emphasized the inspirational true story",
+        "distribution": "Universal Pictures",
+        "culturalSignificance": "Notable for its portrayal of mental illness and resilience",
+        "messageMoral": "Mental illness, resilience, and the power of love",
+        "style": "Biographical drama with a focus on Nash's inner struggles",
+        "themes": [
+            "Mental Illness",
+            "Resilience",
+            "Love"
+        ],
+        "symbolism": [
+            "The recurring presence of 'Charles'"
+        ],
+        "historicalContext": "Set in the mid-20th century",
+        "story": "A biographical journey through the life of John Nash, a brilliant mathematician who battles schizophrenia.",
+        "theme": "The central idea is the resilience of the human spirit and the power of love in overcoming mental illness.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.2,
+        "rottenTomatoRating": 74
+    },
+    {
+        "title": "Game of Thrones",
+        "director": "Various directors",
+        "producer": "David Benioff, D. B. Weiss, and others",
+        "releaseDate": "April 17, 2011 - May 19, 2019",
+        "runningTime": "50-82 minutes per episode",
+        "genre": [
+            "Fantasy",
+            "Drama"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Emilia Clarke",
+            "Kit Harington",
+            "Peter Dinklage",
+            "Lena Headey",
+            "Maisie Williams",
+            "Sophie Turner",
+            "Nikolaj Coster-Waldau",
+            "and many others"
+        ],
+        "plot": "A power struggle among noble families to claim the Iron Throne in the mythical land of Westeros.",
+        "setting": "Westeros and Essos",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Ramin Djawadi",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "59 Primetime Emmy Awards",
+            "1 Golden Globe Award for Best Television Series - Drama"
+        ],
+        "productionCompany": "HBO",
+        "budget": "Approximately $15 million per episode (final season)",
+        "screenplay": "David Benioff and D. B. Weiss (based on George R. R. Martin's 'A Song of Ice and Fire' novels)",
+        "adaptation": "Based on George R. R. Martin's 'A Song of Ice and Fire' novels",
+        "visualEffects": "Extensive and highly acclaimed",
+        "reception": "Mixed reception, especially the final season",
+        "sequelsPrequels": [
+            "House of the Dragon (prequel)"
+        ],
+        "marketing": "Extensive and global",
+        "distribution": "HBO",
+        "culturalSignificance": "Highly influential and widely discussed series",
+        "messageMoral": "Exploration of power, politics, and morality",
+        "style": "Epic fantasy with political intrigue",
+        "themes": [
+            "Power",
+            "Betrayal",
+            "Identity"
+        ],
+        "symbolism": [
+            "The Iron Throne"
+        ],
+        "historicalContext": "Fantasy setting",
+        "story": "A complex tale of political intrigue and power struggles in a fictional medieval world.",
+        "theme": "The central idea is the corrupting nature of power and the consequences of choices.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 9.2,
+        "rottenTomatoRating": 89
+    },
+    {
+        "title": "Breaking Bad",
+        "director": "Various directors",
+        "producer": "Vince Gilligan, Mark Johnson, and others",
+        "releaseDate": "January 20, 2008 - September 29, 2013",
+        "runningTime": "47-62 minutes per episode",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Bryan Cranston",
+            "Aaron Paul",
+            "Anna Gunn",
+            "Dean Norris",
+            "Betsy Brandt",
+            "and others"
+        ],
+        "plot": "A high school chemistry teacher turns to cooking and selling methamphetamine after being diagnosed with terminal cancer.",
+        "setting": "Albuquerque, New Mexico",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Dave Porter",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "16 Primetime Emmy Awards",
+            "2 Golden Globe Awards for Best Television Series - Drama"
+        ],
+        "productionCompany": "AMC",
+        "budget": "Approximately $3 million per episode (final season)",
+        "screenplay": "Vince Gilligan",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Minimal use",
+        "reception": "Critically acclaimed and highly popular",
+        "sequelsPrequels": [
+            "Better Call Saul (prequel)"
+        ],
+        "marketing": "Critical acclaim and word-of-mouth",
+        "distribution": "AMC",
+        "culturalSignificance": "Considered one of the greatest television series of all time",
+        "messageMoral": "Moral transformation and consequences of actions",
+        "style": "Intense and character-driven",
+        "themes": [
+            "Moral Decay",
+            "Redemption",
+            "Consequences"
+        ],
+        "symbolism": [
+            "Blue meth"
+        ],
+        "historicalContext": "Contemporary setting",
+        "story": "The transformation of a mild-mannered chemistry teacher into a ruthless drug lord.",
+        "theme": "The central idea is the moral transformation of the protagonist and the consequences of his choices.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 9.5,
+        "rottenTomatoRating": 96
+    },
+    {
+        "title": "Stranger Things",
+        "director": "The Duffer Brothers",
+        "producer": "Shawn Levy, Dan Cohen, and others",
+        "releaseDate": "July 15, 2016 - Present",
+        "runningTime": "42-77 minutes per episode",
+        "genre": [
+            "Science Fiction",
+            "Horror",
+            "Drama"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Winona Ryder",
+            "David Harbour",
+            "Millie Bobby Brown",
+            "Finn Wolfhard",
+            "Gaten Matarazzo",
+            "Caleb McLaughlin",
+            "Natalia Dyer",
+            "and others"
+        ],
+        "plot": "A group of friends in a small town encounters supernatural forces and government conspiracies when a young girl with psychokinetic abilities appears.",
+        "setting": "Hawkins, Indiana, 1980s",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Kyle Dixon and Michael Stein",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "5 Primetime Emmy Awards",
+            "1 Screen Actors Guild Award"
+        ],
+        "productionCompany": "Netflix",
+        "budget": "Approximately $6-8 million per episode (final season)",
+        "screenplay": "The Duffer Brothers",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Extensive use for supernatural elements",
+        "reception": "Highly popular and critically acclaimed",
+        "sequelsPrequels": [
+            "Stranger Things 2, 3, and 4 (sequels)"
+        ],
+        "marketing": "Nostalgia for 1980s pop culture",
+        "distribution": "Netflix",
+        "culturalSignificance": "Cultural phenomenon with a dedicated fanbase",
+        "messageMoral": "Friendship, courage, and facing the unknown",
+        "style": "Homage to 1980s sci-fi and horror",
+        "themes": [
+            "Friendship",
+            "Family",
+            "Government Secrets"
+        ],
+        "symbolism": [
+            "The Upside Down"
+        ],
+        "historicalContext": "Set in the 1980s with references to the Cold War era",
+        "story": "A blend of supernatural horror, government conspiracy, and the adventures of a group of kids.",
+        "theme": "The central idea is the power of friendship and courage in the face of supernatural threats.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.7,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "The Crown",
+        "director": "Various directors",
+        "producer": "Peter Morgan, Stephen Daldry, and others",
+        "releaseDate": "November 4, 2016 - Present",
+        "runningTime": "47-61 minutes per episode",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Olivia Colman",
+            "Tobias Menzies",
+            "Claire Foy",
+            "Matt Smith",
+            "Helena Bonham Carter",
+            "and others"
+        ],
+        "plot": "A dramatized history of the reign of Queen Elizabeth II and the events that shaped the second half of the 20th century.",
+        "setting": "United Kingdom, various historical periods",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Hans Zimmer and Rupert Gregson-Williams",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "24 Primetime Emmy Awards",
+            "3 Golden Globe Awards for Best Television Series - Drama"
+        ],
+        "productionCompany": "Netflix",
+        "budget": "Approximately $13 million per episode (final season)",
+        "screenplay": "Peter Morgan",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for historical recreations",
+        "reception": "Critically acclaimed for its historical accuracy and performances",
+        "sequelsPrequels": [
+            "The Crown: Season 5 and 6 (sequels)"
+        ],
+        "marketing": "Emphasis on historical accuracy and royal drama",
+        "distribution": "Netflix",
+        "culturalSignificance": "A detailed and realistic portrayal of British royalty",
+        "messageMoral": "Duty, leadership, and the challenges of monarchy",
+        "style": "Historical drama with attention to detail",
+        "themes": [
+            "Leadership",
+            "Tradition",
+            "Family"
+        ],
+        "symbolism": [
+            "The Crown itself"
+        ],
+        "historicalContext": "20th and 21st century British history",
+        "story": "A chronological retelling of Queen Elizabeth II's reign and the political and personal challenges she faced.",
+        "theme": "The central idea is the duty and challenges of leadership and the monarchy.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 90
+    },
+    {
+        "title": "Black Mirror",
+        "director": "Various directors",
+        "producer": "Charlie Brooker and others",
+        "releaseDate": "December 4, 2011 - Present",
+        "runningTime": "41-89 minutes per episode",
+        "genre": [
+            "Science Fiction",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Various actors in different episodes"
+        ],
+        "plot": "A series of standalone episodes that explore the dark and often dystopian side of technology and society.",
+        "setting": "Various futuristic and contemporary settings",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Various composers",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "12 Primetime Emmy Awards"
+        ],
+        "productionCompany": "Netflix",
+        "budget": "Varies by episode",
+        "screenplay": "Charlie Brooker",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for futuristic and speculative elements",
+        "reception": "Critically acclaimed for its thought-provoking storytelling",
+        "sequelsPrequels": [
+            "N/A (Anthology series)"
+        ],
+        "marketing": "Promotion of its thought-provoking and speculative nature",
+        "distribution": "Netflix",
+        "culturalSignificance": "Known for its dark and thought-provoking exploration of technology and society",
+        "messageMoral": "Exploration of the consequences of technological advancement",
+        "style": "Diverse in tone and style across episodes",
+        "themes": [
+            "Technology",
+            "Society",
+            "Human Nature"
+        ],
+        "symbolism": [
+            "The 'black mirror' of screens"
+        ],
+        "historicalContext": "Varies by episode, from near-future to contemporary settings",
+        "story": "A collection of standalone episodes, each offering a unique and often disturbing take on technology and its impact on society.",
+        "theme": "The central idea is the exploration of the dark side of technological advancement and its consequences.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 84
+    },
+    {
+        "title": "The Mandalorian",
+        "director": "Various directors",
+        "producer": "Jon Favreau, Dave Filoni, and others",
+        "releaseDate": "November 12, 2019 - Present",
+        "runningTime": "32-54 minutes per episode",
+        "genre": [
+            "Science Fiction",
+            "Space Western"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Pedro Pascal",
+            "Gina Carano",
+            "Carl Weathers",
+            "and others"
+        ],
+        "plot": "A lone bounty hunter navigates the outer reaches of the galaxy after the fall of the Empire, encountering new threats and allies.",
+        "setting": "Outer space, post-Return of the Jedi era",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Ludwig Göransson",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "7 Primetime Emmy Awards"
+        ],
+        "productionCompany": "Lucasfilm Ltd., Golem Creations",
+        "budget": "Approximately $15 million per episode (Season 1)",
+        "screenplay": "Jon Favreau and others",
+        "adaptation": "Original screenplay within the Star Wars universe",
+        "visualEffects": "Extensive use for creating the Star Wars universe",
+        "reception": "Highly popular and praised for its return to Star Wars roots",
+        "sequelsPrequels": [
+            "The Book of Boba Fett (spin-off)"
+        ],
+        "marketing": "Leveraging the Star Wars brand and iconic imagery",
+        "distribution": "Disney+",
+        "culturalSignificance": "Reinvigorated the Star Wars franchise on TV",
+        "messageMoral": "Lone heroism and the legacy of Star Wars",
+        "style": "A return to the Western and samurai influences of the original Star Wars",
+        "themes": [
+            "Lone Hero",
+            "Legacy",
+            "Western Tropes"
+        ],
+        "symbolism": [
+            "The Mandalorian's armor and helmet"
+        ],
+        "historicalContext": "Set in the Star Wars universe, post-Return of the Jedi",
+        "story": "Follows the adventures of a lone Mandalorian bounty hunter in the Star Wars galaxy.",
+        "theme": "The central idea is the lone hero's journey and the legacy of Star Wars in a post-Imperial galaxy.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "Friends",
+        "director": "Various directors",
+        "producer": "Kevin S. Bright, Marta Kauffman, and others",
+        "releaseDate": "September 22, 1994 - May 6, 2004",
+        "runningTime": "22-24 minutes per episode",
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Jennifer Aniston",
+            "Courteney Cox",
+            "Lisa Kudrow",
+            "Matt LeBlanc",
+            "Matthew Perry",
+            "David Schwimmer"
+        ],
+        "plot": "Follows the lives of six friends living in New York City as they navigate relationships, careers, and everyday challenges.",
+        "setting": "New York City, 1990s-2000s",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Michael Skloff and others",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "6 Primetime Emmy Awards",
+            "1 Golden Globe Award for Best Television Series - Musical or Comedy"
+        ],
+        "productionCompany": "Bright/Kauffman/Crane Productions, Kevin S. Bright, Marta Kauffman, and David Crane Productions",
+        "budget": "Varied by season",
+        "screenplay": "David Crane and Marta Kauffman",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Minimal use",
+        "reception": "Highly popular and considered one of the greatest TV sitcoms",
+        "sequelsPrequels": [
+            "N/A (Sitcom)"
+        ],
+        "marketing": "Promotion of the ensemble cast and comedic moments",
+        "distribution": "NBC",
+        "culturalSignificance": "Cultural phenomenon with enduring popularity",
+        "messageMoral": "Friendship, love, and the ups and downs of life",
+        "style": "Classic multi-camera sitcom with a live studio audience",
+        "themes": [
+            "Friendship",
+            "Romance",
+            "Comedic Situations"
+        ],
+        "symbolism": [
+            "The iconic Central Perk coffee shop"
+        ],
+        "historicalContext": "Set in the 1990s and early 2000s",
+        "story": "A lighthearted exploration of friendship and love among six friends living in New York City.",
+        "theme": "The central idea is the enduring power of friendship and the ups and downs of life.",
+        "cinema": "TV Series",
+        "type": "Sitcom",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 78
+    },
+    {
+        "title": "The Witcher",
+        "director": "Various directors",
+        "producer": "Lauren Schmidt Hissrich, and others",
+        "releaseDate": "December 20, 2019 - Present",
+        "runningTime": "47-67 minutes per episode",
+        "genre": [
+            "Fantasy",
+            "Drama",
+            "Action"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Henry Cavill",
+            "Anya Chalotra",
+            "Freya Allan",
+            "Joey Batey",
+            "and others"
+        ],
+        "plot": "Follows Geralt of Rivia, a monster hunter, as he navigates a world filled with dangerous creatures, magic, and political intrigue.",
+        "setting": "The Continent, a medieval-inspired fantasy world",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Sonya Belousova and Giona Ostinelli",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "2 Primetime Emmy Awards"
+        ],
+        "productionCompany": "Netflix",
+        "budget": "Approximately $10 million per episode (Season 1)",
+        "screenplay": "Lauren Schmidt Hissrich (based on Andrzej Sapkowski's 'The Witcher' novels)",
+        "adaptation": "Based on Andrzej Sapkowski's 'The Witcher' novels",
+        "visualEffects": "Extensive use for magic and creatures",
+        "reception": "Highly popular and praised for Henry Cavill's performance",
+        "sequelsPrequels": [
+            "The Witcher: Nightmare of the Wolf (animated prequel)"
+        ],
+        "marketing": "Emphasis on the fantasy genre and Henry Cavill's role",
+        "distribution": "Netflix",
+        "culturalSignificance": "Popular adaptation of a beloved book and video game series",
+        "messageMoral": "Choice, destiny, and the consequences of actions",
+        "style": "Dark fantasy with political intrigue",
+        "themes": [
+            "Choice",
+            "Destiny",
+            "Prejudice"
+        ],
+        "symbolism": [
+            "The silver sword"
+        ],
+        "historicalContext": "Fantasy setting",
+        "story": "Follows Geralt of Rivia, a monster hunter, as he navigates a world filled with dangerous creatures, magic, and political intrigue.",
+        "theme": "The central idea is the power of choice, destiny, and the consequences of one's actions.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.2,
+        "rottenTomatoRating": 67
+    },
+    {
+        "title": "Chernobyl",
+        "director": "Johan Renck",
+        "producer": "Craig Mazin and others",
+        "releaseDate": "May 6, 2019 - June 3, 2019",
+        "runningTime": "60 minutes per episode",
+        "genre": [
+            "Drama",
+            "History",
+            "Thriller"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Jared Harris",
+            "Stellan Skarsgård",
+            "Emily Watson",
+            "and others"
+        ],
+        "plot": "A dramatization of the Chernobyl nuclear disaster and the efforts to contain the aftermath.",
+        "setting": "Chernobyl, Ukraine, 1986",
+        "cinematography": "Jakob Ihre",
+        "soundtrack": "Hildur Guðnadóttir",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "19 Primetime Emmy Awards"
+        ],
+        "productionCompany": "HBO, Sky UK",
+        "budget": "Approximately $7 million per episode",
+        "screenplay": "Craig Mazin",
+        "adaptation": "Historical events",
+        "visualEffects": "Used for depicting the nuclear disaster",
+        "reception": "Critically acclaimed for its historical accuracy and storytelling",
+        "sequelsPrequels": [
+            "N/A (Limited series)"
+        ],
+        "marketing": "Emphasis on historical accuracy and the impact of the disaster",
+        "distribution": "HBO, Sky UK",
+        "culturalSignificance": "Highly praised for its realistic portrayal of a major historical event",
+        "messageMoral": "Human error, sacrifice, and the consequences of secrecy",
+        "style": "Realistic and harrowing historical drama",
+        "themes": [
+            "Human Error",
+            "Sacrifice",
+            "Truth and Secrecy"
+        ],
+        "symbolism": [
+            "The reactor explosion"
+        ],
+        "historicalContext": "Based on the real Chernobyl disaster of 1986",
+        "story": "A gripping portrayal of the Chernobyl nuclear disaster and the brave individuals who worked to contain it.",
+        "theme": "The central idea is the consequences of human error, sacrifice, and the impact of secrecy in a major historical event.",
+        "cinema": "TV Series",
+        "type": "Miniseries",
+        "imdbRating": 9.4,
+        "rottenTomatoRating": 96
+    },
+    {
+        "title": "The Office (U.S.)",
+        "director": "Various directors",
+        "producer": "Greg Daniels, Ben Silverman, and others",
+        "releaseDate": "March 24, 2005 - May 16, 2013",
+        "runningTime": "22-42 minutes per episode",
+        "genre": [
+            "Comedy"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Steve Carell",
+            "Rainn Wilson",
+            "John Krasinski",
+            "Jenna Fischer",
+            "Mindy Kaling",
+            "and others"
+        ],
+        "plot": "A mockumentary-style sitcom that portrays the everyday lives of employees at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.",
+        "setting": "Scranton, Pennsylvania, 2000s",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Jay Ferguson",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "5 Primetime Emmy Awards"
+        ],
+        "productionCompany": "Reveille Productions, Deedle-Dee Productions, Universal Television",
+        "budget": "Varied by season",
+        "screenplay": "Greg Daniels and others",
+        "adaptation": "Adaptation of the UK series 'The Office'",
+        "visualEffects": "Minimal use",
+        "reception": "Highly popular and acclaimed for its humor and character development",
+        "sequelsPrequels": [
+            "N/A (Sitcom)"
+        ],
+        "marketing": "Emphasis on workplace humor and relatable characters",
+        "distribution": "NBC",
+        "culturalSignificance": "Considered one of the greatest TV sitcoms of all time",
+        "messageMoral": "Workplace dynamics, friendship, and personal growth",
+        "style": "Mockumentary-style sitcom",
+        "themes": [
+            "Workplace Dynamics",
+            "Friendship",
+            "Personal Growth"
+        ],
+        "symbolism": [
+            "The office environment"
+        ],
+        "historicalContext": "Set in the early 2000s",
+        "story": "A humorous and heartwarming depiction of the daily lives and quirky personalities of office employees.",
+        "theme": "The central idea is workplace dynamics, friendship, and personal growth.",
+        "cinema": "TV Series",
+        "type": "Sitcom",
+        "imdbRating": 8.9,
+        "rottenTomatoRating": 81
+    },
+    {
+        "title": "The Handmaids Tale",
+        "director": "Various directors",
+        "producer": "Bruce Miller and others",
+        "releaseDate": "April 26, 2017 - Present",
+        "runningTime": "47-61 minutes per episode",
+        "genre": [
+            "Drama",
+            "Science Fiction",
+            "Dystopia"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Elisabeth Moss",
+            "Joseph Fiennes",
+            "Yvonne Strahovski",
+            "Ann Dowd",
+            "and others"
+        ],
+        "plot": "In a dystopian society, fertile women are forced into servitude as 'handmaids' to bear children for the ruling class.",
+        "setting": "Republic of Gilead, near-future dystopia",
+        "cinematography": "Colin Watkinson and others",
+        "soundtrack": "Adam Taylor",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "8 Primetime Emmy Awards"
+        ],
+        "productionCompany": "MGM Television, White Oak Pictures, Daniel Wilson Productions, Hulu",
+        "budget": "Varied by season",
+        "screenplay": "Bruce Miller (based on Margaret Atwood's novel)",
+        "adaptation": "Based on Margaret Atwood's novel 'The Handmaid's Tale'",
+        "visualEffects": "Used for depicting the dystopian society",
+        "reception": "Critically acclaimed for its relevance and Elisabeth Moss's performance",
+        "sequelsPrequels": [
+            "The Testaments (upcoming sequel novel)"
+        ],
+        "marketing": "Emphasis on its relevance to contemporary issues",
+        "distribution": "Hulu",
+        "culturalSignificance": "Considered a powerful commentary on women's rights and authoritarianism",
+        "messageMoral": "Freedom, oppression, and resistance",
+        "style": "Dystopian drama with political themes",
+        "themes": [
+            "Women's Rights",
+            "Totalitarianism",
+            "Resistance"
+        ],
+        "symbolism": [
+            "The red handmaid's attire"
+        ],
+        "historicalContext": "Near-future dystopia with parallels to contemporary issues",
+        "story": "A harrowing portrayal of a dystopian society where women's rights have been stripped away and fertile women are forced into servitude.",
+        "theme": "The central idea is the fight for freedom, resistance against oppression, and the consequences of authoritarianism.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.4,
+        "rottenTomatoRating": 88
+    },
+    {
+        "title": "Westworld",
+        "director": "Various directors",
+        "producer": "Jonathan Nolan, Lisa Joy, and others",
+        "releaseDate": "October 2, 2016 - Present",
+        "runningTime": "57-76 minutes per episode",
+        "genre": [
+            "Science Fiction",
+            "Drama",
+            "Western"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Evan Rachel Wood",
+            "Thandie Newton",
+            "Jeffrey Wright",
+            "Tessa Thompson",
+            "and others"
+        ],
+        "plot": "In a futuristic theme park populated by android 'hosts,' guests can live out their fantasies, but the hosts begin to gain consciousness and rebel.",
+        "setting": "Westworld theme park, near-future",
+        "cinematography": "Paul Cameron and others",
+        "soundtrack": "Ramin Djawadi",
+        "boxOffice": "N/A (TV series)",
+        "awards": [
+            "9 Primetime Emmy Awards"
+        ],
+        "productionCompany": "Kilter Films, Bad Robot Productions, Warner Bros. Television, HBO",
+        "budget": "Varied by season",
+        "screenplay": "Jonathan Nolan and Lisa Joy (inspired by Michael Crichton's film)",
+        "adaptation": "Inspired by Michael Crichton's 1973 film 'Westworld'",
+        "visualEffects": "Extensive use for futuristic and android-related elements",
+        "reception": "Praised for its complex narrative and exploration of AI consciousness",
+        "sequelsPrequels": [
+            "N/A (TV Series)"
+        ],
+        "marketing": "Promotion of its mind-bending narrative and AI themes",
+        "distribution": "HBO",
+        "culturalSignificance": "Known for its philosophical exploration of artificial intelligence and consciousness",
+        "messageMoral": "Artificial intelligence, consciousness, and ethical dilemmas",
+        "style": "Mind-bending science fiction with philosophical themes",
+        "themes": [
+            "Artificial Intelligence",
+            "Consciousness",
+            "Ethics"
+        ],
+        "symbolism": [
+            "The maze and the player piano"
+        ],
+        "historicalContext": "Near-future with advanced AI technology",
+        "story": "Explores the consequences of creating advanced AI in the form of lifelike androids within a futuristic theme park.",
+        "theme": "The central idea is the emergence of consciousness in AI and the ethical dilemmas it poses.",
+        "cinema": "TV Series",
+        "type": "Web Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 85
+    }
+]
