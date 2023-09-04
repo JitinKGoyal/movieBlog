@@ -95,7 +95,34 @@ a:link {
     line-height: 14px;
 }
 
-.filter_input input:focus-visible{
+.filter_input input:focus-visible {
     outline: none;
     border: none;
+}
+
+.movie_detail_prt {
+    /* display: flex; */
+    background-color: #020c16;
+    border-radius: 7px;
+    height: 100%;
+}
+
+.key {
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: rgb(234, 234, 234);
+    width: fit-content;
+    font-size: 14px;
+}
+
+.movie_detail_prt .value {
+    padding: 10px 0px;
+    border-radius: 4px;
+    color: #f8f9fa
+        /* background-color: #0c1825; */
+}
+
+.movie_detail_prt .value span {
+    cursor: auto !important;
+    white-space: normal !important;
 }

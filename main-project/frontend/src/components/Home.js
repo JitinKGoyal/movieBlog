@@ -10,11 +10,9 @@ function Home() {
 
     const [allMovies, setAllMovies] = useState([])
     const [movies, setMovies] = useState([])
-    const [finalMovie, setFinalMovie] = useState([])
     const [value, setValue] = useState("")
-    const [cinema, setCinema] = useState("hollywood")
-    const [category, setCategory] = useState("movie")
-    const [preSearchValue, setPreSearchValue] = useState("")
+    const [cinema, setCinema] = useState("Hollywood")
+    const [category, setCategory] = useState("Movie")
 
     const breakPointObj = {
         default: 4,
@@ -51,7 +49,7 @@ function Home() {
     const handleFilter = () => {
 
         let arr = allMovies.filter(e => {
-            return JSON.parse(e.detail).category == category && JSON.parse(e.detail).cinema == cinema
+            return JSON.parse(e.data)?.type === category && JSON.parse(e.data)?.cinema === cinema
         })
 
         setMovies(arr)

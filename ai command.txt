@@ -1,37 +1,39 @@
-give me fully detailed array of json about hollywood movies with following points using headings
+give me fully detailed array of json about movies and webseries with following points using headings
 
+1.	title: 
+2.	director: 
+3.	producer:
+4.	release date:
+5.	running time:
+6.	genre: 
+7.	rating:
+8.	cast: 
+9.	plot: 
+10.	setting:
+11.	cinematography
+12.	soundtrack
+13.	boxOffice
+14.	awards
+15.	productionCompany
+16.	budget
+17.	screenplay
+18.	adaptation
+19.	visual effects
+20.	reception
+21.	sequels/prequels
+22.	marketing
+23.	distribution
+24.	culturalSignificance
+25.	messageMoral
+26.	style
+27.	themes
+28.	symbolism
+29.	historicalContext
+30. story
+31. theme: The central idea or message of the movie.
+32. cinema: whether it is hollywood or bollywood or any other.
+33. type:  whether it is movie or webseries
+34. imdbRating
+35. rottenTomatoRating
 
-1.	Title: 
-2.	Director: 
-3.	Producer:
-4.	Release date:
-5.	Running time:
-6.	Genre: 
-7.	Rating:
-8.	Cast: 
-9.	Plot: 
-10.	Setting:
-11.	Cinematography
-12.	Soundtrack
-13.	Box office
-14.	Awards
-15.	Production company
-16.	Budget
-17.	Screenplay
-18.	Adaptation
-19.	Visual effects
-20.	Reception
-21.	Sequels/prequels
-22.	Marketing
-23.	Distribution
-24.	Cultural significance
-25.	Message or moral
-26.	Style
-27.	Themes
-28.	Symbolism
-29.	Historical context
-30.     Story
-31.  	Theme: The central idea or message of the movie.
-
-
-scribly, web scrapping
+and give atleast 10 movie.

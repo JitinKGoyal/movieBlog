@@ -22,14 +22,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        {/* <Route path='/events' element={<Events />} /> */}
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/top-Movies' element={<TopMovies />} />
-        {/* <Route path='/schedule' element={<Schedule />} /> */}
         <Route path='/quote' element={<Quote />} />
-        {/* <Route path='/faq' element={<Faq />} /> */}
         <Route path='/contact' element={<Contact />} />
         <Route path='/movie-detail' element={<MovieDetails />} />
+        {/* <Route path='/events' element={<Events />} /> */}
+        {/* <Route path='/faq' element={<Faq />} /> */}
+        {/* <Route path='/schedule' element={<Schedule />} /> */}
       </Routes>
 
       <Footer />

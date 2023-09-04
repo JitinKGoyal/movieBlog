@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { baseUrl } from '../config';
 import { decodeBinaryImage } from '../utils/decodeBinaryCode';
+import { capitalize } from './../utils/capitaliza';
+import { chooseColor } from '../utils/keyColors';
 
 function MovieDetails() {
     const [image, setImage] = useState()
@@ -17,6 +19,10 @@ function MovieDetails() {
                     setImage(decodeBinaryImage(data[0]?.image?.data))
                     setImageLoader(false)
                 }
+            }).catch(err => {
+                console.log('error in getting image for movie Id:' + movie.id, err)
+                setImage('https://i.pinimg.com/originals/d1/e3/f9/d1e3f96c4d6fed8cd48ef9693da53bda.jpg')
+                setImageLoader(false)
             })
     }
 
@@ -39,6 +45,8 @@ function MovieDetails() {
         document.title = movie.title
 
     }, [])
+
+    chooseColor()
 
     return (
         <>
@@ -74,23 +82,25 @@ function MovieDetails() {
                                     <li>
                                         <div className='d-flex align-items-center'>
                                             <img src="assets/img/imdb.png" height="50" alt="imdb" />
-                                            <p className='ml-2 mb-0 h5'>{JSON.parse(movie.detail).imdb}/10</p>
+                                            <p className='ml-2 mb-0 h5'>{JSON.parse(movie.data).imdbRating}/10</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className='d-flex align-items-center'>
                                             <img src="assets/img/tommato.png" height="30" alt="imdb" />
-                                            <p className='ml-2 mb-0 h5'>{JSON.parse(movie.detail).tommato}/10</p>
+                                            <p className='ml-2 mb-0 h5'>{JSON.parse(movie.data).rottenTomatoRating}/100</p>
                                         </div>
                                     </li>
                                     <li className='mt-3'>
-                                        <p className='h6 mb-0'> <b> Running time: </b> {JSON.parse(movie.detail).runningTime}</p>
+                                        {/* <div className='key shadow' style={{ background: chooseColor() }} >{capitalize(key)} </div> */}
+
+                                        <p className='h6 mb-0'> <span className='key shadow mr-3' style={{ background: chooseColor() }}> Running time </span> {JSON.parse(movie.data).runningTime}</p>
                                     </li>
                                     <li>
-                                        <p className='h6 mb-0 text-capitalize'> <b> Genre: </b> {JSON.parse(movie.detail).genre}</p>
+                                        <p className='h6 mb-0 text-capitalize'> <span className='key shadow mr-3' style={{ background: chooseColor() }}> Genre </span> {JSON.parse(movie.data).genre}</p>
                                     </li>
                                     <li>
-                                        <p className='h6'> <b> Release date: </b> {JSON.parse(movie.detail).releaseDate} <span className='text-secondary'> (yyyy-MM-dd) </span></p>
+                                        <p className='h6'> <span className='key shadow mr-3' style={{ background: chooseColor() }}  > Release date </span> {JSON.parse(movie.data).releaseDate}</p>
                                     </li>
                                     {/* <li>
                                                 <p className='h6'> <b> data: </b> { <div dangerouslySetInnerHTML={{ __html: description }}></div>}</p>
@@ -99,7 +109,7 @@ function MovieDetails() {
                                 </ul>
                                 <div className="meta-info mt-4">
                                     <span className="eventor-name">Director</span>
-                                    <span className="location text-capitalize">{JSON.parse(movie.detail).director}</span>
+                                    <span className="location text-capitalize">{JSON.parse(movie.data).director}</span>
                                 </div>
                             </div>
                         </div>
@@ -112,7 +122,29 @@ function MovieDetails() {
                             <div className='part-text'>
 
                                 <h3 className='text-capitalize'>{movie.title}</h3>
-                                <div dangerouslySetInnerHTML={{ __html: movie.description }} />
+                                {/* <div dangerouslySetInnerHTML={{ __html: movie.description }} /> */}
+
+                                <div className='row'>
+
+                                    {
+                                        Object.entries(JSON?.parse(movie?.data)).map(([key, value], i) => {
+                                            return key !== 'title' && (
+                                                <div key={i} className='col-md-6 p-2'>
+                                                    <div className='movie_detail_prt p-3'>
+                                                        <div className='key shadow' style={{ background: chooseColor() }} >{capitalize(key)} </div>
+                                                        <div className='value'>
+                                                            {Array.isArray(value) ? value.map((e, index) => {
+                                                                return <span key={index} className='btn btn-sm btn-outline-light m-1'>{e}</span>
+                                                            }) :
+                                                                value
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
                             </div>
 
                         </div>
