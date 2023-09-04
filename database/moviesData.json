@@ -2374,5 +2374,1191 @@
         "type": "Movie",
         "imdbRating": 8.7,
         "rottenTomatoRating": 95
+    },
+    {
+        "title": "Se7en",
+        "director": "David Fincher",
+        "producer": "Arnold Kopelson, Phyllis Carlyle",
+        "releaseDate": "September 22, 1995",
+        "runningTime": "127 minutes",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": "R",
+        "cast": [
+            "Brad Pitt",
+            "Morgan Freeman",
+            "Kevin Spacey",
+            "Gwyneth Paltrow",
+            "and others"
+        ],
+        "plot": "Two detectives, one nearing retirement, track down a serial killer who uses the seven deadly sins as motives for his murders.",
+        "setting": "1990s, an unnamed city",
+        "cinematography": "Darius Khondji",
+        "soundtrack": "Howard Shore",
+        "boxOffice": "$327.3 million",
+        "awards": [
+            "1 Academy Award nomination"
+        ],
+        "productionCompany": "New Line Cinema, Juno Pix",
+        "budget": "$33 million",
+        "screenplay": "Andrew Kevin Walker",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific visual elements and crime scenes",
+        "reception": "Critically acclaimed for its dark and suspenseful atmosphere",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the psychological thriller aspect and the hunt for the serial killer",
+        "distribution": "New Line Cinema",
+        "culturalSignificance": "Influential in the crime thriller genre",
+        "messageMoral": "The nature of evil and the consequences of sin",
+        "style": "Psychological crime thriller",
+        "themes": [
+            "Serial Killers",
+            "Moral Decay",
+            "Detective Work"
+        ],
+        "symbolism": [
+            "The seven deadly sins",
+            "Biblical references"
+        ],
+        "historicalContext": "Set in the 1990s, a period marked by crime and urban decay in some cities",
+        "story": "Two detectives are tasked with tracking down a serial killer who uses the seven deadly sins as motives for his gruesome murders.",
+        "theme": "The central idea is the nature of evil and the consequences of sin.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 81
+    },
+    {
+        "title": "The Dark Knight Rises",
+        "director": "Christopher Nolan",
+        "producer": "Christopher Nolan, Emma Thomas, Charles Roven",
+        "releaseDate": "July 20, 2012",
+        "runningTime": "164 minutes",
+        "genre": [
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Christian Bale",
+            "Tom Hardy",
+            "Anne Hathaway",
+            "Gary Oldman",
+            "and others"
+        ],
+        "plot": "Eight years after the events of 'The Dark Knight,' Batman returns to stop a new terrorist leader, Bane, who threatens Gotham City.",
+        "setting": "Gotham City",
+        "cinematography": "Wally Pfister",
+        "soundtrack": "Hans Zimmer",
+        "boxOffice": "$1.081 billion",
+        "awards": [
+            "2 Academy Awards"
+        ],
+        "productionCompany": "Syncopy, Legendary Pictures, Warner Bros. Pictures",
+        "budget": "$230 million",
+        "screenplay": "Jonathan Nolan, Christopher Nolan",
+        "adaptation": "Based on characters created by Bob Kane",
+        "visualEffects": "Extensive use for action sequences and visual spectacle",
+        "reception": "Critical and commercial success, concluding the 'Dark Knight' trilogy",
+        "sequelsPrequels": [
+            "Part of 'The Dark Knight Trilogy'"
+        ],
+        "marketing": "Emphasis on the epic conclusion of the Batman trilogy and the clash with Bane",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "One of the most anticipated and successful superhero films of its time",
+        "messageMoral": "Heroism, sacrifice, and the consequences of choices",
+        "style": "Superhero action thriller",
+        "themes": [
+            "Heroism",
+            "Sacrifice",
+            "Chaos vs. Order"
+        ],
+        "symbolism": [
+            "Batman as a symbol of hope"
+        ],
+        "historicalContext": "N/A (Fictional setting)",
+        "story": "The final installment of Christopher Nolan's 'Dark Knight' trilogy, where Batman faces a new threat in the form of Bane, who aims to bring chaos to Gotham City.",
+        "theme": "The central idea is heroism, sacrifice, and the consequences of choices.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.4,
+        "rottenTomatoRating": 87
+    },
+    {
+        "title": "Casino",
+        "director": "Martin Scorsese",
+        "producer": "Barbara De Fina, Nicholas Pileggi",
+        "releaseDate": "November 22, 1995",
+        "runningTime": "178 minutes",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Robert De Niro",
+            "Sharon Stone",
+            "Joe Pesci",
+            "James Woods",
+            "and others"
+        ],
+        "plot": "A casino boss and his wife's tumultuous relationship leads to violence and chaos in the world of organized crime.",
+        "setting": "1970s-1980s, Las Vegas",
+        "cinematography": "Robert Richardson",
+        "soundtrack": "Various artists",
+        "boxOffice": "$116.1 million",
+        "awards": [
+            "1 Academy Award nomination"
+        ],
+        "productionCompany": "Universal Pictures, Syalis DA, Légende Entreprises",
+        "budget": "$52 million",
+        "screenplay": "Martin Scorsese, Nicholas Pileggi",
+        "adaptation": "Based on the book 'Casino: Love and Honor in Las Vegas' by Nicholas Pileggi",
+        "visualEffects": "Used for period details and casino sequences",
+        "reception": "Critically acclaimed for its performances and portrayal of the Las Vegas casino scene",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the glamorous and dangerous world of Las Vegas casinos",
+        "distribution": "Universal Pictures",
+        "culturalSignificance": "A classic in the crime genre, known for its portrayal of organized crime in Las Vegas",
+        "messageMoral": "Greed, power, and the destructive nature of ambition",
+        "style": "Crime drama with a focus on character relationships",
+        "themes": [
+            "Greed",
+            "Power",
+            "Ambition"
+        ],
+        "symbolism": [
+            "The casino as a symbol of wealth and corruption"
+        ],
+        "historicalContext": "Set in the 1970s and 1980s, a period of growth and excess in Las Vegas",
+        "story": "The film explores the tumultuous relationship between a casino boss, his wife, and his childhood friend, set against the backdrop of the Las Vegas casino scene.",
+        "theme": "The central idea is greed, power, and the destructive nature of ambition.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.2,
+        "rottenTomatoRating": 80
+    },
+    {
+        "title": "American Beauty",
+        "director": "Sam Mendes",
+        "producer": "Bruce Cohen, Dan Jinks",
+        "releaseDate": "October 1, 1999",
+        "runningTime": "122 minutes",
+        "genre": [
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Kevin Spacey",
+            "Annette Bening",
+            "Thora Birch",
+            "Wes Bentley",
+            "and others"
+        ],
+        "plot": "A middle-aged man's midlife crisis leads to dramatic changes in his suburban life and relationships.",
+        "setting": "1990s, suburban America",
+        "cinematography": "Conrad L. Hall",
+        "soundtrack": "Thomas Newman",
+        "boxOffice": "$356.3 million",
+        "awards": [
+            "5 Academy Awards"
+        ],
+        "productionCompany": "DreamWorks Pictures, Jinks/Cohen Company",
+        "budget": "$15 million",
+        "screenplay": "Alan Ball",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific visual elements and dream sequences",
+        "reception": "Highly acclaimed for its exploration of suburban discontent",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the darkly comedic and thought-provoking nature of suburban life",
+        "distribution": "DreamWorks Pictures",
+        "culturalSignificance": "A cultural touchstone for its portrayal of suburban disillusionment",
+        "messageMoral": "Suburban discontent, beauty in the mundane, and the pursuit of happiness",
+        "style": "Dramedy with a satirical edge",
+        "themes": [
+            "Suburban Discontent",
+            "Beauty",
+            "Pursuit of Happiness"
+        ],
+        "symbolism": [
+            "Roses as symbols of beauty and desire"
+        ],
+        "historicalContext": "Set in the late 1990s, a period marked by materialism and suburbanization",
+        "story": "The film delves into the life of a middle-aged man who becomes infatuated with his daughter's friend, sparking a series of events that challenge societal norms in suburban America.",
+        "theme": "The central idea is suburban discontent, beauty in the mundane, and the pursuit of happiness.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.3,
+        "rottenTomatoRating": 88
+    },
+    {
+        "title": "No Country for Old Men",
+        "director": "Joel and Ethan Coen",
+        "producer": "Scott Rudin, Joel and Ethan Coen",
+        "releaseDate": "November 21, 2007",
+        "runningTime": "122 minutes",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Tommy Lee Jones",
+            "Javier Bardem",
+            "Josh Brolin",
+            "Woody Harrelson",
+            "and others"
+        ],
+        "plot": "A hunter stumbles upon a drug deal gone wrong, leading to a deadly pursuit by a relentless hitman.",
+        "setting": "1980s, Texas",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "Carter Burwell",
+        "boxOffice": "$171.6 million",
+        "awards": [
+            "4 Academy Awards"
+        ],
+        "productionCompany": "Miramax Films, Paramount Vantage, Scott Rudin Productions",
+        "budget": "$25 million",
+        "screenplay": "Joel and Ethan Coen (based on Cormac McCarthy's novel)",
+        "adaptation": "Based on Cormac McCarthy's novel",
+        "visualEffects": "Used for specific visual elements and tense sequences",
+        "reception": "Highly acclaimed for its suspense and portrayal of moral ambiguity",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the cat-and-mouse game between the hunter and hitman",
+        "distribution": "Miramax Films, Paramount Vantage",
+        "culturalSignificance": "A modern classic known for its tension and moral themes",
+        "messageMoral": "Moral ambiguity, fate, and the consequences of choices",
+        "style": "Crime thriller with elements of suspense",
+        "themes": [
+            "Moral Ambiguity",
+            "Fate",
+            "Choices"
+        ],
+        "symbolism": [
+            "The coin toss as a symbol of fate and chance"
+        ],
+        "historicalContext": "Set in the 1980s, a period marked by drug-related violence in Texas",
+        "story": "The film follows a hunter who stumbles upon a drug deal gone wrong and the deadly pursuit that ensues, led by a relentless hitman.",
+        "theme": "The central idea is moral ambiguity, fate, and the consequences of choices.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "Jurassic Park",
+        "director": "Steven Spielberg",
+        "producer": "Kathleen Kennedy, Gerald R. Molen",
+        "releaseDate": "June 11, 1993",
+        "runningTime": "127 minutes",
+        "genre": [
+            "Adventure",
+            "Science Fiction",
+            "Action"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Sam Neill",
+            "Laura Dern",
+            "Jeff Goldblum",
+            "Richard Attenborough",
+            "and others"
+        ],
+        "plot": "A group of scientists and tourists must survive when cloned dinosaurs escape from a theme park.",
+        "setting": "1990s, Isla Nublar (fictional island)",
+        "cinematography": "Dean Cundey",
+        "soundtrack": "John Williams",
+        "boxOffice": "$1.033 billion",
+        "awards": [
+            "3 Academy Awards"
+        ],
+        "productionCompany": "Amblin Entertainment, Universal Pictures",
+        "budget": "$63 million",
+        "screenplay": "Michael Crichton, David Koepp (based on Michael Crichton's novel)",
+        "adaptation": "Based on Michael Crichton's novel",
+        "visualEffects": "Revolutionary use of CGI for realistic dinosaurs",
+        "reception": "Enormous critical and commercial success, known for its groundbreaking visual effects",
+        "sequelsPrequels": [
+            "Several sequels and prequels in the 'Jurassic Park' franchise"
+        ],
+        "marketing": "Emphasis on the awe-inspiring and terrifying dinosaurs",
+        "distribution": "Universal Pictures",
+        "culturalSignificance": "A milestone in visual effects and a beloved sci-fi adventure film",
+        "messageMoral": "Ethical questions about genetic engineering and the consequences of playing with nature",
+        "style": "Sci-fi adventure with a sense of wonder and suspense",
+        "themes": [
+            "Ethical Questions",
+            "Nature's Power",
+            "Survival"
+        ],
+        "symbolism": [
+            "Dinosaurs as symbols of awe and danger"
+        ],
+        "historicalContext": "N/A (Fictional island)",
+        "story": "A group of scientists and tourists visit a theme park featuring cloned dinosaurs, but their visit turns into a fight for survival when the dinosaurs escape.",
+        "theme": "The central idea is ethical questions about genetic engineering and the consequences of playing with nature.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "The Wire",
+        "director": "N/A (TV Series)",
+        "producer": "David Simon, Nina K. Noble, and others",
+        "releaseDate": "June 2, 2002 (Season 1)",
+        "runningTime": "50-60 minutes per episode",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Dominic West",
+            "Lance Reddick",
+            "Idris Elba",
+            "Wendell Pierce",
+            "and others"
+        ],
+        "plot": "A multifaceted exploration of Baltimore's drug trade and its impact on various segments of society.",
+        "setting": "2000s, Baltimore, Maryland",
+        "cinematography": "Various cinematographers throughout the series",
+        "soundtrack": "Various artists",
+        "boxOffice": "N/A (TV Series)",
+        "awards": [
+            "Numerous awards and critical acclaim"
+        ],
+        "productionCompany": "Blown Deadline Productions, Home Box Office (HBO)",
+        "budget": "Approximately $2 million per episode (varying by season)",
+        "screenplay": "David Simon and various writers",
+        "adaptation": "N/A (Original TV series)",
+        "visualEffects": "Used for specific visual elements and authenticity",
+        "reception": "Widely regarded as one of the greatest TV series of all time, praised for its realistic portrayal of urban life",
+        "sequelsPrequels": [
+            "N/A (Original TV series)"
+        ],
+        "marketing": "Emphasis on the gritty and authentic portrayal of Baltimore and its social issues",
+        "distribution": "HBO",
+        "culturalSignificance": "A groundbreaking and influential TV series known for its social commentary",
+        "messageMoral": "The complexities of urban life, systemic issues, and the human condition",
+        "style": "Realistic and gritty crime drama",
+        "themes": [
+            "Institutional Dysfunction",
+            "Social Injustice",
+            "Individual Struggles"
+        ],
+        "symbolism": [
+            "The city of Baltimore as a microcosm of urban America"
+        ],
+        "historicalContext": "Set in the early 2000s, a period marked by urban decay and the war on drugs",
+        "story": "The Wire provides an intricate and realistic portrayal of Baltimore's drug trade, examining its impact on law enforcement, schools, politics, and the lives of individuals.",
+        "theme": "The central idea is the complexities of urban life, systemic issues, and the human condition.",
+        "cinema": "Hollywood",
+        "type": "Web Series",
+        "imdbRating": 9.3,
+        "rottenTomatoRating": 94
+    },
+    {
+        "title": "The Sopranos",
+        "director": "N/A (TV Series)",
+        "producer": "David Chase, Brad Grey, and others",
+        "releaseDate": "January 10, 1999 (Season 1)",
+        "runningTime": "50-60 minutes per episode",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "James Gandolfini",
+            "Lorraine Bracco",
+            "Edie Falco",
+            "Michael Imperioli",
+            "and others"
+        ],
+        "plot": "Follows the life of mob boss Tony Soprano as he navigates the challenges of both his criminal empire and his personal life.",
+        "setting": "2000s, New Jersey",
+        "cinematography": "Various cinematographers throughout the series",
+        "soundtrack": "Various artists",
+        "boxOffice": "N/A (TV Series)",
+        "awards": [
+            "Numerous awards and critical acclaim"
+        ],
+        "productionCompany": "Chase Films, Brad Grey Television, Home Box Office (HBO)",
+        "budget": "Approximately $6 million per episode (varying by season)",
+        "screenplay": "David Chase and various writers",
+        "adaptation": "N/A (Original TV series)",
+        "visualEffects": "Used for specific visual elements and authenticity",
+        "reception": "Considered one of the greatest TV series of all time, praised for its character development and exploration of morality",
+        "sequelsPrequels": [
+            "Upcoming prequel film 'The Many Saints of Newark'"
+        ],
+        "marketing": "Emphasis on the complex character of Tony Soprano and the world of organized crime",
+        "distribution": "HBO",
+        "culturalSignificance": "A groundbreaking TV series known for redefining the crime drama genre",
+        "messageMoral": "Exploration of morality, family, and the consequences of a criminal lifestyle",
+        "style": "Character-driven crime drama with psychological depth",
+        "themes": [
+            "Morality",
+            "Family",
+            "Identity"
+        ],
+        "symbolism": [
+            "Ducks as symbols of Tony Soprano's anxieties"
+        ],
+        "historicalContext": "Set in the early 2000s, a period marked by shifting power dynamics in organized crime",
+        "story": "The Sopranos follows the life of Tony Soprano, a mob boss who seeks therapy to deal with the stress of his criminal empire and personal life.",
+        "theme": "The central idea is the exploration of morality, family, and the consequences of a criminal lifestyle.",
+        "cinema": "Hollywood",
+        "type": "Web Series",
+        "imdbRating": 9.2,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "director": "Wes Anderson",
+        "producer": "Wes Anderson, Scott Rudin, Steven Rales, Jeremy Dawson",
+        "releaseDate": "March 7, 2014",
+        "runningTime": "100 minutes",
+        "genre": [
+            "Comedy",
+            "Adventure",
+            "Crime"
+        ],
+        "rating": "R",
+        "cast": [
+            "Ralph Fiennes",
+            "Tony Revolori",
+            "Adrien Brody",
+            "Willem Dafoe",
+            "and others"
+        ],
+        "plot": "A quirky concierge and his young protégé become involved in the theft of a priceless painting, leading to a series of misadventures.",
+        "setting": "1930s, The fictional Republic of Zubrowka",
+        "cinematography": "Robert Yeoman",
+        "soundtrack": "Alexandre Desplat",
+        "boxOffice": "$174.8 million",
+        "awards": [
+            "4 Academy Awards"
+        ],
+        "productionCompany": "American Empirical Pictures, Indian Paintbrush, Scott Rudin Productions, Studio Babelsberg",
+        "budget": "$25 million",
+        "screenplay": "Wes Anderson (story by Wes Anderson & Hugo Guinness)",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific visual elements and whimsical effects",
+        "reception": "Critically acclaimed for its unique style and humor",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the eccentric and colorful characters",
+        "distribution": "Fox Searchlight Pictures",
+        "culturalSignificance": "Considered a modern classic of comedy",
+        "messageMoral": "The importance of art and human connections",
+        "style": "Quirky and visually distinctive comedy",
+        "themes": [
+            "Art",
+            "Friendship",
+            "Nostalgia"
+        ],
+        "symbolism": [
+            "The hotel as a symbol of a bygone era"
+        ],
+        "historicalContext": "Set in the 1930s, a period marked by the rise of totalitarian regimes in Europe",
+        "story": "The film follows the misadventures of the eccentric concierge M. Gustave and his loyal protégé Zero as they become embroiled in the theft of a priceless painting and a battle for a family fortune.",
+        "theme": "The central idea is the importance of art and human connections.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "director": "Michel Gondry",
+        "producer": "Steve Golin, Anthony Bregman",
+        "releaseDate": "March 19, 2004",
+        "runningTime": "108 minutes",
+        "genre": [
+            "Drama",
+            "Romance",
+            "Sci-Fi"
+        ],
+        "rating": "R",
+        "cast": [
+            "Jim Carrey",
+            "Kate Winslet",
+            "Kirsten Dunst",
+            "Elijah Wood",
+            "and others"
+        ],
+        "plot": "A man undergoes a procedure to erase memories of a failed relationship but reconsiders as he relives them.",
+        "setting": "Contemporary, Long Island, New York",
+        "cinematography": "Ellen Kuras",
+        "soundtrack": "Jon Brion",
+        "boxOffice": "$74.4 million",
+        "awards": [
+            "1 Academy Award"
+        ],
+        "productionCompany": "Anonymous Content, This Is That Productions, Focus Features",
+        "budget": "$20 million",
+        "screenplay": "Charlie Kaufman",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific memory manipulation sequences",
+        "reception": "Highly praised for its inventive storytelling and performances",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the mind-bending and emotional aspects of the story",
+        "distribution": "Focus Features",
+        "culturalSignificance": "A cult classic known for its exploration of memory and relationships",
+        "messageMoral": "The complexities of love, memory, and the value of painful experiences",
+        "style": "Mind-bending romantic drama",
+        "themes": [
+            "Love",
+            "Memory",
+            "Regret"
+        ],
+        "symbolism": [
+            "The erasure of memories as a metaphor for letting go"
+        ],
+        "historicalContext": "Set in contemporary times, reflecting the challenges of modern relationships",
+        "story": "The film explores the tumultuous relationship between Joel and Clementine, who decide to undergo a procedure to erase their memories of each other, leading to a journey through the landscapes of Joel's mind.",
+        "theme": "The central idea is the complexities of love, memory, and the value of painful experiences.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.3,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "Shawshank Redemption",
+        "director": "Frank Darabont",
+        "producer": "Niki Marvin",
+        "releaseDate": "September 23, 1994",
+        "runningTime": "142 minutes",
+        "genre": [
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton",
+            "William Sadler",
+            "and others"
+        ],
+        "plot": "The story of a banker who is sentenced to life in Shawshank State Penitentiary and his journey towards redemption.",
+        "setting": "1940s-1960s, Shawshank State Penitentiary and the nearby town of Zihuatanejo, Maine",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "Thomas Newman",
+        "boxOffice": "$58.3 million (initial release)",
+        "awards": [
+            "7 Academy Award nominations"
+        ],
+        "productionCompany": "Castle Rock Entertainment",
+        "budget": "$25 million",
+        "screenplay": "Frank Darabont (based on Stephen King's novella)",
+        "adaptation": "Based on Stephen King's novella 'Rita Hayworth and Shawshank Redemption'",
+        "visualEffects": "Used for specific visual elements and historical accuracy",
+        "reception": "Initially overlooked but later acclaimed as one of the greatest films of all time",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on hope, friendship, and the human spirit",
+        "distribution": "Columbia Pictures",
+        "culturalSignificance": "A beloved classic known for its themes of hope and redemption",
+        "messageMoral": "The transformative power of hope, friendship, and determination",
+        "style": "Drama with elements of redemption and friendship",
+        "themes": [
+            "Hope",
+            "Redemption",
+            "Friendship"
+        ],
+        "symbolism": [
+            "The poster of Raquel Welch as a symbol of freedom"
+        ],
+        "historicalContext": "Set in the mid-20th century, reflecting social issues and prison life of the time",
+        "story": "The film tells the story of Andy Dufresne, a banker who is wrongly convicted of murder and sentenced to life in Shawshank State Penitentiary. Inside the prison, he forms a deep friendship with fellow inmate Red and works towards his own redemption.",
+        "theme": "The central idea is the transformative power of hope, friendship, and determination.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 9.3,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "Blade Runner 2049",
+        "director": "Denis Villeneuve",
+        "producer": "Andrew A. Kosove, Broderick Johnson, Bud Yorkin, Cynthia Sikes Yorkin",
+        "releaseDate": "October 6, 2017",
+        "runningTime": "164 minutes",
+        "genre": [
+            "Sci-Fi",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": "R",
+        "cast": [
+            "Ryan Gosling",
+            "Harrison Ford",
+            "Ana de Armas",
+            "Jared Leto",
+            "and others"
+        ],
+        "plot": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+        "setting": "2049, Los Angeles and surrounding areas",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "Hans Zimmer, Benjamin Wallfisch",
+        "boxOffice": "$259.2 million",
+        "awards": [
+            "2 Academy Awards"
+        ],
+        "productionCompany": "Alcon Entertainment, Scott Free Productions, Thunderbird Entertainment",
+        "budget": "$150-185 million",
+        "screenplay": "Hampton Fancher and Michael Green (based on characters from Philip K. Dick's novel)",
+        "adaptation": "Sequel to 'Blade Runner' (1982) and based on Philip K. Dick's novel 'Do Androids Dream of Electric Sheep?'",
+        "visualEffects": "Extensive use of visual effects to create a futuristic world",
+        "reception": "Praised for its visual effects, cinematography, and continuation of the original's themes",
+        "sequelsPrequels": [
+            "Sequel to 'Blade Runner' (1982)"
+        ],
+        "marketing": "Emphasis on the visually stunning and dystopian world",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "A sequel to the influential 'Blade Runner' and a continuation of its exploration of humanity and artificial intelligence",
+        "messageMoral": "Exploration of the nature of humanity, artificial intelligence, and identity",
+        "style": "Visually striking sci-fi noir",
+        "themes": [
+            "Identity",
+            "Humanity",
+            "Artificial Intelligence"
+        ],
+        "symbolism": [
+            "Eyes as symbols of identity and humanity"
+        ],
+        "historicalContext": "Set in a dystopian future, reflecting contemporary concerns about technology and identity",
+        "story": "The film follows Officer K, a blade runner, as he uncovers a long-buried secret that has the potential to plunge what's left of society into chaos. His discovery leads him on a quest to find Rick Deckard, a former blade runner who has been missing for thirty years.",
+        "theme": "The central idea is the exploration of the nature of humanity, artificial intelligence, and identity.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.0,
+        "rottenTomatoRating": 87
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "director": "Peter Jackson",
+        "producer": "Peter Jackson, Barrie M. Osborne, Fran Walsh",
+        "releaseDate": "December 17, 2003",
+        "runningTime": "201 minutes",
+        "genre": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Elijah Wood",
+            "Ian McKellen",
+            "Viggo Mortensen",
+            "Liv Tyler",
+            "and others"
+        ],
+        "plot": "The final battle for Middle-earth unfolds as the Fellowship and their allies confront the dark lord Sauron in a epic showdown.",
+        "setting": "Middle-earth, a fictional fantasy world",
+        "cinematography": "Andrew Lesnie",
+        "soundtrack": "Howard Shore",
+        "boxOffice": "$1.142 billion",
+        "awards": [
+            "11 Academy Awards, including Best Picture"
+        ],
+        "productionCompany": "New Line Cinema, WingNut Films, The Saul Zaentz Company",
+        "budget": "$94 million",
+        "screenplay": "Fran Walsh, Philippa Boyens, Peter Jackson (based on J.R.R. Tolkien's novel)",
+        "adaptation": "Based on J.R.R. Tolkien's novel 'The Return of the King' (part of 'The Lord of the Rings')",
+        "visualEffects": "Groundbreaking use of visual effects to create a fantastical world",
+        "reception": "Critically acclaimed and a massive box office success",
+        "sequelsPrequels": [
+            "Part of 'The Lord of the Rings' trilogy"
+        ],
+        "marketing": "Emphasis on the epic scale of the final battle and the conclusion of the trilogy",
+        "distribution": "New Line Cinema",
+        "culturalSignificance": "A landmark in fantasy filmmaking and a beloved adaptation of J.R.R. Tolkien's work",
+        "messageMoral": "Themes of heroism, friendship, and the struggle between good and evil",
+        "style": "Epic fantasy adventure",
+        "themes": [
+            "Heroism",
+            "Friendship",
+            "Good vs. Evil"
+        ],
+        "symbolism": [
+            "The One Ring as a symbol of corrupting power"
+        ],
+        "historicalContext": "Set in a fictional world but reflects timeless themes of heroism and the battle against evil",
+        "story": "The film is the concluding chapter of 'The Lord of the Rings' trilogy and follows the epic battle for Middle-earth as the Fellowship of the Ring and their allies face the dark lord Sauron in a final showdown.",
+        "theme": "The central idea is themes of heroism, friendship, and the struggle between good and evil.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.9,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "Casablanca",
+        "director": "Michael Curtiz",
+        "producer": "Hal B. Wallis",
+        "releaseDate": "November 26, 1942",
+        "runningTime": "102 minutes",
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "rating": "PG",
+        "cast": [
+            "Humphrey Bogart",
+            "Ingrid Bergman",
+            "Paul Henreid",
+            "Claude Rains",
+            "and others"
+        ],
+        "plot": "In World War II Casablanca, a cynical American expatriate encounters a former lover, with unforeseen complications.",
+        "setting": "1941-1942, Casablanca, Morocco",
+        "cinematography": "Arthur Edeson",
+        "soundtrack": "Max Steiner",
+        "boxOffice": "$4.4 million (initial release)",
+        "awards": [
+            "3 Academy Awards, including Best Picture"
+        ],
+        "productionCompany": "Warner Bros. Pictures",
+        "budget": "$1.039 million",
+        "screenplay": "Julius J. Epstein, Philip G. Epstein, Howard Koch (based on the play 'Everybody Comes to Rick's' by Murray Burnett and Joan Alison)",
+        "adaptation": "Based on the play 'Everybody Comes to Rick's'",
+        "visualEffects": "Limited visual effects, focusing on storytelling and performances",
+        "reception": "Considered one of the greatest films in cinematic history",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the romance, drama, and the memorable characters",
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "A classic of cinema known for its memorable quotes and iconic moments",
+        "messageMoral": "Themes of sacrifice, love, and doing the right thing",
+        "style": "Romantic drama with elements of wartime intrigue",
+        "themes": [
+            "Love",
+            "Sacrifice",
+            "Morality"
+        ],
+        "symbolism": [
+            "The letters of transit as a symbol of power"
+        ],
+        "historicalContext": "Set during World War II, reflecting the wartime atmosphere and the refugee crisis",
+        "story": "The film is set in the early years of World War II and follows Rick Blaine, a cynical American expatriate who owns a nightclub in Casablanca. His world is turned upside down when his former lover, Ilsa, and her husband, Victor Laszlo, seek his help to escape the Nazis.",
+        "theme": "The central idea is themes of sacrifice, love, and doing the right thing.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 99
+    },
+    {
+        "title": "The Big Lebowski",
+        "director": "Joel and Ethan Coen",
+        "producer": "Joel Coen, Ethan Coen",
+        "releaseDate": "March 6, 1998",
+        "runningTime": "117 minutes",
+        "genre": [
+            "Comedy",
+            "Crime",
+            "Mystery"
+        ],
+        "rating": "R",
+        "cast": [
+            "Jeff Bridges",
+            "John Goodman",
+            "Julianne Moore",
+            "Steve Buscemi",
+            "and others"
+        ],
+        "plot": "Jeff 'The Dude' Lebowski is mistaken for a millionaire of the same name, leading to a series of bizarre and comedic events.",
+        "setting": "1990s, Los Angeles, California",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "Various artists",
+        "boxOffice": "$46.2 million",
+        "awards": [
+            "Cult classic with a dedicated fan base"
+        ],
+        "productionCompany": "Polygram Filmed Entertainment, Working Title Films",
+        "budget": "$15 million",
+        "screenplay": "Joel and Ethan Coen",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific comedic and surreal sequences",
+        "reception": "Initially mixed reviews but gained a strong cult following over the years",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the quirky characters and offbeat humor",
+        "distribution": "Gramercy Pictures (USA), Universal Pictures (International)",
+        "culturalSignificance": "A cult classic known for its memorable characters and dialogue",
+        "messageMoral": "A humorous exploration of absurdity and the 'slacker' lifestyle",
+        "style": "Offbeat crime comedy",
+        "themes": [
+            "Absurdity",
+            "Identity",
+            "The 'Slacker' Lifestyle"
+        ],
+        "symbolism": [
+            "The rug as a symbol of The Dude's sense of identity"
+        ],
+        "historicalContext": "Set in the 1990s but with a timeless, surreal quality",
+        "story": "The film follows Jeff 'The Dude' Lebowski, an easygoing and perpetually stoned man who becomes embroiled in a bizarre series of events after being mistaken for a millionaire with the same name.",
+        "theme": "The central idea is a humorous exploration of absurdity and the 'slacker' lifestyle.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 82
+    },
+    {
+        "title": "Shutter Island",
+        "director": "Martin Scorsese",
+        "producer": "Martin Scorsese, Brad Fischer, Mike Medavoy, Arnold W. Messer",
+        "releaseDate": "February 19, 2010",
+        "runningTime": "138 minutes",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Mark Ruffalo",
+            "Ben Kingsley",
+            "Max von Sydow",
+            "and others"
+        ],
+        "plot": "Two U.S. Marshals are sent to a mental institution on a remote island to investigate the disappearance of a prisoner, leading to a mind-bending mystery.",
+        "setting": "1954, Shutter Island, Massachusetts",
+        "cinematography": "Robert Richardson",
+        "soundtrack": "Robbie Robertson",
+        "boxOffice": "$294.8 million",
+        "awards": [
+            "No major awards, but a well-received thriller"
+        ],
+        "productionCompany": "Paramount Pictures, Columbia Pictures, Phoenix Pictures, Sikelia Productions",
+        "budget": "$80 million",
+        "screenplay": "Laeta Kalogridis (based on Dennis Lehane's novel)",
+        "adaptation": "Based on Dennis Lehane's novel 'Shutter Island'",
+        "visualEffects": "Used for atmospheric and suspenseful sequences",
+        "reception": "Praised for its atmospheric tension and DiCaprio's performance",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the psychological thriller aspect and mind-bending plot",
+        "distribution": "Paramount Pictures",
+        "culturalSignificance": "A well-regarded psychological thriller with a memorable twist",
+        "messageMoral": "Exploration of guilt, trauma, and the nature of reality",
+        "style": "Psychological thriller with noir elements",
+        "themes": [
+            "Guilt",
+            "Trauma",
+            "Reality vs. Illusion"
+        ],
+        "symbolism": [
+            "The lighthouse as a symbol of enlightenment and revelation"
+        ],
+        "historicalContext": "Set in the 1950s, reflecting the post-World War II era and the psychological themes of the time",
+        "story": "The film follows U.S. Marshals Teddy Daniels and Chuck Aule as they investigate the disappearance of a prisoner from a mental institution on Shutter Island. As they delve deeper into the mystery, they uncover dark secrets and face their own psychological demons.",
+        "theme": "The central idea is the exploration of guilt, trauma, and the nature of reality.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 68
+    },
+    {
+        "title": "The Sixth Sense",
+        "director": "M. Night Shyamalan",
+        "producer": "Frank Marshall, Kathleen Kennedy, Barry Mendel",
+        "releaseDate": "August 6, 1999",
+        "runningTime": "107 minutes",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Bruce Willis",
+            "Haley Joel Osment",
+            "Toni Collette",
+            "Olivia Williams",
+            "and others"
+        ],
+        "plot": "A child psychologist begins treating a young boy who claims to see and communicate with the dead, leading to a shocking revelation.",
+        "setting": "Late 1990s, Philadelphia, Pennsylvania",
+        "cinematography": "Tak Fujimoto",
+        "soundtrack": "James Newton Howard",
+        "boxOffice": "$672.8 million",
+        "awards": [
+            "6 Academy Award nominations"
+        ],
+        "productionCompany": "Hollywood Pictures, Spyglass Entertainment, The Kennedy/Marshall Company",
+        "budget": "$40 million",
+        "screenplay": "M. Night Shyamalan",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for supernatural and ghostly effects",
+        "reception": "Praised for its twist ending and performances, considered one of Shyamalan's best films",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the supernatural mystery and the famous twist ending",
+        "distribution": "Buena Vista Pictures",
+        "culturalSignificance": "A landmark in the thriller genre known for its twist ending",
+        "messageMoral": "Themes of redemption, acceptance, and the afterlife",
+        "style": "Psychological thriller with supernatural elements",
+        "themes": [
+            "Redemption",
+            "Acceptance",
+            "The Afterlife"
+        ],
+        "symbolism": [
+            "The color red as a symbol of the supernatural"
+        ],
+        "historicalContext": "Set in the late 1990s, reflecting the psychological and supernatural themes of the time",
+        "story": "The film follows child psychologist Dr. Malcolm Crowe as he treats a young boy, Cole, who claims to see and communicate with the dead. As Dr. Crowe tries to help the boy, he uncovers a shocking revelation about his own life.",
+        "theme": "The central idea is themes of redemption, acceptance, and the afterlife.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 85
+    },
+    {
+        "title": "Memento",
+        "director": "Christopher Nolan",
+        "producer": "Jennifer Todd, Suzanne Todd",
+        "releaseDate": "March 16, 2001",
+        "runningTime": "113 minutes",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Guy Pearce",
+            "Carrie-Anne Moss",
+            "Joe Pantoliano",
+            "and others"
+        ],
+        "plot": "A man with short-term memory loss tries to solve the mystery of his wife's murder by tattooing clues on his body.",
+        "setting": "Contemporary (early 2000s), Various locations in reverse order",
+        "cinematography": "Wally Pfister",
+        "soundtrack": "David Julyan",
+        "boxOffice": "$39.7 million",
+        "awards": [
+            "2 Academy Award nominations"
+        ],
+        "productionCompany": "Newmarket Capital Group, Team Todd, I Remember Productions",
+        "budget": "$9 million",
+        "screenplay": "Christopher Nolan (based on a short story by Jonathan Nolan)",
+        "adaptation": "Based on a short story by Jonathan Nolan",
+        "visualEffects": "Minimal visual effects, with a focus on narrative structure",
+        "reception": "Critically acclaimed for its unique narrative style and psychological depth",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the non-linear storytelling and mystery",
+        "distribution": "Newmarket Films (USA), Summit Entertainment (International)",
+        "culturalSignificance": "Considered a landmark in nonlinear storytelling and psychological thrillers",
+        "messageMoral": "Exploration of memory, perception, and revenge",
+        "style": "Neo-noir psychological thriller",
+        "themes": [
+            "Memory",
+            "Perception",
+            "Revenge"
+        ],
+        "symbolism": [
+            "The Polaroid photographs as a symbol of fragmented memory"
+        ],
+        "historicalContext": "Set in the early 2000s, reflecting contemporary technology and psychology",
+        "story": "The film follows Leonard Shelby, a man with short-term memory loss, as he tries to solve the mystery of his wife's murder by tattooing important clues and facts on his body. The narrative unfolds in reverse order, adding to the complexity of the story.",
+        "theme": "The central idea is the exploration of memory, perception, and revenge.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.4,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "The Usual Suspects",
+        "director": "Bryan Singer",
+        "producer": "Bryan Singer, Michael McDonnell",
+        "releaseDate": "August 16, 1995",
+        "runningTime": "106 minutes",
+        "genre": [
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Stephen Baldwin",
+            "Gabriel Byrne",
+            "Benicio del Toro",
+            "Kevin Pollak",
+            "and others"
+        ],
+        "plot": "A group of criminals is brought together for a heist, and their mysterious leader, Keyser Söze, manipulates events from the shadows.",
+        "setting": "1990s, San Pedro, California",
+        "cinematography": "Newton Thomas Sigel",
+        "soundtrack": "John Ottman",
+        "boxOffice": "$34.4 million",
+        "awards": [
+            "2 Academy Awards, including Best Original Screenplay"
+        ],
+        "productionCompany": "PolyGram Filmed Entertainment, Blue Parrot, Bad Hat Harry Productions",
+        "budget": "$6 million",
+        "screenplay": "Christopher McQuarrie",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific sequences, enhancing the mystery",
+        "reception": "Critically acclaimed for its plot twist and ensemble cast",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the mystery surrounding Keyser Söze",
+        "distribution": "Gramercy Pictures (USA), PolyGram Filmed Entertainment (International)",
+        "culturalSignificance": "Known for its iconic plot twist and memorable characters",
+        "messageMoral": "Exploration of deception, manipulation, and consequences",
+        "style": "Neo-noir crime thriller",
+        "themes": [
+            "Deception",
+            "Manipulation",
+            "Consequences"
+        ],
+        "symbolism": [
+            "Keyser Söze as a symbol of ultimate manipulation"
+        ],
+        "historicalContext": "Set in the 1990s, reflecting contemporary crime and mystery genre influences",
+        "story": "The film follows a group of criminals who are brought together for a heist. Their mysterious and elusive leader, Keyser Söze, manipulates events from behind the scenes. The story is told through the interrogation of one of the surviving criminals.",
+        "theme": "The central idea is the exploration of deception, manipulation, and consequences.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 89
+    },
+    {
+        "title": "Reservoir Dogs",
+        "director": "Quentin Tarantino",
+        "producer": "Lawrence Bender",
+        "releaseDate": "October 23, 1992",
+        "runningTime": "99 minutes",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Harvey Keitel",
+            "Tim Roth",
+            "Michael Madsen",
+            "Steve Buscemi",
+            "and others"
+        ],
+        "plot": "A group of criminals assembles for a heist, but it goes awry, leading to suspicion and betrayal among the group.",
+        "setting": "1990s, Los Angeles, California",
+        "cinematography": "Andrzej Sekuła",
+        "soundtrack": "Various artists",
+        "boxOffice": "$2.8 million (US)",
+        "awards": [
+            "Cult classic with a dedicated fan base"
+        ],
+        "productionCompany": "Live Entertainment, Dog Eat Dog Productions",
+        "budget": "$1.2 million",
+        "screenplay": "Quentin Tarantino",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for specific visual storytelling moments",
+        "reception": "Praised for its non-linear narrative and strong performances",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the non-linear storytelling and memorable characters",
+        "distribution": "Miramax Films",
+        "culturalSignificance": "A cult classic known for its dialogue and memorable scenes",
+        "messageMoral": "Exploration of trust, betrayal, and the consequences of criminal actions",
+        "style": "Crime drama with non-linear narrative",
+        "themes": [
+            "Trust",
+            "Betrayal",
+            "Criminal Consequences"
+        ],
+        "symbolism": [
+            "The colors of the characters' suits as symbols of their personalities"
+        ],
+        "historicalContext": "Set in the 1990s, reflecting the crime genre of the time",
+        "story": "The film follows a group of criminals, each known by a color-coded alias, who come together for a heist that goes wrong. As suspicions rise and tensions mount, the group begins to unravel.",
+        "theme": "The central idea is the exploration of trust, betrayal, and the consequences of criminal actions.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.3,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "The Good, the Bad and the Ugly",
+        "director": "Sergio Leone",
+        "producer": "Alberto Grimaldi",
+        "releaseDate": "December 23, 1966 (Italy)",
+        "runningTime": "178 minutes",
+        "genre": [
+            "Western"
+        ],
+        "rating": "R",
+        "cast": [
+            "Clint Eastwood",
+            "Lee Van Cleef",
+            "Eli Wallach",
+            "Aldo Giuffrè",
+            "and others"
+        ],
+        "plot": "Three gunslingers search for buried Confederate gold during the American Civil War, leading to a series of deadly confrontations.",
+        "setting": "1860s, American Southwest",
+        "cinematography": "Tonino Delli Colli",
+        "soundtrack": "Ennio Morricone",
+        "boxOffice": "$25.1 million (US)",
+        "awards": [
+            "No major awards, but highly regarded as a classic"
+        ],
+        "productionCompany": "United Artists, Constantin Film",
+        "budget": "$1.2 million",
+        "screenplay": "Sergio Leone, Luciano Vincenzoni",
+        "adaptation": "Original screenplay",
+        "visualEffects": "Used for epic Western landscapes",
+        "reception": "Considered one of the greatest Westerns of all time",
+        "sequelsPrequels": [
+            "No sequels or prequels"
+        ],
+        "marketing": "Emphasis on the epic scale and memorable characters of the Western",
+        "distribution": "United Artists",
+        "culturalSignificance": "A legendary Western known for its iconic characters and music",
+        "messageMoral": "Exploration of greed, morality, and the brutality of the Civil War",
+        "style": "Spaghetti Western with an epic scope",
+        "themes": [
+            "Greed",
+            "Morality",
+            "Civil War Brutality"
+        ],
+        "symbolism": [
+            "The music as a symbol of the characters' intentions and emotions"
+        ],
+        "historicalContext": "Set during the American Civil War, reflecting the era's turmoil and violence",
+        "story": "The film follows three gunslingers - Blondie (the Good), Angel Eyes (the Bad), and Tuco (the Ugly) - as they seek a buried treasure of Confederate gold during the American Civil War. Their journey leads to a series of deadly confrontations.",
+        "theme": "The central idea is the exploration of greed, morality, and the brutality of the Civil War.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 97
     }
 ]

@@ -37,13 +37,14 @@ give me fully detailed array of json about movies and webseries with following p
 35. rottenTomatoRating
 
 for following movies  
-   "Westworld",
-    "Fargo",
-    "Narcos",
-    "The Queen's Gambit",
-    "The Boys",
-    "Mindhunter",
-    "The Marvelous Mrs. Maisel",
-    "Peaky Blinders",
-    "Better Call Saul",
-    "The Godfather: Part III",
+"Reservoir Dogs",
+    "The Good, the Bad and the Ugly",
+    "Sherlock",
+    "The West Wing",
+    "The X-Files",
+    "The Big Bang Theory",
+    "The Simpsons",
+    "The Walking Dead",
+
+
+

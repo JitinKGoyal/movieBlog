@@ -122,10 +122,10 @@ function Home() {
                                     <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                         <a className="nav-link py-2 px-4 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
                                             aria-controls="v-pills-home" aria-selected="true" onClick={() => setCinema("Hollywood")}>Hollywood</a>
-                                        <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                                        {/* <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
                                             aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCinema("Bollywood")}>Bollywood</a>
                                         <a className="nav-link py-2 px-4" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                                            aria-controls="v-pills-messages" aria-selected="false" onClick={() => setCinema("southIndian")}>South</a>
+                                            aria-controls="v-pills-messages" aria-selected="false" onClick={() => setCinema("southIndian")}>South</a> */}
                                     </div>
                                 </div>
                             </div>
