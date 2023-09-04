@@ -3560,5 +3560,2014 @@
         "type": "Movie",
         "imdbRating": 8.8,
         "rottenTomatoRating": 97
+    },
+    {
+        "title": "Sherlock",
+        "director": "Various",
+        "producer": "Sue Vertue, Steven Moffat, Mark Gatiss, Beryl Vertue",
+        "release date": "July 25, 2010",
+        "running time": "88 minutes (average per episode)",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Benedict Cumberbatch",
+            "Martin Freeman",
+            "Andrew Scott",
+            "Mark Gatiss"
+        ],
+        "plot": "A modern-day adaptation of Arthur Conan Doyle's detective stories, featuring the brilliant detective Sherlock Holmes and his loyal friend Dr. John Watson as they solve complex crimes in London.",
+        "setting": "Contemporary London, England",
+        "cinematography": "Steve Lawes",
+        "soundtrack": "David Arnold, Michael Price",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards",
+            "BAFTA Awards"
+        ],
+        "productionCompany": "Hartswood Films",
+        "budget": null,
+        "screenplay": "Steven Moffat, Mark Gatiss, Steve Thompson",
+        "adaptation": "Based on the works of Arthur Conan Doyle",
+        "visual effects": null,
+        "reception": "Critically acclaimed",
+        "sequels/prequels": [
+            "Sherlock: The Abominable Bride"
+        ],
+        "marketing": null,
+        "distribution": "BBC One",
+        "culturalSignificance": "Revived interest in Sherlock Holmes adaptations",
+        "messageMoral": "Dedication to solving mysteries and the importance of friendship",
+        "style": "Modern, fast-paced, and visually striking",
+        "themes": [
+            "Intelligence",
+            "Friendship",
+            "Crime-solving"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the 21st century",
+        "story": "Sherlock Holmes and Dr. John Watson solve a series of complex and intriguing cases in contemporary London.",
+        "theme": "The central idea or message of the series revolves around the brilliance of the human mind and the power of deduction.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 9.1,
+        "rottenTomatoRating": 78
+    },
+    {
+        "title": "The West Wing",
+        "director": "Various",
+        "producer": "Aaron Sorkin, Thomas Schlamme, John Wells",
+        "release date": "September 22, 1999",
+        "running time": "42 minutes (average per episode)",
+        "genre": [
+            "Drama",
+            "Political"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Martin Sheen",
+            "Rob Lowe",
+            "Allison Janney",
+            "Bradley Whitford"
+        ],
+        "plot": "The series offers a behind-the-scenes look at the lives and work of the White House staff as they navigate the challenges of running the country.",
+        "setting": "The White House, Washington, D.C.",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "W.G. Snuffy Walden",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "John Wells Productions",
+        "budget": null,
+        "screenplay": "Aaron Sorkin",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Highly praised for its writing and performances",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "NBC",
+        "culturalSignificance": "Influential in shaping political drama on television",
+        "messageMoral": "Idealism in politics and the challenges of governance",
+        "style": "Fast-paced dialogue and witty exchanges",
+        "themes": [
+            "Political idealism",
+            "Ethical leadership"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The series follows President Josiah Bartlet and his staff as they handle political crises and personal challenges while working in the White House.",
+        "theme": "The central idea of the series revolves around the ideals of leadership and governance.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 89
+    },
+    {
+        "title": "The X-Files",
+        "director": "Various",
+        "producer": "Chris Carter, Frank Spotnitz",
+        "release date": "September 10, 1993",
+        "running time": "45 minutes (average per episode)",
+        "genre": [
+            "Science Fiction",
+            "Mystery",
+            "Drama"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "David Duchovny",
+            "Gillian Anderson",
+            "Mitch Pileggi"
+        ],
+        "plot": "FBI agents Fox Mulder and Dana Scully investigate unsolved and paranormal cases, known as 'X-Files,' that often involve government conspiracies and extraterrestrial phenomena.",
+        "setting": "Various locations across the United States",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Mark Snow",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Ten Thirteen Productions",
+        "budget": null,
+        "screenplay": "Chris Carter",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Cult following and critical acclaim",
+        "sequels/prequels": [
+            "The X-Files: I Want to Believe",
+            "The X-Files: Season 10",
+            "The X-Files: Season 11"
+        ],
+        "marketing": null,
+        "distribution": "FOX",
+        "culturalSignificance": "Iconic in the sci-fi genre",
+        "messageMoral": "Questioning authority and exploring the unknown",
+        "style": "Atmospheric and suspenseful",
+        "themes": [
+            "Conspiracy",
+            "Paranormal",
+            "Government secrets"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the 1990s and early 2000s",
+        "story": "FBI agents Fox Mulder and Dana Scully uncover government secrets and investigate mysterious and unexplained phenomena.",
+        "theme": "The central idea of the series revolves around skepticism, the search for truth, and the existence of extraterrestrial life.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 74
+    },
+    {
+        "title": "The Big Bang Theory",
+        "director": "Various",
+        "producer": "Chuck Lorre, Bill Prady",
+        "release date": "September 24, 2007",
+        "running time": "22 minutes (average per episode)",
+        "genre": [
+            "Comedy"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Johnny Galecki",
+            "Jim Parsons",
+            "Kaley Cuoco",
+            "Simon Helberg"
+        ],
+        "plot": "The series follows a group of socially awkward scientists and their interactions with each other and the people in their lives, including their neighbor Penny.",
+        "setting": "Pasadena, California",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Barenaked Ladies",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards"
+        ],
+        "productionCompany": "Chuck Lorre Productions",
+        "budget": null,
+        "screenplay": "Chuck Lorre, Bill Prady",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Popular and commercially successful",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "CBS",
+        "culturalSignificance": "Influential in geek culture",
+        "messageMoral": "The value of friendship and the humor in scientific pursuits",
+        "style": "Situational comedy with nerdy humor",
+        "themes": [
+            "Friendship",
+            "Geek culture",
+            "Relationships"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The series explores the lives of scientists Leonard and Sheldon, their friends, and their romantic interests.",
+        "theme": "The central idea of the series revolves around the importance of friendships and the humorous side of scientific pursuits.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 81
+    },
+    {
+        "title": "The Simpsons",
+        "director": "Various",
+        "producer": "James L. Brooks, Matt Groening, Sam Simon",
+        "release date": "December 17, 1989",
+        "running time": "22 minutes (average per episode)",
+        "genre": [
+            "Animation",
+            "Comedy"
+        ],
+        "rating": "TV-PG",
+        "cast": [
+            "Dan Castellaneta",
+            "Julie Kavner",
+            "Nancy Cartwright",
+            "Yeardley Smith"
+        ],
+        "plot": "The series satirizes American culture, society, and family life through the dysfunctional Simpson family and the residents of the fictional town of Springfield.",
+        "setting": "Springfield, USA",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Danny Elfman",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards"
+        ],
+        "productionCompany": "Gracie Films, 20th Century Fox Television",
+        "budget": null,
+        "screenplay": "Various writers",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Critically acclaimed and iconic",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "FOX",
+        "culturalSignificance": "Cultural phenomenon and social commentary",
+        "messageMoral": "Social commentary and humor",
+        "style": "Satirical and irreverent",
+        "themes": [
+            "Family",
+            "Society",
+            "Satire"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The series revolves around the antics and adventures of the Simpson family, including Homer, Marge, Bart, Lisa, and Maggie, in the fictional town of Springfield.",
+        "theme": "The central idea of the series is social commentary and satire of American culture and society.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 85
+    },
+    {
+        "title": "The Walking Dead",
+        "director": "Various",
+        "producer": "Frank Darabont, Gale Anne Hurd, Robert Kirkman, David Alpert",
+        "release date": "October 31, 2010",
+        "running time": "44 minutes (average per episode)",
+        "genre": [
+            "Horror",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Andrew Lincoln",
+            "Norman Reedus",
+            "Melissa McBride",
+            "Chandler Riggs"
+        ],
+        "plot": "The series follows a group of survivors in a post-apocalyptic world overrun by zombies and explores their struggles for survival and humanity.",
+        "setting": "Post-apocalyptic United States",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Bear McCreary",
+        "boxOffice": null,
+        "awards": [
+            "Primetime Emmy Awards"
+        ],
+        "productionCompany": "AMC Studios, Valhalla Entertainment, Skybound Entertainment",
+        "budget": null,
+        "screenplay": "Various writers",
+        "adaptation": "Based on the comic series by Robert Kirkman, Tony Moore, and Charlie Adlard",
+        "visual effects": null,
+        "reception": "Highly popular and influential in the zombie genre",
+        "sequels/prequels": [
+            "Fear the Walking Dead",
+            "The Walking Dead: World Beyond"
+        ],
+        "marketing": null,
+        "distribution": "AMC",
+        "culturalSignificance": "Revitalized interest in zombie fiction",
+        "messageMoral": "Survival, morality, and the human condition in extreme circumstances",
+        "style": "Gritty and intense with horror elements",
+        "themes": [
+            "Survival",
+            "Loss",
+            "Moral dilemmas"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a fictional post-apocalyptic world",
+        "story": "The series focuses on the survival and moral dilemmas faced by a group of survivors in a world overrun by zombies.",
+        "theme": "The central idea of the series revolves around survival, morality, and the human condition in extreme circumstances.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.2,
+        "rottenTomatoRating": 81
+    },
+    {
+        "title": "Rick and Morty",
+        "director": "Various",
+        "producer": "Dan Harmon, Justin Roiland",
+        "release date": "December 2, 2013",
+        "running time": "22 minutes (average per episode)",
+        "genre": [
+            "Animation",
+            "Science Fiction",
+            "Comedy"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Justin Roiland",
+            "Chris Parnell",
+            "Sarah Chalke",
+            "Spencer Grammer"
+        ],
+        "plot": "The series follows the adventures of an eccentric and alcoholic scientist, Rick Sanchez, and his good-hearted but easily influenced grandson, Morty Smith, as they travel across dimensions and encounter bizarre situations.",
+        "setting": "Multiverse",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Various composers",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards"
+        ],
+        "productionCompany": "Williams Street, Harmonious Claptrap, Starburns Industries",
+        "budget": null,
+        "screenplay": "Dan Harmon, Justin Roiland",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Cult following and critical acclaim",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Adult Swim",
+        "culturalSignificance": "Highly regarded in adult animation",
+        "messageMoral": "Existentialism and the consequences of scientific discovery",
+        "style": "Surreal and dark humor",
+        "themes": [
+            "Existentialism",
+            "Science",
+            "Family"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in various dimensions and timelines",
+        "story": "The series follows the unpredictable adventures of Rick and Morty as they explore different dimensions and face bizarre challenges.",
+        "theme": "The central idea of the series explores existentialism and the consequences of scientific discovery.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 9.2,
+        "rottenTomatoRating": 94
+    },
+    {
+        "title": "The Umbrella Academy",
+        "director": "Various",
+        "producer": "Steve Blackman, Jeff F. King, Keith Goldberg",
+        "release date": "February 15, 2019",
+        "running time": "45 minutes (average per episode)",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Science Fiction"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Ellen Page",
+            "Tom Hopper",
+            "David Castañeda",
+            "Emmy Raver-Lampman"
+        ],
+        "plot": "A dysfunctional family of adopted superhero siblings reunites to solve the mystery of their father's death and the impending apocalypse.",
+        "setting": "Contemporary settings with time travel elements",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Jeff Russo",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards"
+        ],
+        "productionCompany": "Dark Horse Entertainment, Universal Cable Productions",
+        "budget": null,
+        "screenplay": "Steve Blackman, Gerard Way (based on the comic)",
+        "adaptation": "Based on the comic series by Gerard Way and Gabriel Bá",
+        "visual effects": null,
+        "reception": "Critically acclaimed and popular",
+        "sequels/prequels": [
+            "The Umbrella Academy: Season 2",
+            "The Umbrella Academy: Season 3 (announced)"
+        ],
+        "marketing": null,
+        "distribution": "Netflix",
+        "culturalSignificance": "A unique take on the superhero genre",
+        "messageMoral": "Family dynamics and the consequences of power",
+        "style": "Quirky and visually striking",
+        "themes": [
+            "Family",
+            "Time Travel",
+            "Superheroes"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in various time periods",
+        "story": "The series follows the Hargreeves siblings as they uncover family secrets and try to prevent an impending global catastrophe.",
+        "theme": "The central idea of the series explores the dynamics of a dysfunctional family of superheroes and the consequences of their powers.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.0,
+        "rottenTomatoRating": 82
+    },
+    {
+        "title": "The Expanse",
+        "director": "Various",
+        "producer": "Mark Fergus, Hawk Ostby, Naren Shankar, and others",
+        "release date": "December 14, 2015",
+        "running time": "45 minutes (average per episode)",
+        "genre": [
+            "Science Fiction",
+            "Mystery",
+            "Drama"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Thomas Jane",
+            "Steven Strait",
+            "Shohreh Aghdashloo",
+            "Wes Chatham"
+        ],
+        "plot": "In a future where humanity has colonized the solar system, a detective, a ship's officer, and a politician uncover a vast conspiracy that threatens peace and survival.",
+        "setting": "The solar system in a future where humanity has colonized Mars, the Asteroid Belt, and outer planets",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Clinton Shorter",
+        "boxOffice": null,
+        "awards": [
+            "Saturn Awards"
+        ],
+        "productionCompany": "Alcon Television Group, Syfy",
+        "budget": null,
+        "screenplay": "Various writers",
+        "adaptation": "Based on the book series by James S.A. Corey",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its realism and world-building",
+        "sequels/prequels": [
+            "The Expanse: Season 6 (final season)"
+        ],
+        "marketing": null,
+        "distribution": "Syfy (originally), Amazon Prime Video (later seasons)",
+        "culturalSignificance": "Highly regarded in the science fiction genre",
+        "messageMoral": "Humanity's exploration and conflicts in space",
+        "style": "Hard science fiction with political intrigue",
+        "themes": [
+            "Space Colonization",
+            "Conspiracy",
+            "Survival"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the distant future",
+        "story": "The series follows a diverse group of characters as they navigate the complex politics and dangers of a colonized solar system.",
+        "theme": "The central idea of the series explores humanity's expansion into space and the conflicts that arise from it.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "The Haunting of Hill House",
+        "director": "Mike Flanagan",
+        "producer": "Trevor Macy, Meredith Averill, Justin Falvey",
+        "release date": "October 12, 2018",
+        "running time": "50 minutes (average per episode)",
+        "genre": [
+            "Horror",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Victoria Pedretti",
+            "Oliver Jackson-Cohen",
+            "Henry Thomas",
+            "Elizabeth Reaser"
+        ],
+        "plot": "A family is haunted by traumatic events that occurred in their haunted mansion when they were children and must confront their past to save their futures.",
+        "setting": "A creepy and haunted mansion",
+        "cinematography": "Michael Fimognari",
+        "soundtrack": "The Newton Brothers",
+        "boxOffice": null,
+        "awards": [
+            "Critics' Choice Television Awards"
+        ],
+        "productionCompany": "Amblin Television, FlanaganFilm, Paramount Television",
+        "budget": null,
+        "screenplay": "Mike Flanagan (based on the novel)",
+        "adaptation": "Based on the novel by Shirley Jackson",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its horror and storytelling",
+        "sequels/prequels": [
+            "The Haunting of Bly Manor (spiritual sequel)"
+        ],
+        "marketing": null,
+        "distribution": "Netflix",
+        "culturalSignificance": "Considered one of the best horror series in recent years",
+        "messageMoral": "The lasting impact of trauma and family bonds",
+        "style": "Atmospheric and psychologically terrifying",
+        "themes": [
+            "Haunting",
+            "Family",
+            "Trauma"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the present with flashbacks",
+        "story": "The series explores the lives of the Crain family, both in the past and present, as they grapple with supernatural events tied to their haunted mansion.",
+        "theme": "The central idea of the series revolves around the long-lasting effects of trauma and the power of family bonds.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "BoJack Horseman",
+        "director": "Various",
+        "producer": "Raphael Bob-Waksberg, Steven A. Cohen, Noel Bright, and others",
+        "release date": "August 22, 2014",
+        "running time": "25 minutes (average per episode)",
+        "genre": [
+            "Animation",
+            "Drama",
+            "Comedy"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Will Arnett",
+            "Amy Sedaris",
+            "Alison Brie",
+            "Aaron Paul"
+        ],
+        "plot": "The series follows the life of BoJack Horseman, a washed-up actor who happens to be a horse, as he navigates his way through life, love, and self-destructive behavior in Hollywood.",
+        "setting": "A satirical version of Hollywood where anthropomorphic animals coexist with humans",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Patrick Carney and Ralph Carney",
+        "boxOffice": null,
+        "awards": [
+            "Annie Awards"
+        ],
+        "productionCompany": "Raphael Bob-Waksberg Productions, ShadowMachine, Tornante Company",
+        "budget": null,
+        "screenplay": "Raphael Bob-Waksberg",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Critically acclaimed for its dark humor and social commentary",
+        "sequels/prequels": [
+            "Tuca & Bertie (spiritual successor)"
+        ],
+        "marketing": null,
+        "distribution": "Netflix",
+        "culturalSignificance": "Highly regarded in adult animation",
+        "messageMoral": "Existentialism, addiction, and the consequences of fame",
+        "style": "Surreal and satirical",
+        "themes": [
+            "Fame",
+            "Addiction",
+            "Existentialism"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a contemporary world with anthropomorphic animals",
+        "story": "The series delves into the life of the self-destructive and troubled actor BoJack Horseman, exploring themes of addiction, fame, and the human condition.",
+        "theme": "The central idea of the series explores existentialism, addiction, and the consequences of fame.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.7,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "The Good Place",
+        "director": "Various",
+        "producer": "Michael Schur, David Miner, Morgan Sackett",
+        "release date": "September 19, 2016",
+        "running time": "22 minutes (average per episode)",
+        "genre": [
+            "Comedy",
+            "Fantasy",
+            "Drama"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Kristen Bell",
+            "Ted Danson",
+            "William Jackson Harper",
+            "Jameela Jamil"
+        ],
+        "plot": "A woman named Eleanor Shellstrop finds herself in the afterlife's 'The Good Place,' even though she believes she doesn't belong there, and she tries to become a better person to avoid being discovered.",
+        "setting": "The afterlife, including 'The Good Place' and 'The Bad Place'",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "David Schwartz",
+        "boxOffice": null,
+        "awards": [
+            "Critics' Choice Television Awards"
+        ],
+        "productionCompany": "Fremulon, 3 Arts Entertainment, Universal Television",
+        "budget": null,
+        "screenplay": "Michael Schur",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Critically acclaimed for its humor and philosophy",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "NBC (originally), Netflix (international)",
+        "culturalSignificance": "Exploration of moral philosophy in a comedic format",
+        "messageMoral": "Ethics, morality, and the human capacity for change",
+        "style": "Philosophical and witty",
+        "themes": [
+            "Ethics",
+            "Morality",
+            "Redemption"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the afterlife and the human world",
+        "story": "The series follows Eleanor Shellstrop's journey as she tries to become a better person in the afterlife and explores themes of ethics and morality.",
+        "theme": "The central idea of the series revolves around ethics, morality, and the human capacity for change.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.2,
+        "rottenTomatoRating": 97
+    },
+    {
+        "title": "Mr. Robot",
+        "director": "Sam Esmail",
+        "producer": "Sam Esmail, Steve Golin, Chad Hamilton",
+        "release date": "June 24, 2015",
+        "running time": "49 minutes (average per episode)",
+        "genre": [
+            "Drama",
+            "Thriller",
+            "Crime"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Rami Malek",
+            "Christian Slater",
+            "Carly Chaikin",
+            "Portia Doubleday"
+        ],
+        "plot": "A mentally unstable cybersecurity expert named Elliot Alderson is recruited by an anarchist known as Mr. Robot to join a group of hacktivists and take down corrupt corporations.",
+        "setting": "Contemporary world with a focus on cybersecurity and hacking",
+        "cinematography": "Tod Campbell",
+        "soundtrack": "Mac Quayle",
+        "boxOffice": null,
+        "awards": [
+            "Primetime Emmy Awards"
+        ],
+        "productionCompany": "Universal Cable Productions, Anonymous Content",
+        "budget": null,
+        "screenplay": "Sam Esmail",
+        "adaptation": null,
+        "visual effects": null,
+        "reception": "Critically acclaimed for its realism and portrayal of hacking culture",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "USA Network",
+        "culturalSignificance": "Highly regarded for its portrayal of hacking and mental health",
+        "messageMoral": "Cybersecurity, identity, and the consequences of revolution",
+        "style": "Visually striking and psychologically intense",
+        "themes": [
+            "Hacking",
+            "Mental Health",
+            "Revolution"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The series follows Elliot Alderson as he becomes involved with a group of hacktivists and takes on powerful corporations while dealing with his own mental health struggles.",
+        "theme": "The central idea of the series explores cybersecurity, identity, and the consequences of revolution.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 94
+    },
+    {
+        "title": "The Witch",
+        "director": "Robert Eggers",
+        "producer": "Daniel Bekerman, Lars Knudsen, Jodi Redmond",
+        "release date": "January 27, 2015",
+        "running time": "92 minutes",
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Period Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Anya Taylor-Joy",
+            "Ralph Ineson",
+            "Kate Dickie",
+            "Harvey Scrimshaw"
+        ],
+        "plot": "In 1630s New England, a Puritan family encounters supernatural forces of evil in the woods beyond their farmstead.",
+        "setting": "1630s New England wilderness",
+        "cinematography": "Jarin Blaschke",
+        "soundtrack": "Mark Korven",
+        "boxOffice": "$40 million",
+        "awards": [
+            "Sundance Film Festival"
+        ],
+        "productionCompany": "Parts and Labor, RT Features, A24",
+        "budget": "$4 million",
+        "screenplay": "Robert Eggers",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its atmospheric horror and period accuracy",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "A24",
+        "culturalSignificance": "Cult following and praised for its historical accuracy",
+        "messageMoral": "Paranoia, religious extremism, and supernatural fear",
+        "style": "Atmospheric and historically accurate",
+        "themes": [
+            "Witchcraft",
+            "Religious Extremism",
+            "Paranoia"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the 17th century during the historical witch trials",
+        "story": "The film follows a Puritan family in 1630s New England as they face supernatural horrors and the disintegration of their faith in the wilderness.",
+        "theme": "The central idea of the film explores paranoia, religious extremism, and supernatural fear.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 6.9,
+        "rottenTomatoRating": 90
+    },
+    {
+        "title": "Get Out",
+        "director": "Jordan Peele",
+        "producer": "Jordan Peele, Jason Blum, Sean McKittrick, Edward H. Hamm Jr.",
+        "release date": "February 24, 2017",
+        "running time": "104 minutes",
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Daniel Kaluuya",
+            "Allison Williams",
+            "Bradley Whitford",
+            "Catherine Keener"
+        ],
+        "plot": "A black man visits his white girlfriend's family estate and becomes ensnared in a sinister conspiracy involving hypnosis and mind control.",
+        "setting": "Suburban estate",
+        "cinematography": "Toby Oliver",
+        "soundtrack": "Michael Abels",
+        "boxOffice": "$255.5 million",
+        "awards": [
+            "Academy Awards",
+            "Critics' Choice Movie Awards"
+        ],
+        "productionCompany": "Blumhouse Productions, QC Entertainment, Monkeypaw Productions",
+        "budget": "$4.5 million",
+        "screenplay": "Jordan Peele",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its social commentary and horror elements",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Universal Pictures",
+        "culturalSignificance": "Significant in addressing racial issues",
+        "messageMoral": "Racial inequality, cultural appropriation, and exploitation",
+        "style": "Psychological horror with social commentary",
+        "themes": [
+            "Racism",
+            "Identity",
+            "Conformity"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The film follows Chris Washington as he visits his girlfriend's family and uncovers disturbing secrets about their intentions.",
+        "theme": "The central idea of the film explores racial inequality, cultural appropriation, and exploitation.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.7,
+        "rottenTomatoRating": 98
+    },
+    {
+        "title": "The Shape of Water",
+        "director": "Guillermo del Toro",
+        "producer": "Guillermo del Toro, J. Miles Dale",
+        "release date": "December 1, 2017",
+        "running time": "123 minutes",
+        "genre": [
+            "Fantasy",
+            "Drama",
+            "Romance"
+        ],
+        "rating": "R",
+        "cast": [
+            "Sally Hawkins",
+            "Doug Jones",
+            "Michael Shannon",
+            "Octavia Spencer"
+        ],
+        "plot": "In a high-security government laboratory, a mute janitor forms a unique bond with an amphibious creature being held captive and subjected to experiments.",
+        "setting": "1960s Cold War-era Baltimore",
+        "cinematography": "Dan Laustsen",
+        "soundtrack": "Alexandre Desplat",
+        "boxOffice": "$195.2 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Double Dare You Productions, Fox Searchlight Pictures, TSG Entertainment",
+        "budget": "$19.5 million",
+        "screenplay": "Guillermo del Toro, Vanessa Taylor",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its visual storytelling and romance",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Fox Searchlight Pictures",
+        "culturalSignificance": "Unique love story and visual style",
+        "messageMoral": "Acceptance, love, and the power of communication",
+        "style": "Fantasy romance with a dark twist",
+        "themes": [
+            "Love",
+            "Acceptance",
+            "Otherness"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the backdrop of the Cold War",
+        "story": "The film explores the unusual romance between Elisa Esposito, a mute janitor, and an amphibious creature held in a government laboratory.",
+        "theme": "The central idea of the film revolves around acceptance, love, and the power of communication.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.3,
+        "rottenTomatoRating": 92
+    },
+    {
+        "title": "The Revenant",
+        "director": "Alejandro González Iñárritu",
+        "producer": "Alejandro González Iñárritu, Arnon Milchan, Steve Golin",
+        "release date": "December 25, 2015",
+        "running time": "156 minutes",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Western"
+        ],
+        "rating": "R",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Tom Hardy",
+            "Domhnall Gleeson",
+            "Will Poulter"
+        ],
+        "plot": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+        "setting": "1820s American frontier and wilderness",
+        "cinematography": "Emmanuel Lubezki",
+        "soundtrack": "Ryuichi Sakamoto and Alva Noto",
+        "boxOffice": "$533 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Regency Enterprises, Appian Way Productions, New Regency Pictures",
+        "budget": "$135 million",
+        "screenplay": "Mark L. Smith, Alejandro González Iñárritu",
+        "adaptation": "Based on the novel by Michael Punke",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its cinematography and DiCaprio's performance",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "20th Century Fox",
+        "culturalSignificance": "Known for its realistic portrayal of survival",
+        "messageMoral": "Survival, revenge, and the human spirit",
+        "style": "Visually immersive and gritty",
+        "themes": [
+            "Survival",
+            "Revenge",
+            "Resilience"
+        ],
+        "symbolism": null,
+        "historicalContext": "Based on real events and set in the 1820s",
+        "story": "The film tells the harrowing story of frontiersman Hugh Glass as he embarks on a journey of survival and revenge in the American wilderness.",
+        "theme": "The central idea of the film explores survival, revenge, and the indomitable human spirit.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.0,
+        "rottenTomatoRating": 78
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "director": "George Miller",
+        "producer": "George Miller, Doug Mitchell, P.J. Voeten",
+        "release date": "May 15, 2015",
+        "running time": "120 minutes",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Science Fiction"
+        ],
+        "rating": "R",
+        "cast": [
+            "Tom Hardy",
+            "Charlize Theron",
+            "Nicholas Hoult",
+            "Hugh Keays-Byrne"
+        ],
+        "plot": "In a post-apocalyptic wasteland, Max teams up with Furiosa to escape the clutches of a tyrannical warlord and his army of followers.",
+        "setting": "Post-apocalyptic desert wasteland",
+        "cinematography": "John Seale",
+        "soundtrack": "Junkie XL",
+        "boxOffice": "$375 million",
+        "awards": [
+            "Academy Awards",
+            "Critics' Choice Movie Awards"
+        ],
+        "productionCompany": "Village Roadshow Pictures, Kennedy Miller Mitchell, RatPac-Dune Entertainment",
+        "budget": "$150 million",
+        "screenplay": "George Miller, Brendan McCarthy, Nico Lathouris",
+        "adaptation": "Sequel to the Mad Max series",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its action sequences and world-building",
+        "sequels/prequels": [
+            "Mad Max: The Wasteland (announced)"
+        ],
+        "marketing": null,
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Revived the Mad Max franchise and influenced action films",
+        "messageMoral": "Survival, feminism, and environmentalism",
+        "style": "High-octane action and practical effects",
+        "themes": [
+            "Survival",
+            "Freedom",
+            "Empowerment"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a dystopian future",
+        "story": "The film follows Max and Furiosa as they attempt to escape the clutches of the tyrannical warlord Immortan Joe and his army in a post-apocalyptic wasteland.",
+        "theme": "The central idea of the film explores survival, feminism, and environmentalism.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 97
+    },
+    {
+        "title": "Birdman",
+        "director": "Alejandro González Iñárritu",
+        "producer": "Alejandro González Iñárritu, John Lesher, Arnon Milchan, James W. Skotchdopole",
+        "release date": "October 17, 2014",
+        "running time": "119 minutes",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Michael Keaton",
+            "Edward Norton",
+            "Emma Stone",
+            "Zach Galifianakis"
+        ],
+        "plot": "A washed-up actor famous for portraying an iconic superhero struggles to mount a Broadway play, facing personal and professional challenges.",
+        "setting": "Broadway theater and New York City",
+        "cinematography": "Emmanuel Lubezki",
+        "soundtrack": "Antonio Sánchez",
+        "boxOffice": "$103.2 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Regency Enterprises, New Regency Pictures, M Productions",
+        "budget": "$18 million",
+        "screenplay": "Alejandro González Iñárritu, Nicolás Giacobone, Alexander Dinelaris Jr., Armando Bo",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its unique filmmaking style and performances",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Fox Searchlight Pictures",
+        "culturalSignificance": "Known for its one-take appearance and exploration of celebrity culture",
+        "messageMoral": "Artistic expression, identity, and ego",
+        "style": "Single-take appearance and dark comedy",
+        "themes": [
+            "Art",
+            "Celebrity",
+            "Identity"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary New York City",
+        "story": "The film follows Riggan Thomson, a washed-up actor, as he attempts to revive his career by directing and starring in a Broadway play.",
+        "theme": "The central idea of the film explores artistic expression, identity, and ego.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.7,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "Her",
+        "director": "Spike Jonze",
+        "producer": "Megan Ellison, Spike Jonze, Vincent Landay",
+        "release date": "December 18, 2013",
+        "running time": "126 minutes",
+        "genre": [
+            "Science Fiction",
+            "Drama",
+            "Romance"
+        ],
+        "rating": "R",
+        "cast": [
+            "Joaquin Phoenix",
+            "Scarlett Johansson (voice)",
+            "Amy Adams",
+            "Rooney Mara"
+        ],
+        "plot": "In a near-future, a lonely writer develops an unlikely relationship with an advanced operating system, leading to a unique and emotionally charged love story.",
+        "setting": "Near-future Los Angeles",
+        "cinematography": "Hoyte van Hoytema",
+        "soundtrack": "Arcade Fire",
+        "boxOffice": "$48 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Annapurna Pictures, Warner Bros. Pictures",
+        "budget": "$23 million",
+        "screenplay": "Spike Jonze",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its unique concept and performances",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Exploration of technology and human relationships",
+        "messageMoral": "Loneliness, technology, and the nature of love",
+        "style": "Subtle science fiction and emotional depth",
+        "themes": [
+            "Love",
+            "Loneliness",
+            "Technology"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a near-future with advanced technology",
+        "story": "The film explores the unconventional love story between Theodore Twombly and Samantha, an advanced artificial intelligence operating system.",
+        "theme": "The central idea of the film delves into themes of loneliness, technology, and the nature of love.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.0,
+        "rottenTomatoRating": 95
+    },
+    {
+        "title": "12 Years a Slave",
+        "director": "Steve McQueen",
+        "producer": "Brad Pitt, Dede Gardner, Jeremy Kleiner, Steve McQueen, Anthony Katagas",
+        "release date": "October 18, 2013",
+        "running time": "134 minutes",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": "R",
+        "cast": [
+            "Chiwetel Ejiofor",
+            "Michael Fassbender",
+            "Lupita Nyong'o",
+            "Benedict Cumberbatch"
+        ],
+        "plot": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.",
+        "setting": "Antebellum United States",
+        "cinematography": "Sean Bobbitt",
+        "soundtrack": "Hans Zimmer",
+        "boxOffice": "$187.7 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Regency Enterprises, River Road Entertainment, Plan B Entertainment",
+        "budget": "$20 million",
+        "screenplay": "John Ridley",
+        "adaptation": "Based on the memoir by Solomon Northup",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its historical accuracy and performances",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Fox Searchlight Pictures",
+        "culturalSignificance": "Important in depicting the brutality of slavery",
+        "messageMoral": "Slavery, human rights, and resilience",
+        "style": "Historically accurate and emotionally powerful",
+        "themes": [
+            "Slavery",
+            "Freedom",
+            "Injustice"
+        ],
+        "symbolism": null,
+        "historicalContext": "Based on the true story of Solomon Northup",
+        "story": "The film tells the harrowing true story of Solomon Northup, a free man who was kidnapped and enslaved in the American South before the Civil War.",
+        "theme": "The central idea of the film explores the horrors of slavery, human rights, and the resilience of the human spirit.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.1,
+        "rottenTomatoRating": 95
+    },
+    {
+        "title": "Moonlight",
+        "director": "Barry Jenkins",
+        "producer": "Adele Romanski, Dede Gardner, Jeremy Kleiner",
+        "release date": "October 21, 2016",
+        "running time": "111 minutes",
+        "genre": [
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Trevante Rhodes",
+            "Ashton Sanders",
+            "Alex R. Hibbert",
+            "Mahershala Ali"
+        ],
+        "plot": "A young black man's journey to adulthood, as he grapples with his identity and sexuality in a rough Miami neighborhood.",
+        "setting": "Miami, Florida",
+        "cinematography": "James Laxton",
+        "soundtrack": "Nicholas Britell",
+        "boxOffice": "$65 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "A24, Plan B Entertainment",
+        "budget": "$4 million",
+        "screenplay": "Barry Jenkins",
+        "adaptation": "Based on the play 'In Moonlight Black Boys Look Blue' by Tarell Alvin McCraney",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its exploration of identity and sexuality",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "A24",
+        "culturalSignificance": "Important in LGBTQ+ cinema and racial identity",
+        "messageMoral": "Identity, sexuality, and self-acceptance",
+        "style": "Intimate and poetic",
+        "themes": [
+            "Identity",
+            "Sexuality",
+            "Acceptance"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary Miami",
+        "story": "The film follows the life of Chiron, a young black man, through three pivotal stages of his life as he grapples with his identity and sexuality in a tough Miami neighborhood.",
+        "theme": "The central idea of the film explores identity, sexuality, and self-acceptance.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.4,
+        "rottenTomatoRating": 98
+    },
+    {
+        "title": "Parasite",
+        "director": "Bong Joon-ho",
+        "producer": "Bong Joon-ho, Kwak Sin-ae, Moon Yang-kwon, Jang Young-hwan",
+        "release date": "May 21, 2019",
+        "running time": "132 minutes",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "R",
+        "cast": [
+            "Song Kang-ho",
+            "Lee Sun-kyun",
+            "Cho Yeo-jeong",
+            "Choi Woo-shik"
+        ],
+        "plot": "A poor family schemes to become employed by a wealthy family, but their plan goes awry, leading to unexpected and dark consequences.",
+        "setting": "Seoul, South Korea",
+        "cinematography": "Hong Kyung-pyo",
+        "soundtrack": "Jeong Jae-il",
+        "boxOffice": "$266.9 million",
+        "awards": [
+            "Academy Awards",
+            "Cannes Film Festival"
+        ],
+        "productionCompany": "CJ Entertainment, Barunson E&A, CJ E&M Film Division",
+        "budget": "$11 million",
+        "screenplay": "Bong Joon-ho, Han Jin-won",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its social commentary and genre-blending",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "CJ Entertainment",
+        "culturalSignificance": "Broke barriers for non-English language films at the Oscars",
+        "messageMoral": "Class disparity, social hierarchy, and human nature",
+        "style": "Darkly comedic and suspenseful",
+        "themes": [
+            "Class",
+            "Inequality",
+            "Deception"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary Seoul",
+        "story": "The film follows the Kim family's efforts to infiltrate the wealthy Park family's household, leading to unexpected consequences and a dark turn of events.",
+        "theme": "The central idea of the film explores class disparity, social hierarchy, and human nature.",
+        "cinema": "Bollywood",
+        "type": "Movie",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 98
+    },
+    {
+        "title": "The Florida Project",
+        "director": "Sean Baker",
+        "producer": "Sean Baker, Chris Bergoch, Kevin Chinoy, Andrew Duncan, Alex Saks, Francesca Silvestri, Shih-Ching Tsou",
+        "release date": "October 6, 2017",
+        "running time": "115 minutes",
+        "genre": [
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Willem Dafoe",
+            "Brooklynn Prince",
+            "Bria Vinaite",
+            "Valeria Cotto"
+        ],
+        "plot": "A precocious six-year-old girl and her ragtag group of friends navigate life on the outskirts of Disney World while living in poverty.",
+        "setting": "Kissimmee, Florida",
+        "cinematography": "Alexis Zabe",
+        "soundtrack": "Lorne Balfe",
+        "boxOffice": "$11.3 million",
+        "awards": [
+            "Critics' Choice Movie Awards",
+            "Independent Spirit Awards"
+        ],
+        "productionCompany": "June Pictures, Cre Film, Freestyle Picture Company",
+        "budget": "$2 million",
+        "screenplay": "Sean Baker, Chris Bergoch",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its raw portrayal of poverty",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "A24",
+        "culturalSignificance": "Highlighted the issue of hidden homelessness",
+        "messageMoral": "Childhood innocence, poverty, and the American Dream",
+        "style": "Realistic and empathetic",
+        "themes": [
+            "Poverty",
+            "Innocence",
+            "Community"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times in a poverty-stricken area near Disney World",
+        "story": "The film follows the adventures of Moonee, a young girl living in a budget motel with her mother, as they navigate life on the fringes of Disney World.",
+        "theme": "The central idea of the film explores childhood innocence, poverty, and the pursuit of the American Dream.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.6,
+        "rottenTomatoRating": 96
+    },
+    {
+        "title": "Lady Bird",
+        "director": "Greta Gerwig",
+        "producer": "Scott Rudin, Eli Bush, Evelyn O'Neill",
+        "release date": "November 3, 2017",
+        "running time": "94 minutes",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Saoirse Ronan",
+            "Laurie Metcalf",
+            "Tracy Letts",
+            "Lucas Hedges"
+        ],
+        "plot": "In early 2000s Sacramento, a high school senior navigates a turbulent relationship with her mother while pursuing her dreams of attending college in the East Coast.",
+        "setting": "Sacramento, California (early 2000s)",
+        "cinematography": "Sam Levy",
+        "soundtrack": "Jon Brion",
+        "boxOffice": "$78.5 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Scott Rudin Productions, A24, IAC Films",
+        "budget": "$10 million",
+        "screenplay": "Greta Gerwig",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its coming-of-age story and performances",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "A24",
+        "culturalSignificance": "Captured the essence of adolescence and mother-daughter relationships",
+        "messageMoral": "Individuality, adolescence, and mother-daughter relationships",
+        "style": "Quirky and heartfelt",
+        "themes": [
+            "Coming of Age",
+            "Identity",
+            "Family"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the early 2000s",
+        "story": "The film follows Christine 'Lady Bird' McPherson, a high school senior, as she navigates the challenges of adolescence and her strained relationship with her mother.",
+        "theme": "The central idea of the film explores individuality, adolescence, and mother-daughter relationships.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.4,
+        "rottenTomatoRating": 99
+    },
+    {
+        "title": "A Quiet Place",
+        "director": "John Krasinski",
+        "producer": "Michael Bay, Andrew Form, Brad Fuller",
+        "release date": "April 6, 2018",
+        "running time": "90 minutes",
+        "genre": [
+            "Horror",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Emily Blunt",
+            "John Krasinski",
+            "Millicent Simmonds",
+            "Noah Jupe"
+        ],
+        "plot": "In a post-apocalyptic world overrun by sound-sensitive creatures, a family must live in silence to avoid detection and survive.",
+        "setting": "Post-apocalyptic rural America",
+        "cinematography": "Charlotte Bruus Christensen",
+        "soundtrack": "Marco Beltrami",
+        "boxOffice": "$340.9 million",
+        "awards": [
+            "Critics' Choice Movie Awards",
+            "Screen Actors Guild Awards"
+        ],
+        "productionCompany": "Platinum Dunes, Sunday Night, Michael Bay's production company",
+        "budget": "$17 million",
+        "screenplay": "Bryan Woods, Scott Beck, John Krasinski",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its tension and sound design",
+        "sequels/prequels": [
+            "A Quiet Place Part II (2021)"
+        ],
+        "marketing": null,
+        "distribution": "Paramount Pictures",
+        "culturalSignificance": "Revived the horror genre and explored sensory disability",
+        "messageMoral": "Family, survival, and communication",
+        "style": "Tense and minimalistic",
+        "themes": [
+            "Family",
+            "Survival",
+            "Communication"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a post-apocalyptic future",
+        "story": "The film follows the Abbott family as they navigate a world where sound-sensitive creatures hunt humans, forcing them to live in silence to survive.",
+        "theme": "The central idea of the film explores the importance of family, survival, and communication in extreme circumstances.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.5,
+        "rottenTomatoRating": 95
+    },
+    {
+        "title": "Whiplash",
+        "director": "Damien Chazelle",
+        "producer": "Jason Blum, Helen Estabrook, David Lancaster, Michel Litvak",
+        "release date": "October 10, 2014",
+        "running time": "107 minutes",
+        "genre": [
+            "Drama",
+            "Music"
+        ],
+        "rating": "R",
+        "cast": [
+            "Miles Teller",
+            "J.K. Simmons",
+            "Paul Reiser",
+            "Melissa Benoist"
+        ],
+        "plot": "A young drummer, Andrew Neiman, enrolls in a prestigious music conservatory and comes under the intense tutelage of a demanding instructor, Terence Fletcher.",
+        "setting": "New York City",
+        "cinematography": "Sharone Meir",
+        "soundtrack": "Justin Hurwitz",
+        "boxOffice": "$48.9 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Blumhouse Productions, Bold Films",
+        "budget": "$3.3 million",
+        "screenplay": "Damien Chazelle",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its performances and music",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Sony Pictures Classics",
+        "culturalSignificance": "Highlighted the pursuit of excellence in music",
+        "messageMoral": "Ambition, perfectionism, and mentorship",
+        "style": "Intense and music-driven",
+        "themes": [
+            "Ambition",
+            "Perfectionism",
+            "Mentorship"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The film follows the journey of Andrew Neiman, a young drummer, as he strives for greatness under the ruthless guidance of Terence Fletcher.",
+        "theme": "The central idea of the film explores ambition, perfectionism, and the complex mentor-student relationship.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.5,
+        "rottenTomatoRating": 94
+    },
+    {
+        "title": "The Martian",
+        "director": "Ridley Scott",
+        "producer": "Ridley Scott, Simon Kinberg, Mark Huffam, Michael Schaefer, Aditya Sood",
+        "release date": "October 2, 2015",
+        "running time": "144 minutes",
+        "genre": [
+            "Science Fiction",
+            "Drama"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Matt Damon",
+            "Jessica Chastain",
+            "Kristen Wiig",
+            "Jeff Daniels"
+        ],
+        "plot": "An astronaut, Mark Watney, becomes stranded on Mars and must use his ingenuity and resourcefulness to survive while his crew works to bring him home.",
+        "setting": "Mars and NASA headquarters",
+        "cinematography": "Dariusz Wolski",
+        "soundtrack": "Harry Gregson-Williams",
+        "boxOffice": "$630.2 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Scott Free Productions, Kinberg Genre, TSG Entertainment",
+        "budget": "$108 million",
+        "screenplay": "Drew Goddard",
+        "adaptation": "Based on the novel by Andy Weir",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its scientific accuracy and humor",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "20th Century Fox",
+        "culturalSignificance": "Promoted interest in space exploration",
+        "messageMoral": "Ingenuity, resilience, and teamwork",
+        "style": "Scientific and humorous",
+        "themes": [
+            "Survival",
+            "Exploration",
+            "Teamwork"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the near future",
+        "story": "The film tells the story of Mark Watney, an astronaut stranded on Mars, and his struggle for survival until rescue becomes possible.",
+        "theme": "The central idea of the film explores ingenuity, resilience, and the power of teamwork in the face of adversity.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.0,
+        "rottenTomatoRating": 91
+    },
+    {
+        "title": "A Star Is Born",
+        "director": "Bradley Cooper",
+        "producer": "Bill Gerber, Bradley Cooper, Lynette Howell Taylor, Jon Peters, Todd Phillips",
+        "release date": "October 5, 2018",
+        "running time": "136 minutes",
+        "genre": [
+            "Drama",
+            "Music",
+            "Romance"
+        ],
+        "rating": "R",
+        "cast": [
+            "Lady Gaga",
+            "Bradley Cooper",
+            "Sam Elliott",
+            "Dave Chappelle"
+        ],
+        "plot": "A seasoned musician, Jackson Maine, falls in love with a struggling artist, Ally, and helps her find fame while his own career spirals downward due to alcoholism.",
+        "setting": "Music industry and live performances",
+        "cinematography": "Matthew Libatique",
+        "soundtrack": "Lady Gaga, Bradley Cooper",
+        "boxOffice": "$436.2 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Warner Bros. Pictures, Metro-Goldwyn-Mayer Pictures, Live Nation Productions",
+        "budget": "$36 million",
+        "screenplay": "Eric Roth, Bradley Cooper, Will Fetters",
+        "adaptation": "Remake of previous 'A Star Is Born' films",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its performances and music",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Warner Bros. Pictures",
+        "culturalSignificance": "Reimagining of a classic Hollywood story",
+        "messageMoral": "Love, fame, addiction, and sacrifice",
+        "style": "Musical and emotionally charged",
+        "themes": [
+            "Love",
+            "Fame",
+            "Addiction"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary times",
+        "story": "The film explores the romantic relationship between Jackson Maine, a successful musician battling alcoholism, and Ally, a talented singer he discovers and helps rise to fame.",
+        "theme": "The central idea of the film delves into love, fame, addiction, and sacrifice.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.7,
+        "rottenTomatoRating": 90
+    },
+    {
+        "title": "Bohemian Rhapsody",
+        "director": "Bryan Singer (credited), Dexter Fletcher (uncredited)",
+        "producer": "Graham King, Jim Beach",
+        "release date": "October 24, 2018",
+        "running time": "134 minutes",
+        "genre": [
+            "Biography",
+            "Drama",
+            "Music"
+        ],
+        "rating": "PG-13",
+        "cast": [
+            "Rami Malek",
+            "Lucy Boynton",
+            "Gwilym Lee",
+            "Ben Hardy"
+        ],
+        "plot": "The biographical story of the legendary rock band Queen and its lead singer Freddie Mercury, leading up to their iconic Live Aid performance.",
+        "setting": "Music industry and live performances",
+        "cinematography": "Newton Thomas Sigel",
+        "soundtrack": "Queen",
+        "boxOffice": "$903.7 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "20th Century Fox, Regency Enterprises, GK Films",
+        "budget": "$52 million",
+        "screenplay": "Anthony McCarten",
+        "adaptation": "Biographical adaptation",
+        "visual effects": null,
+        "reception": "Critically acclaimed for Rami Malek's performance and music",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "20th Century Fox",
+        "culturalSignificance": "Celebration of Queen's music and legacy",
+        "messageMoral": "Identity, creativity, and acceptance",
+        "style": "Musical and biographical",
+        "themes": [
+            "Identity",
+            "Creativity",
+            "Acceptance"
+        ],
+        "symbolism": null,
+        "historicalContext": "Based on the real-life story of Queen and Freddie Mercury",
+        "story": "The film chronicles the rise of the iconic rock band Queen and the life of their lead singer, Freddie Mercury, culminating in their historic Live Aid concert.",
+        "theme": "The central idea of the film explores identity, creativity, and acceptance.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.0,
+        "rottenTomatoRating": 61
+    },
+    {
+        "title": "Once Upon a Time in Hollywood",
+        "director": "Quentin Tarantino",
+        "producer": "David Heyman, Shannon McIntosh, Quentin Tarantino",
+        "release date": "July 26, 2019",
+        "running time": "161 minutes",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Margot Robbie",
+            "Emile Hirsch"
+        ],
+        "plot": "A faded actor and his stunt double strive to achieve fame and success in the changing landscape of 1969 Hollywood, while the Manson family looms in the background.",
+        "setting": "1969 Los Angeles",
+        "cinematography": "Robert Richardson",
+        "soundtrack": "Various artists",
+        "boxOffice": "$374.3 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Columbia Pictures, Bona Film Group, Heyday Films",
+        "budget": "$90–96 million",
+        "screenplay": "Quentin Tarantino",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its nostalgic portrayal of Hollywood's golden age",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Sony Pictures Releasing",
+        "culturalSignificance": "Nostalgic tribute to 1960s Hollywood",
+        "messageMoral": "Hollywood's evolution and the passage of time",
+        "style": "Nostalgic and satirical",
+        "themes": [
+            "Hollywood",
+            "Nostalgia",
+            "Change"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in 1969, a pivotal year in Hollywood history",
+        "story": "The film follows the lives of actor Rick Dalton and his stunt double Cliff Booth as they navigate the changing Hollywood landscape of the late 1960s.",
+        "theme": "The central idea of the film explores Hollywood's evolution and the passage of time.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.6,
+        "rottenTomatoRating": 85
+    },
+    {
+        "title": "1917",
+        "director": "Sam Mendes",
+        "producer": "Sam Mendes, Pippa Harris, Jayne-Ann Tenggren, Callum McDougall, Brian Oliver, Krysty Wilson-Cairns",
+        "release date": "December 25, 2019",
+        "running time": "119 minutes",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rating": "R",
+        "cast": [
+            "George MacKay",
+            "Dean-Charles Chapman",
+            "Colin Firth",
+            "Benedict Cumberbatch"
+        ],
+        "plot": "During World War I, two British soldiers are tasked with delivering a critical message to save a battalion from walking into a deadly trap.",
+        "setting": "World War I, Western Front",
+        "cinematography": "Roger Deakins",
+        "soundtrack": "Thomas Newman",
+        "boxOffice": "$374.7 million",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Amblin Partners, New Republic Pictures, Neal Street Productions",
+        "budget": "$90 million",
+        "screenplay": "Sam Mendes, Krysty Wilson-Cairns",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its immersive one-shot cinematography",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Universal Pictures",
+        "culturalSignificance": "Highlighted the horrors of World War I",
+        "messageMoral": "War, sacrifice, and camaraderie",
+        "style": "Immersive and visually stunning",
+        "themes": [
+            "War",
+            "Sacrifice",
+            "Camaraderie"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set during World War I",
+        "story": "The film follows two young British soldiers, Lance Corporals Schofield and Blake, as they embark on a perilous mission to deliver a life-saving message to a battalion on the front lines of World War I.",
+        "theme": "The central idea of the film explores the brutality of war, sacrifice, and the bonds of camaraderie.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 8.3,
+        "rottenTomatoRating": 89
+    },
+    {
+        "title": "The Irishman",
+        "director": "Martin Scorsese",
+        "producer": "Martin Scorsese, Robert De Niro, Jane Rosenthal, Emma Tillinger Koskoff, Irwin Winkler, Gerald Chamales, Gaston Pavlovich, Randall Emmett, Gabriele Israilovici, Kirk D'Amico, David González",
+        "release date": "November 1, 2019 (limited), November 27, 2019 (Netflix)",
+        "running time": "209 minutes",
+        "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+        ],
+        "rating": "R",
+        "cast": [
+            "Robert De Niro",
+            "Al Pacino",
+            "Joe Pesci",
+            "Ray Romano"
+        ],
+        "plot": "An aging hitman reflects on his life and criminal career, including his involvement with the Bufalino crime family and the disappearance of Jimmy Hoffa.",
+        "setting": "Mid-20th century United States",
+        "cinematography": "Rodrigo Prieto",
+        "soundtrack": "Robbie Robertson",
+        "boxOffice": "$9.5 million (limited release)",
+        "awards": [
+            "Academy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "TriBeCa Productions, Sikelia Productions, Winkler Films",
+        "budget": "$159 million",
+        "screenplay": "Steven Zaillian",
+        "adaptation": "Based on the book 'I Heard You Paint Houses' by Charles Brandt",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its performances and de-aging technology",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Netflix (streaming), various theaters (limited release)",
+        "culturalSignificance": "A reunion of legendary actors and director Martin Scorsese",
+        "messageMoral": "Crime, loyalty, and the passage of time",
+        "style": "Epic and reflective",
+        "themes": [
+            "Crime",
+            "Loyalty",
+            "Time"
+        ],
+        "symbolism": null,
+        "historicalContext": "Based on real events and historical figures",
+        "story": "The film explores the life and career of Frank Sheeran, a hitman who worked for the Bufalino crime family and became involved in the disappearance of Jimmy Hoffa.",
+        "theme": "The central idea of the film delves into the world of crime, loyalty, and the inevitable passage of time.",
+        "cinema": "Hollywood",
+        "type": "Movie",
+        "imdbRating": 7.8,
+        "rottenTomatoRating": 95
+    },
+    {
+        "title": "Fleabag",
+        "director": "Harry Bradbeer",
+        "producer": "Phoebe Waller-Bridge, Harry Bradbeer, Lydia Hampson, Sarah Hammond",
+        "release date": "July 21, 2016",
+        "running time": "30 minutes per episode",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "TV-MA",
+        "cast": [
+            "Phoebe Waller-Bridge",
+            "Sian Clifford",
+            "Olivia Colman",
+            "Brett Gelman"
+        ],
+        "plot": "A witty and troubled young woman, known as Fleabag, navigates life and love in London while dealing with her own complex issues and family drama.",
+        "setting": "London, United Kingdom",
+        "cinematography": "Tony Miller",
+        "soundtrack": "Isobel Waller-Bridge",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Two Brothers Pictures",
+        "budget": null,
+        "screenplay": "Phoebe Waller-Bridge",
+        "adaptation": "Based on Phoebe Waller-Bridge's one-woman play",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its humor and writing",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Amazon Prime Video",
+        "culturalSignificance": "Showcased Phoebe Waller-Bridge's talent as a writer and actress",
+        "messageMoral": "Identity, relationships, and self-discovery",
+        "style": "Darkly humorous and emotionally raw",
+        "themes": [
+            "Identity",
+            "Relationships",
+            "Self-Discovery"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in contemporary London",
+        "story": "The series follows the life and misadventures of a young woman known as Fleabag as she navigates her complicated relationships, her family's dysfunction, and her own personal struggles.",
+        "theme": "The central idea of the series explores issues of identity, relationships, and self-discovery.",
+        "cinema": "Hollywood",
+        "type": "Web Series",
+        "imdbRating": 8.7,
+        "rottenTomatoRating": 100
+    },
+    {
+        "title": "Parks and Recreation",
+        "director": "Various directors",
+        "producer": "Greg Daniels, Michael Schur, Howard Klein, David Miner, Morgan Sackett, Dean Holland",
+        "release date": "April 9, 2009",
+        "running time": "22 minutes per episode",
+        "genre": [
+            "Comedy"
+        ],
+        "rating": "TV-PG",
+        "cast": [
+            "Amy Poehler",
+            "Rashida Jones",
+            "Nick Offerman",
+            "Aubrey Plaza"
+        ],
+        "plot": "The series follows the quirky employees of the Parks and Recreation Department in the fictional town of Pawnee, Indiana, as they work on community projects and navigate the challenges of local government.",
+        "setting": "Pawnee, Indiana",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Gaby Moreno, Vincent Jones, Rivers Cuomo",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Deedle-Dee Productions, Fremulon, 3 Arts Entertainment",
+        "budget": null,
+        "screenplay": "Various writers",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Critically acclaimed for its ensemble cast and humor",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "NBC (original broadcast), various streaming platforms",
+        "culturalSignificance": "Popularized the mockumentary-style sitcom",
+        "messageMoral": "Local government, community, and teamwork",
+        "style": "Mockumentary-style and character-driven",
+        "themes": [
+            "Local Government",
+            "Community",
+            "Teamwork"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in the fictional town of Pawnee, Indiana",
+        "story": "The series provides a comedic look at the daily operations of the Parks and Recreation Department in Pawnee, Indiana, as led by the enthusiastic Leslie Knope.",
+        "theme": "The central idea of the series explores the workings of local government, community involvement, and the importance of teamwork.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.6,
+        "rottenTomatoRating": 93
+    },
+    {
+        "title": "Firefly",
+        "director": "Various directors",
+        "producer": "Joss Whedon, Gareth Davies, Ben Edlund, Tim Minear",
+        "release date": "December 20, 2002",
+        "running time": "44 minutes per episode",
+        "genre": [
+            "Science Fiction",
+            "Western",
+            "Adventure"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Nathan Fillion",
+            "Gina Torres",
+            "Alan Tudyk",
+            "Morena Baccarin"
+        ],
+        "plot": "Set in the distant future, the series follows the crew of the spaceship Serenity as they navigate life on the fringes of society, taking on various jobs while evading the oppressive Alliance government.",
+        "setting": "Distant future, outer space",
+        "cinematography": "David Boyd, Dennis Smith",
+        "soundtrack": "Greg Edmonson",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards"
+        ],
+        "productionCompany": "Mutant Enemy Productions, 20th Century Fox Television",
+        "budget": null,
+        "screenplay": "Joss Whedon, various writers",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Cult following and critical acclaim",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "Fox (original broadcast), various streaming platforms",
+        "culturalSignificance": "Cult classic and beloved by fans",
+        "messageMoral": "Freedom, individuality, and loyalty",
+        "style": "Genre-blending and character-driven",
+        "themes": [
+            "Freedom",
+            "Individuality",
+            "Loyalty"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a futuristic universe",
+        "story": "The series explores the lives of the crew members of the spaceship Serenity as they navigate the challenges of life on the fringes of society.",
+        "theme": "The central idea of the series delves into themes of freedom, individuality, and loyalty in a futuristic setting.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 9.0,
+        "rottenTomatoRating": 89
+    },
+    {
+        "title": "Twin Peaks",
+        "director": "Various directors",
+        "producer": "David Lynch, Mark Frost, Robert Engels, Harley Peyton",
+        "release date": "April 8, 1990",
+        "running time": "47 minutes per episode",
+        "genre": [
+            "Mystery",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Kyle MacLachlan",
+            "Michael Ontkean",
+            "Mädchen Amick",
+            "Dana Ashbrook"
+        ],
+        "plot": "The series begins with the investigation of the murder of Laura Palmer in the small, quirky town of Twin Peaks, revealing hidden secrets and supernatural elements that affect the townsfolk.",
+        "setting": "Twin Peaks, Washington",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Angelo Badalamenti",
+        "boxOffice": null,
+        "awards": [
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "Lynch/Frost Productions, Spelling Entertainment",
+        "budget": null,
+        "screenplay": "David Lynch, Mark Frost, various writers",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Cult following and critical acclaim",
+        "sequels/prequels": [
+            "Twin Peaks: Fire Walk with Me",
+            "Twin Peaks: The Return"
+        ],
+        "marketing": null,
+        "distribution": "ABC (original broadcast), various streaming platforms",
+        "culturalSignificance": "Cult classic and influential on TV storytelling",
+        "messageMoral": "Mystery, duality, and the unknown",
+        "style": "Surreal and enigmatic",
+        "themes": [
+            "Mystery",
+            "Duality",
+            "The Unknown"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set in a small American town",
+        "story": "The series kicks off with the murder of Laura Palmer and the subsequent investigation by FBI agent Dale Cooper, uncovering the town's secrets and supernatural occurrences.",
+        "theme": "The central idea of the series revolves around mystery, duality, and the exploration of the unknown.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.8,
+        "rottenTomatoRating": 89
+    },
+    {
+        "title": "Lost",
+        "director": "Various directors",
+        "producer": "J.J. Abrams, Damon Lindelof, Carlton Cuse",
+        "release date": "September 22, 2004",
+        "running time": "42 minutes per episode",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Mystery"
+        ],
+        "rating": "TV-14",
+        "cast": [
+            "Matthew Fox",
+            "Evangeline Lilly",
+            "Josh Holloway",
+            "Terry O'Quinn"
+        ],
+        "plot": "After surviving a plane crash on a mysterious island, a group of survivors must work together to stay alive while unraveling the island's many mysteries and confronting their own pasts.",
+        "setting": "A mysterious tropical island",
+        "cinematography": "Various cinematographers",
+        "soundtrack": "Michael Giacchino",
+        "boxOffice": null,
+        "awards": [
+            "Emmy Awards",
+            "Golden Globe Awards"
+        ],
+        "productionCompany": "ABC Studios, Bad Robot Productions",
+        "budget": null,
+        "screenplay": "Damon Lindelof, Carlton Cuse, various writers",
+        "adaptation": "Original screenplay",
+        "visual effects": null,
+        "reception": "Cult following and critical acclaim",
+        "sequels/prequels": null,
+        "marketing": null,
+        "distribution": "ABC (original broadcast), various streaming platforms",
+        "culturalSignificance": "Complex storytelling and mystery",
+        "messageMoral": "Survival, redemption, and destiny",
+        "style": "Character-driven and mystery-laden",
+        "themes": [
+            "Survival",
+            "Redemption",
+            "Destiny"
+        ],
+        "symbolism": null,
+        "historicalContext": "Set on a mysterious island",
+        "story": "The series begins with the survivors of Oceanic Flight 815 crash-landing on a mysterious island, where they must navigate the island's dangers and uncover its secrets.",
+        "theme": "The central idea of the series explores themes of survival, redemption, and the idea of destiny on a mysterious island.",
+        "cinema": "Hollywood",
+        "type": "TV Series",
+        "imdbRating": 8.3,
+        "rottenTomatoRating": 87
     }
 ]
