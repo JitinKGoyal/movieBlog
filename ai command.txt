@@ -1,4 +1,4 @@
-give me fully detailed array of json about movies and webseries with following points using headings
+give me fully detailed array of json about movies and webseries with following points using headings. and don't give space in keys. keep cinema only "Hollywood or Bollywood"
 
 1.	title: 
 2.	director: 
@@ -37,15 +37,13 @@ give me fully detailed array of json about movies and webseries with following p
 35. rottenTomatoRating
 
 for following movies  
-    "Game of Thrones",
-    "Breaking Bad",
-    "Stranger Things",
-    "The Crown",
-    "Black Mirror",
-    "The Mandalorian",
-    "Friends",
-    "The Witcher",
-    "Chernobyl",
-    "The Office (U.S.)",
-    "The Handmaid's Tale",
-    "Westworld",
+   "Westworld",
+    "Fargo",
+    "Narcos",
+    "The Queen's Gambit",
+    "The Boys",
+    "Mindhunter",
+    "The Marvelous Mrs. Maisel",
+    "Peaky Blinders",
+    "Better Call Saul",
+    "The Godfather: Part III",

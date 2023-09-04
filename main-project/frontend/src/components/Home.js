@@ -11,7 +11,7 @@ function Home() {
     const [movies, setMovies] = useState([])
     const [value, setValue] = useState("")
     const [cinema, setCinema] = useState("Hollywood")
-    const [category, setCategory] = useState("Movie")
+    const [type, setType] = useState("Movie")
 
     const breakPointObj = {
         default: 4,
@@ -26,6 +26,7 @@ function Home() {
         fetch(`${baseUrl}/movie`)
             .then(res => res.json())
             .then(data => {
+                console.log(data)
                 setAllMovies(data)
             })
     }
@@ -35,16 +36,12 @@ function Home() {
         setValue(value)
     };
 
-    const executeFilter = () => {
-
-    }
-
-
-
     const handleFilter = () => {
 
         let arr = allMovies.filter(e => {
-            return JSON.parse(e.data)?.type === category && JSON.parse(e.data)?.cinema === cinema
+            // console.log(JSON.parse(e.data)?.type, JSON.parse(e.data)?.type === type)
+            console.log(JSON.parse(e.data)?.cinema === cinema, JSON.parse(e.data)?.type === type)
+            return JSON.parse(e.data)?.type === type && JSON.parse(e.data)?.cinema === cinema
         })
 
         setMovies(arr)
@@ -56,13 +53,19 @@ function Home() {
     }
 
     useEffect(() => {
+
+        console.log(type)
         handleFilter()
-    }, [allMovies, cinema, category])
+    }, [allMovies, cinema, type])
 
     useEffect(() => {
         getMovies()
         document.title = "Dgoncky.com - 4k Dual Audio Movies, Ultra HD movies, 1080p Movies, 2160 Movies, 2160p Movies, 1080p 60FPS Movies, 4k HEVC Movies, 1080p 10Bit Movies, 1080p x265 Hevc, 4k Bluray Movies, WeB-DL Series, WeB-DL Movies, High Quality Audio Movies"
     }, [])
+
+    const getContentType = () => {
+        return [...new Set(allMovies.map(e => JSON.parse(e.data)?.type))]
+    }
 
     return (
         <>
@@ -85,7 +88,7 @@ function Home() {
                                             <div class="d-flex justify-content-center px-5">
                                                 <div class="search shadow">
                                                     <input type="text" id='movie_search' class="search-input" placeholder="Search..." value={value} onChange={handleFilterChange} />
-                                                    <a class="search-icon" style={{ cursor: "pointer" }} onClick={executeFilter}>
+                                                    <a class="search-icon" style={{ cursor: "pointer" }} >
                                                         <i class="fa fa-search"></i>
                                                     </a>
                                                 </div>
@@ -103,10 +106,12 @@ function Home() {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                        <a className="nav-link py-2 px-4 active " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                                            aria-controls="v-pills-home" aria-selected="true" onClick={() => setCategory("Movie")}>Movie</a>
-                                        <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                                            aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCategory("webSeries")}>Web-series</a>
+                                        {getContentType().map((contentType, i) => {
+                                            return <a key={i} className={`nav-link py-2 px-4 ${contentType === type && 'active'}`} id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                                                aria-controls="v-pills-home" aria-selected="true" onClick={() => setType(contentType)}>{contentType}</a>
+                                        })}
+                                        {/* <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                                            aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCategory("Web Series")}>Web-series</a> */}
                                     </div>
                                 </div>
                             </div>

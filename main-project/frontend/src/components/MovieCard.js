@@ -25,7 +25,7 @@ function MovieCard(e) {
                     setImageLoader(false)
                 }
             }).catch(err => {
-                console.log('error in getting image for movie' + e.id, err)
+                // console.log('error in getting image for movie' + e.id, err)
                 setImage('https://i.pinimg.com/originals/d1/e3/f9/d1e3f96c4d6fed8cd48ef9693da53bda.jpg')
                 setImageLoader(false)
             })
