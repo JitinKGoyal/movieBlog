@@ -44,7 +44,4 @@ for following movies
     "The X-Files",
     "The Big Bang Theory",
     "The Simpsons",
-    "The Walking Dead",
-
-
-
+    "The Walking Dead"
