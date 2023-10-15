@@ -18,6 +18,12 @@ const addBulkController = async (req, res) => {
 
             const promises = req.body.map(async movie => {
 
+                movie.title.includes("'") && console.log('movie.title', movie.title, movie.title.includes("'"))
+
+                if (movie.title.includes("'")) {
+                    movie.title = movie.title.replace("'", "")
+                }
+
                 let query = `select * from movie where title='${movie.title || movie.Title}'`;
                 await new Promise((resolve, reject) => {
                     con.query(query, (err, movies) => {
@@ -70,4 +76,22 @@ const addBulkController = async (req, res) => {
 
 }
 
-module.exports = { addBulkController }
+const totalMovieCountController = (req, res) => {
+
+    try {
+        let query = `SELECT COUNT(*) FROM movie`
+
+        con.query(query, (err, count) => {
+            if (err) {
+                res.status(400).send({ errors: [{ msg: err.message }] })
+            } else {
+                res.json({ data: count[0]["COUNT(*)"] })
+            }
+        });
+    } catch (error) {
+        res.status(500).send({ errors: [{ msg: error.message }] })
+
+    }
+}
+
+module.exports = { addBulkController, totalMovieCountController }

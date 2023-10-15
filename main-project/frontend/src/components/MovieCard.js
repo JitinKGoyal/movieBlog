@@ -41,7 +41,7 @@ function MovieCard(e) {
             <div className='my-3 mx-2'>
                 <div className="single-ticket-price pt-3 pr-3 pl-3 ">
 
-                    {!imageLoader ? <img src={image} alt="" className='rounded' /> : "loading..."}
+                    {!imageLoader ? <img src={image} alt="" className='rounded' /> : <p className='text-center'>Loading...</p>}
 
                     <div className="part-feature">
                         <div className='d-flex align-items-center'>

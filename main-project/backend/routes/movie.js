@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 const con = require('../db');
 const Movie = require('../models/Movie');
 const User = require('../models/user');
-const { addBulkController } = require('../controllers/movieController');
+const { addBulkController, totalMovieCountController } = require('../controllers/movieController');
 
 const postNotesValidations = [
     body('title', 'movie must have a title').isLength({ min: 1 }),
@@ -24,7 +24,13 @@ const putNotesValidations = [
     body('detail', 'movie must have detail field as object').isObject()
 ]
 
+// To add movies in bulk.
 router.post('/addBulk', addBulkController)
+
+// T0 get total number of movie.
+router.get('/totalCount', totalMovieCountController)
+
+// router.get('/typeList', movieTypeListController)
 
 // Endpoint to post a movie.
 router.post('/', postNotesValidations, async (req, res) => {
@@ -188,7 +194,7 @@ router.get('/pagination/:offset/:limit', async (req, res) => {
                 console.log(err);
                 res.status(400).send({ errors: [{ msg: err.message }] })
             } else {
-                res.json(movies)
+                res.json({ data: movies })
             }
         });
     } catch (error) {

@@ -3,15 +3,20 @@ import { baseUrl } from '../config';
 import MovieCard from './MovieCard';
 import FilterResults from 'react-filter-search';
 import Masonry from 'react-masonry-css';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 
 function Home() {
+    const perPageMovies = 10;
 
     const [allMovies, setAllMovies] = useState([])
     const [movies, setMovies] = useState([])
     const [value, setValue] = useState("")
     const [cinema, setCinema] = useState("Hollywood")
     const [type, setType] = useState("Movie")
+    const [totalCount, setTotalCount] = useState(0)
+
+    const [hasMore, setHasMore] = useState(true);
 
     const breakPointObj = {
         default: 4,
@@ -23,12 +28,18 @@ function Home() {
     }
 
     const getMovies = () => {
-        fetch(`${baseUrl}/movie`)
+        fetch(`${baseUrl}/movie/pagination/0/20`)
             .then(res => res.json())
             .then(data => {
-                console.log(data)
-                setAllMovies(data)
+                setMovies(data.data)
             })
+    }
+
+    const getMoviesCount = () => {
+        fetch(`${baseUrl}/movie/totalCount`)
+            .then(res => res.json())
+            .then(data => setTotalCount(data.data))
+            .catch((err) => console.log(err))
     }
 
     const handleFilterChange = event => {
@@ -36,30 +47,27 @@ function Home() {
         setValue(value)
     };
 
-    const handleFilter = () => {
+    // const handleFilter = () => {
 
-        let arr = allMovies.filter(e => {
-            // console.log(JSON.parse(e.data)?.type, JSON.parse(e.data)?.type === type)
-            console.log(JSON.parse(e.data)?.cinema === cinema, JSON.parse(e.data)?.type === type)
-            return JSON.parse(e.data)?.type === type && JSON.parse(e.data)?.cinema === cinema
-        })
+    //     let arr = allMovies.filter(e => {
+    //         return JSON.parse(e.data)?.type === type && JSON.parse(e.data)?.cinema === cinema
+    //     })
 
-        setMovies(arr)
-        // let searched = arr.filter(e =>{
-        //     return JSON.stringify(e).includes(value)
-        // })
+    //     setMovies(arr)
+    //     // let searched = arr.filter(e =>{
+    //     //     return JSON.stringify(e).includes(value)
+    //     // })
 
-        // setMovies(searched);
-    }
+    //     // setMovies(searched);
+    // }
 
-    useEffect(() => {
-
-        console.log(type)
-        handleFilter()
-    }, [allMovies, cinema, type])
+    // useEffect(() => {
+    //     handleFilter()
+    // }, [allMovies, cinema, type])
 
     useEffect(() => {
         getMovies()
+        getMoviesCount()
         document.title = "Dgoncky.com - 4k Dual Audio Movies, Ultra HD movies, 1080p Movies, 2160 Movies, 2160p Movies, 1080p 60FPS Movies, 4k HEVC Movies, 1080p 10Bit Movies, 1080p x265 Hevc, 4k Bluray Movies, WeB-DL Series, WeB-DL Movies, High Quality Audio Movies"
     }, [])
 
@@ -67,10 +75,19 @@ function Home() {
         return [...new Set(allMovies.map(e => JSON.parse(e.data)?.type))]
     }
 
+    const fetchData = () => {
+        fetch(`${baseUrl}/movie/pagination/${movies.length}/${perPageMovies}`)
+            .then(res => res.json())
+            .then(data => {
+                if (data.data.length === 0) {
+                    setHasMore(false);
+                }
+                setMovies(movies.concat(data.data))
+            })
+    }
+
     return (
         <>
-
-
             {/* <!-- movie card begin --> */}
             <div className="ticket-price">
                 <div className="container" >
@@ -79,6 +96,10 @@ function Home() {
 
                         {/* <input type="search" value={value} className="p-2 h5" onChange={handleFilterChange} /> */}
 
+                        <div className='d-flex flex-column justify-content-center'>
+                            <p className='m-0' style={{ fontSize: '10px', width: "fit-content" }}>Total</p>
+                            <h4>{totalCount}</h4>
+                        </div>
                         <div class="container ">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-12">
@@ -106,10 +127,10 @@ function Home() {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                        {getContentType().map((contentType, i) => {
+                                        {/* {getContentType().map((contentType, i) => {
                                             return <a key={i} className={`nav-link py-2 px-4 ${contentType === type && 'active'}`} id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
                                                 aria-controls="v-pills-home" aria-selected="true" onClick={() => setType(contentType)}>{contentType}</a>
-                                        })}
+                                        })} */}
                                         {/* <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
                                             aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCategory("Web Series")}>Web-series</a> */}
                                     </div>
@@ -120,8 +141,8 @@ function Home() {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="nav d-flex justify-content-center nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                        <a className="nav-link py-2 px-4 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                                            aria-controls="v-pills-home" aria-selected="true" onClick={() => setCinema("Hollywood")}>Hollywood</a>
+                                        {/* <a className="nav-link py-2 px-4 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                                            aria-controls="v-pills-home" aria-selected="true" onClick={() => setCinema("Hollywood")}>Hollywood</a> */}
                                         {/* <a className="nav-link py-2 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
                                             aria-controls="v-pills-profile" aria-selected="false" onClick={() => setCinema("Bollywood")}>Bollywood</a>
                                         <a className="nav-link py-2 px-4" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
@@ -133,24 +154,33 @@ function Home() {
                     </div>
 
                     <div className="row">
-                        <FilterResults
+                        {/* <FilterResults
                             value={value}
                             data={movies}
                             renderResults={results => (
-                                <>
-                                    {results.length !== 0 ?
-                                        (<Masonry className='d-flex w-100' breakpointCols={breakPointObj}>
-                                            {results.map(e => (
-                                                <MovieCard key={e.id} {...e} />
-                                            ))}
-                                        </Masonry>)
-                                        :
-                                        <div className='h1 p-5' style={{ marginBottom: "70vh" }}>
-                                            no results found with <span className='text-white'> {value} </span>
-                                        </div>}
-                                </>
+                                <> */}
+                        {movies.length !== 0 ?
+                            <InfiniteScroll
+                                dataLength={movies.length} //This is important field to render the next data
+                                next={fetchData}
+                                hasMore={hasMore}
+                                loader={<h4>Loading...</h4>}
+
+                            >
+                                <Masonry className='d-flex w-100' breakpointCols={breakPointObj}>
+                                    {movies.map(e => (
+                                        <MovieCard key={e.id} {...e} />
+                                    ))}
+                                </Masonry>
+                            </InfiniteScroll>
+
+                            :
+                            <div className='h1 p-5' style={{ marginBottom: "70vh" }}>
+                                no results found with <span className='text-white'> {value} </span>
+                            </div>}
+                        {/* </>
                             )}
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>

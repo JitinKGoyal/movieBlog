@@ -10,6 +10,9 @@ function MovieDetails() {
     const [imageLoader, setImageLoader] = useState(true)
 
     const movie = JSON?.parse(sessionStorage?.getItem("selectedMovie"));
+    const movieData = JSON?.parse(movie?.data);
+
+    const [showData, setShowData] = useState({})
 
     const getImage = () => {
         fetch(`${baseUrl}/movie/image/${movie.id}`)
@@ -44,9 +47,13 @@ function MovieDetails() {
         head.appendChild(meta);
         document.title = movie.title
 
+        setShowData(movieData)
+
     }, [])
 
-    chooseColor()
+    const handleHeadingClick = (key) => {
+        setShowData({ [key]: movieData[key] })
+    }
 
     return (
         <>
@@ -72,7 +79,7 @@ function MovieDetails() {
                     <div className="row">
                         <div className="col-xl-6 col-lg-6">
                             <div className="part-img movie_detail_img">
-                                {!imageLoader ? <img src={image} alt={movie.title} className='rounded' /> : "loading..."}
+                                {!imageLoader ? <img src={image} alt={movie.title} className='rounded' /> : <p className='text-center'>Loading...</p>}
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block">
@@ -116,40 +123,59 @@ function MovieDetails() {
                     </div>
                 </div>
 
-                <div className="container mt-5 p-5 rounded mv_details" style={{ background: "#08121d" }}>
-                    <div className="row">
-                        <div className='col-sm-12'>
-                            <div className='part-text'>
+                <div className="container-fluid">
 
-                                <h3 className='text-capitalize'>{movie.title}</h3>
-                                {/* <div dangerouslySetInnerHTML={{ __html: movie.description }} /> */}
+                    <div className='row'>
 
-                                <div className='row'>
 
-                                    {
-                                        Object.entries(JSON?.parse(movie?.data)).map(([key, value], i) => {
-                                            return key !== 'title' && (
-                                                <div key={i} className='col-md-6 p-2'>
-                                                    <div className='movie_detail_prt p-3'>
-                                                        <div className='key shadow' style={{ background: chooseColor() }} >{capitalize(key)} </div>
-                                                        <div className='value'>
-                                                            {Array.isArray(value) ? value.map((e, index) => {
-                                                                return <span key={index} className='btn btn-sm btn-outline-light m-1'>{e}</span>
-                                                            }) :
-                                                                value
-                                                            }
+                        <div className='col-md-2 mt-5'>
+                            {Object.entries(movieData).map(([key, value], i) => {
+                                return <div className='key shadow mt-1' style={{ background: chooseColor() }} onClick={() => handleHeadingClick(key)}>{capitalize(key)} </div>
+                            })}
+                        </div>
+
+                        <div className='col-md-10'>
+
+                            <div className="container p-5 ounded mv_details" style={{ background: "#08121d" }}>
+                                <div className="row">
+
+
+                                    <div className='col-sm-12'>
+                                        <div className='part-text'>
+
+                                            <h3 className='text-capitalize'>{movie.title}</h3>
+                                            {/* <div dangerouslySetInnerHTML={{ __html: movie.description }} /> */}
+
+                                            <div className='row'>
+
+                                                {Object.entries(showData).map(([key, value], i) => {
+                                                    return key !== 'title' && (
+                                                        <div key={i} className='col-md-6 p-2'>
+                                                            <div className='movie_detail_prt p-3'>
+                                                                <div className='key shadow' style={{ background: chooseColor() }} >{capitalize(key)} </div>
+                                                                <div className='value'>
+                                                                    {Array.isArray(value) ? value.map((e, index) => {
+                                                                        return <span key={index} className='btn btn-sm btn-outline-light m-1'>{e}</span>
+                                                                    }) :
+                                                                        typeof value === "string" ? value : JSON.stringify(value)
+                                                                    }
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                            )
-                                        })
-                                    }
+                                                    )
+                                                })
+                                                }
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
+
 
 
             </div>
