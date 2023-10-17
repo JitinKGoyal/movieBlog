@@ -37,24 +37,24 @@ and must include following keys and do not chnange case
 34.     imdbRating:
 35.     rottenTomatoRating:
 
-for following movies  
-The Man Who Skied Down Everest
-The Hindenburg
-The Godfather: Part II
-The Towering Inferno
-The Great Gatsby
-Chinatown
-Murder on the Orient Express
-Earthquake
-Alice Doesn't Live Here Anymore
-Amarcord
-Harry and Tonto
-Closed Mondays
-Don't
-Hearts and Minds
-One-Eyed Men Are Kings (...borgnes sont rois, Les)
-The Sting
-The Exorcist
-The Way We Were
-Cries and Whispers (Viskningar och rop)
-A Touch of Class
+for following movies--
+Blossoms in the Dust
+Body and Soul
+Bored of Education
+Born Yesterday
+A Boy and His Dog
+Boys Town
+The Brave One
+Breakfast at Tiffany's
+Breaking the Sound Barrier
+The Bridge of San Luis Rey
+The Bridge on the River Kwai
+The Bridges at Toko-Ri
+Broadway Melody of 1936
+The Broadway Melody
+Broken Lance
+Busy Little Bears
+BUtterfield 8
+Calamity Jane
+Call Me Madam
+Captain Carey, U.S.A.
