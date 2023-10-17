@@ -35,7 +35,6 @@ function MovieCard(e) {
         getImage();
     }, [])
 
-
     return (
         <>
             <div className='my-3 mx-2'>

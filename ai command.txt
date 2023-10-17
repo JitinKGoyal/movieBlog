@@ -1,4 +1,5 @@
 give me fully detailed array of json about movies and webseries with following points using headings. and don't give space in keys. keep cinema only "Hollywood or Bollywood"
+and must include following keys and do not chnange case
 
 1.	title: 
 2.	director: 
@@ -29,19 +30,31 @@ give me fully detailed array of json about movies and webseries with following p
 27.	themes
 28.	symbolism
 29.	historicalContext
-30. story
-31. theme: The central idea or message of the movie.
-32. cinema: whether it is hollywood or bollywood or any other.
-33. type:  whether it is movie or webseries
-34. imdbRating
-35. rottenTomatoRating
+30.     story
+31.     theme: The central idea or message of the movie.
+32.     cinema: whether it is hollywood or bollywood or any other.
+33.     type:  whether it is movie or webseries
+34.     imdbRating:
+35.     rottenTomatoRating:
 
 for following movies  
-"Reservoir Dogs",
-    "The Good, the Bad and the Ugly",
-    "Sherlock",
-    "The West Wing",
-    "The X-Files",
-    "The Big Bang Theory",
-    "The Simpsons",
-    "The Walking Dead"
+The Man Who Skied Down Everest
+The Hindenburg
+The Godfather: Part II
+The Towering Inferno
+The Great Gatsby
+Chinatown
+Murder on the Orient Express
+Earthquake
+Alice Doesn't Live Here Anymore
+Amarcord
+Harry and Tonto
+Closed Mondays
+Don't
+Hearts and Minds
+One-Eyed Men Are Kings (...borgnes sont rois, Les)
+The Sting
+The Exorcist
+The Way We Were
+Cries and Whispers (Viskningar och rop)
+A Touch of Class

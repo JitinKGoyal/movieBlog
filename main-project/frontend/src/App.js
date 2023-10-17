@@ -27,6 +27,7 @@ function App() {
         <Route path='/quote' element={<Quote />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/movie-detail' element={<MovieDetails />} />
+        <Route path='*' element={<h1>Page not found</h1>} />
         {/* <Route path='/events' element={<Events />} /> */}
         {/* <Route path='/faq' element={<Faq />} /> */}
         {/* <Route path='/schedule' element={<Schedule />} /> */}

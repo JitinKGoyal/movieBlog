@@ -12,3 +12,4 @@ fs.writeFile(filePath, newList, (err) => {
         console.log(`Data has been written to ${filePath}`);
     }
 });
+

@@ -161,14 +161,22 @@ router.get('/', async (req, res) => {
             return res.status(400).json({ errors: errors.array() });
         }
 
-        let query = `select * from movie`
+        let query = ``
+
+        if (req.query.query) {
+            query = `SELECT *
+            FROM movie
+            WHERE LOWER(data) LIKE LOWER('%${req.query.query}%')`
+        } else {
+            query = `select * from movie`
+        }
 
         con.query(query, (err, movies) => {
             if (err) {
                 console.log(err);
                 res.status(400).send({ errors: [{ msg: err.message }] })
             } else {
-                res.json(movies)
+                res.json({ length: movies.length, data: movies })
             }
         });
     } catch (error) {

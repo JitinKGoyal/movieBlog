@@ -5,6 +5,7 @@
 
 }
 
+
 .filter_input .search {
     width: 100%;
     height: 50px;
@@ -125,4 +126,51 @@ a:link {
 .movie_detail_prt .value span {
     cursor: auto !important;
     white-space: normal !important;
+}
+
+.movie_search {
+    position: relative;
+}
+
+.query_result {
+    position: absolute;
+    width: 100%;
+    background: #020c16;
+    z-index: 100;
+    top: 52px;
+    left: 0;
+    border-radius: 10px;
+    max-height: 250px;
+    overflow: auto;
+    transition: all 1s;
+}
+
+.query_result ul {
+    padding: 0 10px;
+}
+
+.query_result li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 1px solid #303030;
+}
+
+.query_result li:hover {
+    background: #02101d;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 5px;
+    background: #020c16;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

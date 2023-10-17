@@ -4,6 +4,7 @@ import MovieCard from './MovieCard';
 import FilterResults from 'react-filter-search';
 import Masonry from 'react-masonry-css';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import MainSearch from './MainSearch';
 
 
 function Home() {
@@ -42,10 +43,6 @@ function Home() {
             .catch((err) => console.log(err))
     }
 
-    const handleFilterChange = event => {
-        const { value } = event.target;
-        setValue(value)
-    };
 
     // const handleFilter = () => {
 
@@ -100,26 +97,7 @@ function Home() {
                             <p className='m-0' style={{ fontSize: '10px', width: "fit-content" }}>Total</p>
                             <h4>{totalCount}</h4>
                         </div>
-                        <div class="container ">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-md-12">
-                                    <div class="card p-2">
-                                        <label htmlFor="movie_search">
-                                            {/* <h3 class="heading text-center m-0 text-white">Hi! Find out your movies here?</h3> */}
-                                            <div class="d-flex justify-content-center px-5">
-                                                <div class="search shadow">
-                                                    <input type="text" id='movie_search' class="search-input" placeholder="Search..." value={value} onChange={handleFilterChange} />
-                                                    <a class="search-icon" style={{ cursor: "pointer" }} >
-                                                        <i class="fa fa-search"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        <MainSearch />
                     </div>
                     <div className='d-flex justify-content-between align-items-center'>
 
