@@ -123,18 +123,18 @@ function MovieDetails() {
                     </div>
                 </div>
 
-                <div className="container-fluid">
+                <div className="container-fluid mt-5">
 
                     <div className='row'>
 
-
+                        {/* 
                         <div className='col-md-2 mt-5'>
                             {Object.entries(movieData).map(([key, value], i) => {
                                 return <div className='key shadow mt-1' style={{ background: chooseColor() }} onClick={() => handleHeadingClick(key)}>{capitalize(key)} </div>
                             })}
-                        </div>
+                        </div> */}
 
-                        <div className='col-md-10'>
+                        <div className='col-md-12'>
 
                             <div className="container p-5 ounded mv_details" style={{ background: "#08121d" }}>
                                 <div className="row">
