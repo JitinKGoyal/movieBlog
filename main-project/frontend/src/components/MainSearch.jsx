@@ -2,11 +2,14 @@ import React, { useEffect, useRef, useState } from 'react'
 import { baseUrl } from '../config';
 import { useNavigate } from 'react-router-dom';
 import Loader from './Loader';
+import { searchKeys } from '../constants/searchKeys';
 
 function MainSearch() {
 
     const [queryResult, setQueryResult] = useState([]);
     const [searchLoading, setSearchLoading] = useState(false)
+    const [searchKey, setSearchKey] = useState('')
+
     const dropdownContent = useRef()
     const navigate = useNavigate()
 
@@ -15,13 +18,14 @@ function MainSearch() {
 
         if (value) {
             setSearchLoading(true)
-            fetch(`${baseUrl}/movie?query=${value}`)
+            fetch(`${baseUrl}/movie?${searchKey ? searchKey : 'query'}=${value}`)
                 .then(res => res.json())
                 .then(data => {
                     setQueryResult(data.data)
                 })
                 .catch(err => console.log(err))
                 .finally(() => setSearchLoading(false))
+
         } else {
             setQueryResult([])
         }
@@ -51,10 +55,20 @@ function MainSearch() {
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-12">
                         <div class="card p-2">
-                            <label htmlFor="">
+                            <label htmlFor="" className='container'>
                                 {/* <h3 class="heading text-center m-0 text-white">Hi! Find out your movies here?</h3> */}
-                                <div class="d-flex justify-content-center px-5 ">
-                                    <div class="search shadow movie_search" ref={dropdownContent} >
+                                <div class="row justify-content-center px-1 ">
+                                    {/* Search by keys */}
+                                    <div className='p-0 search_key_select col-md-4 my-2 my-md-0'>
+                                        <p className='m-0'>Search by</p>
+                                        <select onChange={(e) => setSearchKey(e.target.value)} className='p-2 border-0'>
+                                            {searchKeys.map((e, i) => {
+                                                return <option value={e.key} key={i}>{e.label}</option>
+                                            })}
+                                        </select>
+                                    </div>
+
+                                    <div class="search shadow movie_search col-md-8" ref={dropdownContent} >
                                         <input type="text" id='movie_search' class="search-input" placeholder="Search..." onFocus={handleFilterChange} onChange={handleFilterChange} />
                                         <button class="btn search-icon" >
                                             {searchLoading ?

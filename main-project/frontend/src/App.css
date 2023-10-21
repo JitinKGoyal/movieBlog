@@ -174,3 +174,14 @@ a:link {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.search_key_select select {
+    border-radius: 5px;
+    font-size: 12px;
+    background: #020c16;
+    color: #96a8bb;
+}
+
+.search_key_select p {
+    font-size: 10px;
+}

@@ -151,7 +151,7 @@ router.put('/', postNotesValidations, async (req, res) => {
     });
 })
 
-// API to get all movies of a user
+// API to get all movies
 router.get('/', async (req, res) => {
 
     try {
@@ -167,7 +167,14 @@ router.get('/', async (req, res) => {
             query = `SELECT *
             FROM movie
             WHERE LOWER(data) LIKE LOWER('%${req.query.query}%')`
-        } else {
+        } else if (req.query) {
+            // This is a query to get data with a specific single key
+            query = `SELECT * 
+            FROM movie 
+            WHERE LOWER(CAST(JSON_EXTRACT(data, '$.${Object.keys(req.query)[0]}') AS CHAR))
+            LIKE LOWER('%${Object.values(req.query)[0]}%');`
+        }
+        else {
             query = `select * from movie`
         }
 
