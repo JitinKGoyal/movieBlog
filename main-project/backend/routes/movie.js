@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 const con = require('../db');
 const Movie = require('../models/Movie');
 const User = require('../models/user');
-const { addBulkController, totalMovieCountController } = require('../controllers/movieController');
+const { addBulkController, totalMovieCountController, updateMovieController, getMovieByTitleController } = require('../controllers/movieController');
 
 const postNotesValidations = [
     body('title', 'movie must have a title').isLength({ min: 1 }),
@@ -27,8 +27,14 @@ const putNotesValidations = [
 // To add movies in bulk.
 router.post('/addBulk', addBulkController)
 
-// T0 get total number of movie.
+// To get total number of movie.
 router.get('/totalCount', totalMovieCountController)
+
+// To update a movie
+router.put('/:id', updateMovieController)
+
+// To find a movie by title
+router.get('/title/:title', getMovieByTitleController)
 
 // router.get('/typeList', movieTypeListController)
 
@@ -167,7 +173,7 @@ router.get('/', async (req, res) => {
             query = `SELECT *
             FROM movie
             WHERE LOWER(data) LIKE LOWER('%${req.query.query}%')`
-        } else if (req.query) {
+        } else if (Object.keys(req.query).length > 0) {
             // This is a query to get data with a specific single key
             query = `SELECT * 
             FROM movie 

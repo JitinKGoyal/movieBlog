@@ -16,6 +16,7 @@ app.use(express.json({ limit: '10mb' }));
 
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/movie', require('./routes/movie'))
+app.use('/api/movie/images', require('./routes/movieImage'))
 
 app.listen(port, () => {
     console.log(`cloud-notebook app listening on port ${port}`)

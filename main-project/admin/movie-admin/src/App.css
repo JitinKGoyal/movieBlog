@@ -1,7 +1,15 @@
+@font-face {
+  font-family: open-sans;
+  src: url(./fonts/Open_Sans/static/OpenSans-Medium.ttf);
+}
+
+body {
+  font-family: open-sans;
+}
+
 input::placeholder {
   color: rgb(217, 217, 217) !important;
 }
-
 
 .imageLoader {
   display: inline-block;
@@ -12,4 +20,40 @@ input::placeholder {
   background-position: center;
   border-radius: 50%;
   /* filter: brightness(10); */
+}
+
+.rounded_corner {
+  border-radius: 15px;
+}
+
+.font_sm {
+  font-size: 12px;
+}
+
+.rightbar_box {
+  word-wrap: break-word;
+  line-height: 12px;
+  color: black !important;
+}
+
+
+/* Track */
+::-webkit-scrollbar {
+  width: 7px;
+  background: #bdbdbd;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #020c16;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.movie_img img {
+  height: 150px;
 }

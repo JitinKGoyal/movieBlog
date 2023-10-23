@@ -94,4 +94,48 @@ const totalMovieCountController = (req, res) => {
     }
 }
 
-module.exports = { addBulkController, totalMovieCountController }
+const updateMovieController = (req, res) => {
+    try {
+        const id = req.params.id
+        const data = JSON.stringify(req.body);
+
+
+        let query = `UPDATE movie
+        SET data = ?
+        WHERE id=${id};`
+
+        con.query(query, data, (err, data) => {
+            if (err) {
+                res.status(400).send({ errors: [{ msg: err.message }] })
+            } else {
+                res.json({ data })
+            }
+        });
+
+    } catch (error) {
+        res.status(500).send({ errors: [{ msg: error.message }] })
+
+    }
+}
+
+const getMovieByTitleController = (req, res) => {
+    try {
+        const title = req.params.title
+
+        let query = `SELECT * FROM movie where title='${title}';`
+
+        con.query(query, (err, data) => {
+            if (err) {
+                res.status(400).send({ errors: [{ msg: err.message }] })
+            } else {
+                res.json({ data })
+            }
+        });
+
+    } catch (error) {
+        res.status(500).send({ errors: [{ msg: error.message }] })
+
+    }
+}
+
+module.exports = { addBulkController, totalMovieCountController, updateMovieController, getMovieByTitleController }

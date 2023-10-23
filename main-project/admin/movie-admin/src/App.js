@@ -6,6 +6,7 @@ import EditMovie from './components/EditMovie';
 import Movies from './components/Movies';
 import Mysidebar from './components/Mysidebar';
 import ImagesManagement from './pages/ImagesManagement';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
 
@@ -26,8 +27,9 @@ function App() {
 
         </main>
 
-
       </div>
+
+      <Toaster position='top-center' />
 
     </>
   );

@@ -22,7 +22,7 @@ function Mysidebar() {
                     {/* <MenuItem icon={<HomeOutlinedIcon htmlColor='#0097e3'/>} >Home</MenuItem> */}
                     <MenuItem icon={<PeopleOutlinedIcon htmlColor='#0097e3' />} component={<Link to="/addMovie" />}>Add movie</MenuItem>
                     <MenuItem icon={<ContactsOutlinedIcon htmlColor='#0097e3' />} component={<Link to="/movies" />}>All movies</MenuItem>
-                    <MenuItem icon={<ContactsOutlinedIcon htmlColor='#0097e3' />} component={<Link to="/imageManagement" />}>Images Menagement</MenuItem>
+                    <MenuItem icon={<ContactsOutlinedIcon htmlColor='#0097e3' />} component={<Link to="/imagesManagement" />}>Images Menagement</MenuItem>
                     {/* <MenuItem icon={<ReceiptOutlinedIcon htmlColor='#0097e3'/>}>Profile</MenuItem> */}
                     {/* <MenuItem icon={<HelpOutlineOutlinedIcon htmlColor='#0097e3'/>}>FAQ</MenuItem> */}
                     {/* <MenuItem icon={<CalendarTodayOutlinedIcon htmlColor='#0097e3'/>}>Calendar</MenuItem> */}
