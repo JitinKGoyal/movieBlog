@@ -4,7 +4,7 @@ import { baseUrl } from '../config';
 import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 import { capitalize } from './../utils/capitaliza';
 import { chooseColor } from '../utils/keyColors';
-import DocMenu, { Dock } from './DocMenu';
+import AppleDocMenu from './AppleDocMenu';
 
 function MovieDetails() {
     const [image, setImage] = useState()
@@ -76,7 +76,6 @@ function MovieDetails() {
             </div>
             {/* <!-- breadcrump end --> */}
 
-            <Dock />
             {/* <!-- single event begin --> */}
             <div className="single-event">
                 <div className="container">
@@ -127,8 +126,15 @@ function MovieDetails() {
                     </div>
                 </div>
 
+                <div className='mt-4'>
+                    <AppleDocMenu >
+                        {showData.images?.slice(0, 14).map((e) => (
+                            <img className='doc_img' src={e} alt="" />
+                        ))}
+                    </AppleDocMenu>
+                </div>
 
-                <div className="container-fluid mt-5">
+                <div className="container-fluid">
 
                     <div className='row'>
 

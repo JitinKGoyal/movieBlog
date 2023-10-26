@@ -185,3 +185,26 @@ a:link {
 .search_key_select p {
     font-size: 10px;
 }
+
+.rounded_corner {
+    border-radius: 5px;
+}
+
+.doc_item {
+    overflow: hidden;
+    transition: 0.5s box-shadow;
+}
+
+.doc_item:hover {
+    box-shadow: 0 0 20px -10px rgb(158, 158, 158);
+}
+
+.doc_img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.doc_prt {
+    background: #08121d;
+}
