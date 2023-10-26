@@ -4,10 +4,11 @@ import { baseUrl } from '../config';
 import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 import { capitalize } from './../utils/capitaliza';
 import { chooseColor } from '../utils/keyColors';
+import DocMenu, { Dock } from './DocMenu';
 
 function MovieDetails() {
     const [image, setImage] = useState()
-    const [imageLoader, setImageLoader] = useState(true)
+    const [imageLoader, setImageLoader] = useState(false)
 
     const movie = JSON?.parse(sessionStorage?.getItem("selectedMovie"));
     const movieData = JSON?.parse(movie?.data);
@@ -57,6 +58,8 @@ function MovieDetails() {
 
     return (
         <>
+
+
             {/* <!-- breadcrump begin --> */}
             <div className="breadcrump">
                 <div className="container">
@@ -73,13 +76,14 @@ function MovieDetails() {
             </div>
             {/* <!-- breadcrump end --> */}
 
+            <Dock />
             {/* <!-- single event begin --> */}
             <div className="single-event">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-lg-6">
                             <div className="part-img movie_detail_img">
-                                {!imageLoader ? <img src={image} alt={movie.title} className='rounded' /> : <p className='text-center'>Loading...</p>}
+                                {!imageLoader ? <img src={movieData?.images?.[0]} alt={movie.title} className='rounded' /> : <p className='text-center'>Loading...</p>}
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 d-xl-flex d-lg-flex d-block">
@@ -122,6 +126,7 @@ function MovieDetails() {
                         </div>
                     </div>
                 </div>
+
 
                 <div className="container-fluid mt-5">
 

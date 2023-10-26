@@ -99,7 +99,6 @@ const updateMovieController = (req, res) => {
         const id = req.params.id
         const data = JSON.stringify(req.body);
 
-
         let query = `UPDATE movie
         SET data = ?
         WHERE id=${id};`

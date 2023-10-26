@@ -6,7 +6,7 @@ import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 function MovieCard(e) {
 
     const [image, setImage] = useState()
-    const [imageLoader, setImageLoader] = useState(true)
+    const [imageLoader, setImageLoader] = useState(false)
 
     const navigate = useNavigate();
 
@@ -15,32 +15,34 @@ function MovieCard(e) {
         navigate("/movie-detail");
     }
 
-    const getImage = () => {
+    // const getImage = () => {
 
-        fetch(`${baseUrl}/movie/image/${e.id}`)
-            .then(res => res.json())
-            .then(data => {
-                if (data[0].image.data) {
-                    setImage(decodeBinaryImage(data[0]?.image?.data))
-                    setImageLoader(false)
-                }
-            }).catch(err => {
-                // console.log('error in getting image for movie' + e.id, err)
-                setImage('https://i.pinimg.com/originals/d1/e3/f9/d1e3f96c4d6fed8cd48ef9693da53bda.jpg')
-                setImageLoader(false)
-            })
-    }
+    //     fetch(`${baseUrl}/movie/image/${e.id}`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             if (data[0].image.data) {
+    //                 setImage(decodeBinaryImage(data[0]?.image?.data))
+    //                 setImageLoader(false)
+    //             }
+    //         }).catch(err => {
+    //             // console.log('error in getting image for movie' + e.id, err)
+    //             setImage('https://i.pinimg.com/originals/d1/e3/f9/d1e3f96c4d6fed8cd48ef9693da53bda.jpg')
+    //             setImageLoader(false)
+    //         })
+    // }
 
-    useEffect(() => {
-        getImage();
-    }, [])
+    // useEffect(() => {
+    //     getImage();
+    // }, [])
+
+    const data = JSON.parse(e.data) || {}
 
     return (
         <>
             <div className='my-3 mx-2'>
                 <div className="single-ticket-price pt-3 pr-3 pl-3 ">
 
-                    {!imageLoader ? <img src={image} alt="" className='rounded' /> : <p className='text-center'>Loading...</p>}
+                    {!imageLoader ? <img src={data?.images?.[0]} alt="" className='rounded' /> : <p className='text-center'>Loading...</p>}
 
                     <div className="part-feature">
                         <div className='d-flex align-items-center'>
