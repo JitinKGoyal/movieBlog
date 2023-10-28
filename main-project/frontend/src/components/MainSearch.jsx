@@ -3,6 +3,7 @@ import { baseUrl } from '../config';
 import { useNavigate } from 'react-router-dom';
 import Loader from './Loader';
 import { searchKeys } from '../constants/searchKeys';
+import { motion } from 'framer-motion';
 
 function MainSearch() {
 
@@ -50,7 +51,15 @@ function MainSearch() {
     }, []);
 
     return (
-        <div>
+        <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{
+                type: "spring",
+                stiffness: 260,
+                damping: 20
+            }}
+        >
             <div class="container ">
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-12">
@@ -91,7 +100,7 @@ function MainSearch() {
                     </div>
                 </div>
             </div >
-        </div >
+        </motion.div >
     )
 }
 

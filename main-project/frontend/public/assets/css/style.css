@@ -1636,7 +1636,7 @@ ul {
 }
 
 .ticket-price .single-ticket-price .part-button a:hover:before {
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 /*==========================================

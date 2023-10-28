@@ -208,3 +208,12 @@ a:link {
 .doc_prt {
     background: #08121d;
 }
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: red;
+}

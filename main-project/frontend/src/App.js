@@ -13,11 +13,16 @@ import Blog from './components/Quote';
 import Contact from './components/Contact';
 import MovieDetails from './components/MovieDetails';
 import Quote from './components/Quote';
+import { motion, useScroll } from 'framer-motion';
 
 function App() {
+  const { scrollYProgress } = useScroll()
   return (
     <>
-
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      >dfgfdgfdg</motion.div>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

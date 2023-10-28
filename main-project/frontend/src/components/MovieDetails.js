@@ -5,6 +5,7 @@ import { decodeBinaryImage } from '../utils/decodeBinaryCode';
 import { capitalize } from './../utils/capitaliza';
 import { chooseColor } from '../utils/keyColors';
 import AppleDocMenu from './AppleDocMenu';
+import { motion } from 'framer-motion';
 
 function MovieDetails() {
     const [image, setImage] = useState()
@@ -160,8 +161,16 @@ function MovieDetails() {
                                             <div className='row'>
 
                                                 {Object.entries(showData).map(([key, value], i) => {
-                                                    return key !== 'title' && (
-                                                        <div key={i} className='col-md-6 p-2'>
+                                                    return (key !== 'title' && key !== 'images') && (
+                                                        <motion.div
+                                                            transition={{
+                                                                type: "spring",
+                                                                stiffness: 260,
+                                                                damping: 20
+                                                            }}
+
+                                                            whileHover={{ scale: 1.05 }} key={i} className='col-md-6 p-2'
+                                                        >
                                                             <div className='movie_detail_prt p-3'>
                                                                 <div className='key shadow' style={{ background: chooseColor() }} >{capitalize(key)} </div>
                                                                 <div className='value'>
@@ -172,7 +181,7 @@ function MovieDetails() {
                                                                     }
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </motion.div>
                                                     )
                                                 })
                                                 }
@@ -187,14 +196,8 @@ function MovieDetails() {
                     </div>
                 </div>
 
-
-
             </div>
             {/* <!-- single event end --> */}
-
-
-
-
         </>
     )
 }

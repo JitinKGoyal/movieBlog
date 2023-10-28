@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { baseUrl } from '../config';
 import { decodeBinaryImage } from '../utils/decodeBinaryCode';
+import { motion } from 'framer-motion';
 
 function MovieCard(e) {
 
@@ -37,9 +38,23 @@ function MovieCard(e) {
 
     const data = JSON.parse(e.data) || {}
 
+
+
     return (
         <>
-            <div className='my-3 mx-2'>
+            <motion.div
+                className='my-4 mx-2'
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                transition={{
+                    type: "spring",
+                    stiffness: 260,
+                    damping: 20
+                }}
+
+                whileHover={{ scale: 1.1 }}
+
+            >
                 <div className="single-ticket-price pt-3 pr-3 pl-3 ">
 
                     {!imageLoader ? <img src={data?.images?.[0]} alt="" className='rounded' /> : <p className='text-center'>Loading...</p>}
@@ -80,11 +95,14 @@ function MovieCard(e) {
                         </ul>
 
                     </div>
-                    <div className="part-button">
-                        <a href="/movie-detail" onClick={() => findOutMore(e)}>Find out more</a>
+                    <div className="part-button text-center justify-content-center ">
+                        <motion.a whileHover={{ scale: 1.2 }}
+                            whileTap={{ scale: 0.9 }}
+                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
+                            to="/movie-detail" onClick={() => findOutMore(e)}>Find out more</motion.a>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </>
     )
 }
