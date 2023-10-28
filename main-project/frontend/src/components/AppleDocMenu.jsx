@@ -34,7 +34,7 @@ function DocItem({ mouseX, children }) {
         return val - (!!bounds?.x ? bounds?.x : 0) - (!!bounds?.width ? bounds?.width : 0) / 2
     })
 
-    let widthSync = useTransform(distance, [-200, 0, 200], [70, 300, 70])
+    let widthSync = useTransform(distance, [-400, 0, 400], [70, 300, 70])
     let width = useSpring(widthSync, { damping: 20, mass: 1, stiffness: 200 })
 
     return (
