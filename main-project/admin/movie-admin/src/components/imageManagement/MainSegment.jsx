@@ -45,17 +45,16 @@ function MainSegment({ movie, setMovie, setImageQuery, imageBtn }) {
     }
 
     useEffect(() => {
-        if (movie?.title) {
-            setMovies([])
-            imageBtn.current.click()
-        }
+        // if (movie?.title) {
+        //     setMovies([])
+        //     imageBtn.current.click()
+        // }
     }, [movie])
 
 
     return (
 
         <>
-
             <Droppable droppableId={'movie'}>
                 {(provided) => (
                     <div

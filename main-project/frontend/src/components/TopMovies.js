@@ -1,46 +1,46 @@
-import React,{useEffect,useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { baseUrl } from '../config';
 import MovieCard from './MovieCard';
-import FilterResults from 'react-filter-search';
-// function TopMovies() {
-    function TopMovies() {
 
-        const [allMovies, setAllMovies] = useState([])
-        const [movies, setMovies] = useState([])
-        const [value, setValue] = useState("")
-        const [cinema, setCinema] = useState("hollywood")
-        const [category, setCategory] = useState("movie")
-    
-        const getMovies = () => {
-            fetch(`${baseUrl}/movie`)
-                .then(res => res.json())
-                .then(data => setAllMovies(data))
-        }
-    
-        const handleFilterChange = event => {
-            const { value } = event.target;
-            setValue(value)
-        };
-    
-        useEffect(() => {
-            getMovies()
-        }, [])
-    
-        const handleFilter = () => {
-    
-            let arr = allMovies.filter(e => {
-                return e.detail.category == category && e.detail.cinema == cinema
-            })
-            setMovies(arr);
-    
-        }
-    
-        useEffect(() => {
-            handleFilter()
-        }, [allMovies, cinema, category])
-    
-    
+// function TopMovies() {
+function TopMovies() {
+
+    const [allMovies, setAllMovies] = useState([])
+    const [movies, setMovies] = useState([])
+    const [value, setValue] = useState("")
+    const [cinema, setCinema] = useState("hollywood")
+    const [category, setCategory] = useState("movie")
+
+    const getMovies = () => {
+        fetch(`${baseUrl}/movie`)
+            .then(res => res.json())
+            .then(data => setAllMovies(data))
+    }
+
+    const handleFilterChange = event => {
+        const { value } = event.target;
+        setValue(value)
+    };
+
+    useEffect(() => {
+        getMovies()
+    }, [])
+
+    const handleFilter = () => {
+
+        let arr = allMovies.filter(e => {
+            return e.detail.category == category && e.detail.cinema == cinema
+        })
+        setMovies(arr);
+
+    }
+
+    useEffect(() => {
+        handleFilter()
+    }, [allMovies, cinema, category])
+
+
     return (
         <>
             {/* <!-- breadcrump begin --> */}
@@ -58,8 +58,8 @@ import FilterResults from 'react-filter-search';
                 </div>
             </div>
             {/* <!-- breadcrump end --> */}
-                        {/* <!-- movie card begin --> */}
-                        <div className="ticket-price">
+            {/* <!-- movie card begin --> */}
+            <div className="ticket-price">
                 <div className="container" >
                     <div className="row justify-content-center">
                         <div className="col-xl-8 col-lg-8">
@@ -126,7 +126,7 @@ import FilterResults from 'react-filter-search';
 
                     <div className="row">
 
-                        <FilterResults
+                        {/* <FilterResults
                             value={value}
                             data={movies}
                             renderResults={results => (
@@ -136,7 +136,7 @@ import FilterResults from 'react-filter-search';
                                     )) : <div className='h1 p-5'>0 result found with <span className='text-white'> {value} </span></div>}
                                 </>
                             )}
-                        />
+                        /> */}
 
                         {/* {movies.map((e) => (
                             <MovieCard {...e} />
@@ -156,7 +156,7 @@ import FilterResults from 'react-filter-search';
                             </div>
                         </div>
                     </div> */}
-                    {/* <div className="row">
+            {/* <div className="row">
                         <div className="col-xl-4 col-lg-4 col-sm-6">
                             <div className="single-dj">
                                 <div className="part-img">
@@ -230,7 +230,7 @@ import FilterResults from 'react-filter-search';
                             </div>
                         </div>
                     </div> */}
-                {/* </div>
+            {/* </div>
             </div> */}
             {/* <!-- team dj end --> */}
 

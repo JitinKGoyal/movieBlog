@@ -2,6 +2,9 @@
 const express = require('express')
 const cors = require('cors')
 const con = require('./db')
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 // con.query("select * from movie where title='title'", (err, result) => {
 

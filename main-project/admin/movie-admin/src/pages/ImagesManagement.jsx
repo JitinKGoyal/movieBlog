@@ -38,7 +38,7 @@ function ImagesManagement() {
             <div className="container-fluid">
                 <div className="row">
 
-                    <div className="col-md-9">
+                    <div className="col-md-12">
                         <MainSegment
                             movie={movie}
                             setMovie={setMovie}
@@ -47,7 +47,7 @@ function ImagesManagement() {
                         />
                     </div>
 
-                    <div className="col-md-3">
+                    {/* <div className="col-md-3">
                         <RightBar
                             allImages={allImages}
                             onDragEnd={onDragEnd}
@@ -56,7 +56,7 @@ function ImagesManagement() {
                             setImageQuery={setImageQuery}
                             imageBtn={imageBtn}
                         />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </DragDropContext>

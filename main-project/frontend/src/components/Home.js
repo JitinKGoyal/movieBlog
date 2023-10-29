@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { baseUrl } from '../config';
 import MovieCard from './MovieCard';
-import FilterResults from 'react-filter-search';
 import Masonry from 'react-masonry-css';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import MainSearch from './MainSearch';
