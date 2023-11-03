@@ -1,4 +1,4 @@
-const con = require("../db");
+const { connect } = require("../pool")
 
 const addBulkController = async (req, res) => {
     try {
@@ -76,9 +76,11 @@ const addBulkController = async (req, res) => {
 
 }
 
-const totalMovieCountController = (req, res) => {
+const totalMovieCountController = async (req, res) => {
 
+    let con;
     try {
+        con = await connect();
         let query = `SELECT COUNT(*) FROM movie`
 
         con.query(query, (err, count) => {
@@ -90,8 +92,13 @@ const totalMovieCountController = (req, res) => {
         });
     } catch (error) {
         res.status(500).send({ errors: [{ msg: error.message }] })
-
+    } finally {
+        if (con) {
+            console.log('releasing')
+            con.release();
+        }
     }
+
 }
 
 const updateMovieController = (req, res) => {

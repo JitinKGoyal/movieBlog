@@ -1,7 +1,7 @@
 // api endpoint 
 const express = require('express')
 const cors = require('cors')
-const con = require('./db')
+// const con = require('./db')
 const dotenv = require('dotenv')
 
 dotenv.config()

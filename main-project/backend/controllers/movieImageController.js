@@ -1,5 +1,5 @@
 const allImages = require('../data/imgUrlsData.json')
-const con = require('../db')
+// const con = require('../db')
 const { getImagesFromAllSites } = require('../utils/utilityFunctions/getOnlineImages')
 
 const getAllImagesController = (req, res) => {

@@ -1,1 +1,5 @@
-export const baseUrl = "http://localhost:3004/api"
+// For production
+export const baseUrl = "movieApi/api"
+
+// For development
+// export const baseUrl = "http://localhost/movieApi/api"

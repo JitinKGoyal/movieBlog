@@ -5,7 +5,6 @@ import Masonry from 'react-masonry-css';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import MainSearch from './MainSearch';
 
-
 function Home() {
     const perPageMovies = 10;
 
@@ -28,7 +27,7 @@ function Home() {
     }
 
     const getMovies = () => {
-        fetch(`${baseUrl}/movie/pagination/0/20`)
+        fetch(`${baseUrl}/movie/pagination/?offset=0&limit=20`)
             .then(res => res.json())
             .then(data => {
                 setMovies(data.data)
@@ -36,7 +35,7 @@ function Home() {
     }
 
     const getMoviesCount = () => {
-        fetch(`${baseUrl}/movie/totalCount`)
+        fetch(`${baseUrl}/movie/totalCount/`)
             .then(res => res.json())
             .then(data => setTotalCount(data.data))
             .catch((err) => console.log(err))
@@ -72,7 +71,7 @@ function Home() {
     }
 
     const fetchData = () => {
-        fetch(`${baseUrl}/movie/pagination/${movies.length}/${perPageMovies}`)
+        fetch(`${baseUrl}/movie/pagination/?offset=${movies.length}&limit=${perPageMovies}`)
             .then(res => res.json())
             .then(data => {
                 if (data.data.length === 0) {
@@ -99,7 +98,6 @@ function Home() {
                         <MainSearch />
                     </div>
                     <div className='d-flex justify-content-between align-items-center'>
-
                         <div className="event-schedule py-3">
                             <div className="container">
                                 <div className="row justify-content-center">
