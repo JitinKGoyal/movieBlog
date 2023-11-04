@@ -1,86 +1,41 @@
-const { connect } = require("../pool")
+const con = require("../db");
+const { saveTOdb } = require("../utils/utilityFunctions/addMovies");
+const { convertKeysToCamelCase, moveKeysToTop } = require("../utils/utilityFunctions/formatNewData");
+const { getImagesFromAllSites, addImagesToMovie } = require("../utils/utilityFunctions/getOnlineImages");
 
 const addBulkController = async (req, res) => {
+
     try {
+        let movies = req.body
 
-        let response = {
-            duplicates: {
-                number: 0,
-                titles: []
-            },
-            successfullyAdded: {
-                number: 0,
-                titles: [],
-            }
-        }
+        if (Array.isArray(movies)) {
 
-        if (Array.isArray(req.body)) {
+            console.log("-------------------------------------------------------------Conveting keys to camel case-------------------------------------------------------------")
+            movies = movies.map(item => convertKeysToCamelCase(item));
 
-            const promises = req.body.map(async movie => {
+            console.log("-------------------------------------------------------------Moving Keys To Top-------------------------------------------------------------")
+            movies = movies.map(item => moveKeysToTop(item));
 
-                movie.title.includes("'") && console.log('movie.title', movie.title, movie.title.includes("'"))
+            console.log("-------------------------------------------------------------Adding Images To Movie-------------------------------------------------------------")
+            let promises = movies.map(item => addImagesToMovie(item));
+            movies = await Promise.all(promises)
 
-                if (movie.title.includes("'")) {
-                    movie.title = movie.title.replace("'", "")
-                }
+            console.log(movies)
 
-                let query = `select * from movie where title='${movie.title || movie.Title}'`;
-                await new Promise((resolve, reject) => {
-                    con.query(query, (err, movies) => {
-                        if (err) {
-                            console.log(err);
-                            reject(err);
-                        }
-
-                        if (movies.length != 0) {
-                            response.duplicates.titles.push(movie.title || movie.Title);
-                            response.duplicates.number++;
-                            resolve()
-                        } else {
-
-                            movieInput = {
-                                title: movie.title || movie.Title,
-                                data: JSON.stringify(movie),
-                                date: new Date().toString()
-                            }
-
-                            query = `INSERT INTO movie SET ?`
-
-                            con.query(query, movieInput, (err, _) => {
-                                if (err) {
-                                    console.log("error in adding movie: " + movie.title || movie.Title, err)
-                                    reject(err);
-                                }
-                                else {
-                                    response.successfullyAdded.titles.push(movie.title || movie.Title);
-                                    response.successfullyAdded.number++;
-                                    resolve()
-                                }
-                            });
-                        }
-                    });
-                })
-
-            })
-
-            await Promise.all(promises)
-            return res.status(201).json(response);
+            console.log("-------------------------------------------------------------Saving TO db-------------------------------------------------------------")
+            let result = await saveTOdb(movies)
+            res.send({ data: result })
         } else {
-            return res.status(400).json({ errors: [{ msg: 'payload must be an array' }] });
+            return res.status(400).send({ msg: 'payload must be an array' })
         }
-
     } catch (error) {
-        console.log(error)
-        res.status(500).send({ errors: [{ msg: error.message }] })
-    }
 
+    }
 }
 
 const totalMovieCountController = async (req, res) => {
 
-    let con;
     try {
-        con = await connect();
         let query = `SELECT COUNT(*) FROM movie`
 
         con.query(query, (err, count) => {
@@ -92,11 +47,6 @@ const totalMovieCountController = async (req, res) => {
         });
     } catch (error) {
         res.status(500).send({ errors: [{ msg: error.message }] })
-    } finally {
-        if (con) {
-            console.log('releasing')
-            con.release();
-        }
     }
 
 }

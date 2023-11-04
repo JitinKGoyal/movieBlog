@@ -53,7 +53,6 @@ async function getImgUrls(url) {
     }
 }
 
-const
 
 // getImgUrls('https://www.wallpaperflare.com/search?wallpaper=movie&page=').then(data => {
 //     console.log(data)

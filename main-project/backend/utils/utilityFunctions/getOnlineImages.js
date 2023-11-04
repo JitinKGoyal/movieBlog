@@ -35,7 +35,7 @@ async function getImgUrls(url) {
     try {
 
         // max read 500 pages
-        for (let i = 1; i <= 20; i++) {
+        for (let i = 1; i <= 1; i++) {
             // Addp page no.
             promiseArr.push(new Promise((resolve, reject) => {
                 const fullUrl = url + i;
@@ -93,4 +93,16 @@ const getImagesFromAllSites = async (query) => {
 
 }
 
-module.exports = { getImagesFromAllSites }
+// add images to  a movie
+const addImagesToMovie = async (movie) => {
+    const MovieQuery = movie.title.replaceAll(' ', '+').replaceAll("'", '');
+
+    // Get all images
+    console.log("Getting data for movie", movie.title)
+    let images = await getImagesFromAllSites(MovieQuery)
+    movie.images = images.flat(Infinity);
+
+    return movie;
+}
+
+module.exports = { getImagesFromAllSites, addImagesToMovie }

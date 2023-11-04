@@ -1,4 +1,5 @@
 const allImages = require('../data/imgUrlsData.json')
+const { connect } = require('../pool')
 // const con = require('../db')
 const { getImagesFromAllSites } = require('../utils/utilityFunctions/getOnlineImages')
 
@@ -30,7 +31,10 @@ const getOnlineImagesDataForStorageController = async (req, res) => {
 }
 
 const setImgFromWebsite = async (req, res) => {
+    let con;
     try {
+
+        let con = await connect()
         const title = req.params.title
 
         let query = `SELECT * FROM movie;`
@@ -45,6 +49,8 @@ const setImgFromWebsite = async (req, res) => {
                 let count = 1;
 
                 for (movie of data) {
+
+                    let con1 = await connect()
                     await new Promise((resolve, reject) => {
                         // Parse movie data that is stored as String
                         movie.data = JSON?.parse(movie.data) || {};
@@ -82,6 +88,7 @@ const setImgFromWebsite = async (req, res) => {
 
                                         resolve()
                                     }
+
                                 });
                             })
                     })
@@ -96,6 +103,8 @@ const setImgFromWebsite = async (req, res) => {
                 //         res.status(500).send({ err: err })
                 //     })
             }
+
+            con.release()
         });
 
     } catch (error) {

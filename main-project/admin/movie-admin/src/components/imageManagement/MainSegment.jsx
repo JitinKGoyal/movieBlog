@@ -42,11 +42,11 @@ function MainSegment({ movie, setMovie, setImageQuery, imageBtn }) {
         movie.data = JSON.parse(movie.data)
         setImageQuery(movie.title.replaceAll(' ', '-').replaceAll(':', ''),)
         setMovie(movie);
+        setMovies([]);
     }
 
     useEffect(() => {
         // if (movie?.title) {
-        //     setMovies([])
         //     imageBtn.current.click()
         // }
     }, [movie])
