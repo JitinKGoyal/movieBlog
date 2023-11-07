@@ -161,12 +161,6 @@ router.put('/', postNotesValidations, async (req, res) => {
 router.get('/', async (req, res) => {
 
     try {
-
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
-        }
-
         let query = ``
 
         if (req.query.query) {
@@ -185,6 +179,7 @@ router.get('/', async (req, res) => {
         }
 
         con.query(query, (err, movies) => {
+            console.log("first")
             if (err) {
                 console.log(err);
                 res.status(400).send({ errors: [{ msg: err.message }] })
@@ -192,6 +187,7 @@ router.get('/', async (req, res) => {
                 res.json({ length: movies.length, data: movies })
             }
         });
+
     } catch (error) {
         res.status(500).send({ errors: [{ msg: error.message }] })
 
@@ -202,7 +198,6 @@ router.get('/', async (req, res) => {
 router.get('/pagination/:offset/:limit', async (req, res) => {
 
     try {
-
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             return res.status(400).json({ errors: errors.array() });
@@ -219,9 +214,10 @@ router.get('/pagination/:offset/:limit', async (req, res) => {
             }
         });
     } catch (error) {
+        con.release()
         res.status(500).send({ errors: [{ msg: error.message }] })
-
     }
+
 })
 
 // API to get all notes of a user

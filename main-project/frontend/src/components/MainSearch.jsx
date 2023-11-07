@@ -19,7 +19,7 @@ function MainSearch() {
 
         if (value) {
             setSearchLoading(true)
-            fetch(`${baseUrl}/movie?${searchKey ? searchKey : 'query'}=${value}`)
+            fetch(`${baseUrl}/movie/query/?${searchKey ? searchKey : 'query'}=${value}`)
                 .then(res => res.json())
                 .then(data => {
                     setQueryResult(data.data)

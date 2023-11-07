@@ -10,6 +10,7 @@ function MainSegment({ movie, setMovie, setImageQuery, imageBtn }) {
 
     const [movieQuery, setMovieQuery] = useState('')
     const [movies, setMovies] = useState([]);
+    const [customImageUrl, setCustomImageUrl] = useState('')
 
     const mainSegmentImageDblClick = (index) => {
         movie.data.images.splice(index, 1)
@@ -42,11 +43,29 @@ function MainSegment({ movie, setMovie, setImageQuery, imageBtn }) {
         movie.data = JSON.parse(movie.data)
         setImageQuery(movie.title.replaceAll(' ', '-').replaceAll(':', ''),)
         setMovie(movie);
+        setMovies([]);
+    }
+
+    const onImagePost = () => {
+        if (!customImageUrl) {
+            return;
+        }
+
+        movie.data.images = movie?.data?.images?.concat(customImageUrl) || [customImageUrl];
+
+        updateMovie(movie.id, movie.data)
+            .then(res => {
+                setMovie({ ...movie })
+                setCustomImageUrl('')
+                toast.success('Success')
+            })
+            .catch(err => {
+                toast.success('Something went wrong')
+            })
     }
 
     useEffect(() => {
         // if (movie?.title) {
-        //     setMovies([])
         //     imageBtn.current.click()
         // }
     }, [movie])
@@ -89,6 +108,11 @@ function MainSegment({ movie, setMovie, setImageQuery, imageBtn }) {
                                 </div>
 
                                 <hr />
+
+                                <div className='d-flex'>
+                                    <input type="text" className='form-control w-25' placeholder='Image url' onChange={e => setCustomImageUrl(e.target.value)} />
+                                    <button className='ms-1 btn btn-sm btn-outline-info' onClick={onImagePost}>Add</button>
+                                </div>
 
                                 <div className='d-flex flex-wrap'>
                                     {movie?.data?.images?.map((src, i) => {
